@@ -1,0 +1,166 @@
+{
+  "updatedAt": "2025-11-17T00:41:45.451Z",
+  "changesCount": 50,
+  "sample": [
+    {
+      "naslov": "Inception",
+      "oldBudzet": "$160 miliona",
+      "oldBox": "$836.8 miliona",
+      "budzetNum": 160000000,
+      "boxNum": 836800000,
+      "cenaDnevno": 150
+    },
+    {
+      "naslov": "The Shawshank Redemption",
+      "oldBudzet": "$25 miliona",
+      "oldBox": "$73.3 miliona",
+      "budzetNum": 25000000,
+      "boxNum": 73300000,
+      "cenaDnevno": 100
+    },
+    {
+      "naslov": "The Dark Knight",
+      "oldBudzet": "$185 miliona",
+      "oldBox": "$1.005 milijardi",
+      "budzetNum": 185000000,
+      "boxNum": 1005000000,
+      "cenaDnevno": 120
+    },
+    {
+      "naslov": "Pulp Fiction",
+      "oldBudzet": "$8.5 miliona",
+      "oldBox": "$213.9 miliona",
+      "budzetNum": 8500000,
+      "boxNum": 213900000,
+      "cenaDnevno": 100
+    },
+    {
+      "naslov": "Forrest Gump",
+      "oldBudzet": "$55 miliona",
+      "oldBox": "$678.2 miliona",
+      "budzetNum": 55000000,
+      "boxNum": 678200000,
+      "cenaDnevno": 100
+    },
+    {
+      "naslov": "The Matrix",
+      "oldBudzet": "$63 miliona",
+      "oldBox": "$467.2 miliona",
+      "budzetNum": 63000000,
+      "boxNum": 467200000,
+      "cenaDnevno": 110
+    },
+    {
+      "naslov": "Interstellar",
+      "oldBudzet": "$165 miliona",
+      "oldBox": "$701.7 miliona",
+      "budzetNum": 165000000,
+      "boxNum": 701700000,
+      "cenaDnevno": 130
+    },
+    {
+      "naslov": "The Godfather",
+      "oldBudzet": "$6-7 miliona",
+      "oldBox": "$250-291 milion",
+      "budzetNum": 7,
+      "boxNum": 271,
+      "cenaDnevno": 100
+    },
+    {
+      "naslov": "Fight Club",
+      "oldBudzet": "$63 miliona",
+      "oldBox": "$101.2 miliona",
+      "budzetNum": 63000000,
+      "boxNum": 101200000,
+      "cenaDnevno": 110
+    },
+    {
+      "naslov": "Parasite",
+      "oldBudzet": "$11.4 miliona",
+      "oldBox": "$258.8 miliona",
+      "budzetNum": 11400000,
+      "boxNum": 258800000,
+      "cenaDnevno": 140
+    },
+    {
+      "naslov": "Goodfellas",
+      "oldBudzet": "$25 miliona",
+      "oldBox": "$46.8 miliona",
+      "budzetNum": 25000000,
+      "boxNum": 46800000,
+      "cenaDnevno": 100
+    },
+    {
+      "naslov": "The Silence of the Lambs",
+      "oldBudzet": "$19 miliona",
+      "oldBox": "$272.7 miliona",
+      "budzetNum": 19000000,
+      "boxNum": 272700000,
+      "cenaDnevno": 130
+    },
+    {
+      "naslov": "Schindler's List",
+      "oldBudzet": "$22 miliona",
+      "oldBox": "$322.2 miliona",
+      "budzetNum": 22000000,
+      "boxNum": 322200000,
+      "cenaDnevno": 130
+    },
+    {
+      "naslov": "The Lord of the Rings: The Return of the King",
+      "oldBudzet": "$94 miliona",
+      "oldBox": "$1.142 milijarde",
+      "budzetNum": 94000000,
+      "boxNum": 1142000000,
+      "cenaDnevno": 120
+    },
+    {
+      "naslov": "Star Wars: Episode V - The Empire Strikes Back",
+      "oldBudzet": "$18 miliona",
+      "oldBox": "$538.4 miliona",
+      "budzetNum": 18000000,
+      "boxNum": 538400000,
+      "cenaDnevno": 100
+    },
+    {
+      "naslov": "Gladiator",
+      "oldBudzet": "$103 miliona",
+      "oldBox": "$460.5 miliona",
+      "budzetNum": 103000000,
+      "boxNum": 460500000,
+      "cenaDnevno": 110
+    },
+    {
+      "naslov": "Saving Private Ryan",
+      "oldBudzet": "$70 miliona",
+      "oldBox": "$482.3 miliona",
+      "budzetNum": 70000000,
+      "boxNum": 482300000,
+      "cenaDnevno": 100
+    },
+    {
+      "naslov": "Jurassic Park",
+      "oldBudzet": "$63 miliona",
+      "oldBox": "$1.029 milijardi",
+      "budzetNum": 63000000,
+      "boxNum": 1029000000,
+      "cenaDnevno": 180
+    },
+    {
+      "naslov": "Titanic",
+      "oldBudzet": "$200 miliona",
+      "oldBox": "$2.187 milijardi",
+      "budzetNum": 200000000,
+      "boxNum": 2187000000,
+      "cenaDnevno": 110
+    },
+    {
+      "naslov": "The Green Mile",
+      "oldBudzet": "$60 miliona",
+      "oldBox": "$286.8 miliona",
+      "budzetNum": 60000000,
+      "boxNum": 286800000,
+      "cenaDnevno": 100
+    }
+  ]
+}

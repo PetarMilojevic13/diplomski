@@ -1,0 +1,1935 @@
+[
+  {
+    "_id": {
+      "$oid": "6915cbaacec3dde96bfd292d"
+    },
+    "naslov": "Inception",
+    "opis": "Dom Cobb je lopov sa retkom sposobnošću da uđe u snove ljudi i da krade tajne iz njihove podsvesti tokom sna. Njegova retka veština ga je učinila dragocenim igračem u opasnom novom svetu korporativne špijunaže, ali ga je takođe koštala svega što je voleo.",
+    "poster": "https://image.tmdb.org/t/p/w500/ljsZTbVsrQSqZgWeep2B1QiDKuh.jpg",
+    "trajanjeMin": 148,
+    "godina": 2010,
+    "zanr": [
+      "Akcija",
+      "Naučna fantastika",
+      "Triler"
+    ],
+    "reziser": [
+      "Christopher Nolan"
+    ],
+    "glumci": [
+      "Leonardo DiCaprio",
+      "Joseph Gordon-Levitt",
+      "Elliot Page",
+      "Tom Hardy",
+      "Marion Cotillard"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/YoHD9XEInc0",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 5,
+    "dostupnoKomada": 3,
+    "cenaDnevno": 150,
+    "produkcija": "Warner Bros. Pictures, Legendary Pictures",
+    "budzet": "160 miliona $",
+    "boxOffice": "836.8 miliona $",
+    "jezik": "Engleski",
+    "titlovi": [
+      "Srpski",
+      "Engleski",
+      "Francuski"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915cbaacec3dde96bfd292e"
+    },
+    "naslov": "The Shawshank Redemption",
+    "opis": "Dva zatvorenika se sprijateljuju tokom godina, pronalazeći utočište i na kraju otkupljenje kroz dela obične pristojnosti. Andy Dufresne, bankar osuđen za ubistvo svoje žene, mora da preživi u okrutnom zatvoru Shawshank.",
+    "poster": "https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
+    "trajanjeMin": 142,
+    "godina": 1994,
+    "zanr": [
+      "Drama"
+    ],
+    "reziser": [
+      "Frank Darabont"
+    ],
+    "glumci": [
+      "Tim Robbins",
+      "Morgan Freeman",
+      "Bob Gunton",
+      "William Sadler"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/6hB3S9bIaco",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 4,
+    "dostupnoKomada": 2,
+    "cenaDnevno": 100,
+    "produkcija": "Castle Rock Entertainment",
+    "budzet": "25 miliona $",
+    "boxOffice": "73.3 miliona $",
+    "jezik": "Engleski",
+    "titlovi": [
+      "Srpski",
+      "Engleski",
+      "Španski"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915cbaacec3dde96bfd292f"
+    },
+    "naslov": "The Dark Knight",
+    "opis": "Batman se suočava sa svojim najvećim izazovom kada Joker izaziva haos u Gotham Cityju. Uz pomoć poručnika Gordona i tužioca Harveyja Denta, Batman pokušava da unište organizovani kriminal.",
+    "poster": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+    "trajanjeMin": 152,
+    "godina": 2008,
+    "zanr": [
+      "Akcija",
+      "Krimi",
+      "Drama"
+    ],
+    "reziser": [
+      "Christopher Nolan"
+    ],
+    "glumci": [
+      "Christian Bale",
+      "Heath Ledger",
+      "Aaron Eckhart",
+      "Michael Caine",
+      "Gary Oldman"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/EXeTwQWrcwY",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 6,
+    "dostupnoKomada": 1,
+    "cenaDnevno": 120,
+    "produkcija": "Warner Bros. Pictures, Legendary Pictures, DC Comics",
+    "budzet": "185 miliona $",
+    "boxOffice": "1.005 milijardi $",
+    "jezik": "Engleski",
+    "titlovi": [
+      "Srpski",
+      "Engleski",
+      "Nemački",
+      "Kineski"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915cbaacec3dde96bfd2930"
+    },
+    "naslov": "Pulp Fiction",
+    "opis": "Prepletene priče o dvojici ubica, ženi gangstera, bokseru i paru pljačkaša restorana u Los Angelesu. Quentin Tarantino donosi revolucionaran pristup naraciji i dijalogu.",
+    "poster": "https://image.tmdb.org/t/p/w500/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg",
+    "trajanjeMin": 154,
+    "godina": 1994,
+    "zanr": [
+      "Krimi",
+      "Drama"
+    ],
+    "reziser": [
+      "Quentin Tarantino"
+    ],
+    "glumci": [
+      "John Travolta",
+      "Uma Thurman",
+      "Samuel L. Jackson",
+      "Bruce Willis",
+      "Tim Roth"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/s7EdQ4FqbhY",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 3,
+    "dostupnoKomada": 2,
+    "cenaDnevno": 100,
+    "produkcija": "Miramax Films, A Band Apart",
+    "budzet": "8.5 miliona $",
+    "boxOffice": "213.9 miliona $",
+    "jezik": "Engleski",
+    "titlovi": [
+      "Srpski",
+      "Engleski",
+      "Francuski",
+      "Španski"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915cbaacec3dde96bfd2931"
+    },
+    "naslov": "Forrest Gump",
+    "opis": "Priča o čoveku sa niskim IQ-om koji se slučajno nalazi u srcu važnih događaja 20. veka. Forrest Gump prolazi kroz američki život, ostvarujući neverovatne stvari dok razmišlja o svojoj pravoj ljubavi Jenny.",
+    "poster": "https://image.tmdb.org/t/p/w500/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg",
+    "trajanjeMin": 142,
+    "godina": 1994,
+    "zanr": [
+      "Drama",
+      "Romansa"
+    ],
+    "reziser": [
+      "Robert Zemeckis"
+    ],
+    "glumci": [
+      "Tom Hanks",
+      "Robin Wright",
+      "Gary Sinise",
+      "Sally Field"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/bLvqoHBptjg",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 5,
+    "dostupnoKomada": 5,
+    "cenaDnevno": 100,
+    "produkcija": "Paramount Pictures",
+    "budzet": "55 miliona $",
+    "boxOffice": "678.2 miliona $",
+    "jezik": "Engleski",
+    "titlovi": [
+      "Srpski",
+      "Engleski"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915cbaacec3dde96bfd2932"
+    },
+    "naslov": "The Matrix",
+    "opis": "Programer otkriva da je stvarnost simulacija i pridružuje se pobuni protiv mašina. Neo mora da se bori protiv agenata sistema i da spasi čovečanstvo od ropstva.",
+    "poster": "https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
+    "trajanjeMin": 136,
+    "godina": 1999,
+    "zanr": [
+      "Akcija",
+      "Naučna fantastika"
+    ],
+    "reziser": [
+      "Lana Wachowski",
+      "Lilly Wachowski"
+    ],
+    "glumci": [
+      "Keanu Reeves",
+      "Laurence Fishburne",
+      "Carrie-Anne Moss",
+      "Hugo Weaving"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/vKQi3bBA1y8",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 4,
+    "dostupnoKomada": 2,
+    "cenaDnevno": 110,
+    "produkcija": "Warner Bros. Pictures, Village Roadshow Pictures",
+    "budzet": "63 miliona $",
+    "boxOffice": "467.2 miliona $",
+    "jezik": "Engleski",
+    "titlovi": [
+      "Srpski",
+      "Engleski",
+      "Japanski"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915cbaacec3dde96bfd2933"
+    },
+    "naslov": "Interstellar",
+    "opis": "Tim istraživača putuje kroz crvotočinu u potrazi za novim domom za ljudsku rasu. Cooper, bivši NASA pilot, mora da se odvoji od svoje porodice kako bi spasio budućnost čovečanstva.",
+    "poster": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+    "trajanjeMin": 169,
+    "godina": 2014,
+    "zanr": [
+      "Avantura",
+      "Drama",
+      "Naučna fantastika"
+    ],
+    "reziser": [
+      "Christopher Nolan"
+    ],
+    "glumci": [
+      "Matthew McConaughey",
+      "Anne Hathaway",
+      "Jessica Chastain",
+      "Michael Caine"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/zSWdZVtXT7E",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 7,
+    "dostupnoKomada": 4,
+    "cenaDnevno": 130,
+    "produkcija": "Paramount Pictures, Warner Bros., Legendary Pictures",
+    "budzet": "165 miliona $",
+    "boxOffice": "701.7 miliona $",
+    "jezik": "Engleski",
+    "titlovi": [
+      "Srpski",
+      "Engleski",
+      "Francuski",
+      "Nemački"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915cbaacec3dde96bfd2934"
+    },
+    "naslov": "The Godfather",
+    "opis": "Starenje patrijarha organizovanog kriminala prenosi kontrolu svog tajnog carstva na nevoljnog sina. Michael Corleone postaje novi don porodice Corleone.",
+    "poster": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+    "trajanjeMin": 175,
+    "godina": 1972,
+    "zanr": [
+      "Krimi",
+      "Drama"
+    ],
+    "reziser": [
+      "Francis Ford Coppola"
+    ],
+    "glumci": [
+      "Marlon Brando",
+      "Al Pacino",
+      "James Caan",
+      "Robert Duvall",
+      "Diane Keaton"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/sY1S34973zA",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 3,
+    "dostupnoKomada": 1,
+    "cenaDnevno": 100,
+    "produkcija": "Paramount Pictures, Alfran Productions",
+    "budzet": "7 $",
+    "boxOffice": "271 $",
+    "jezik": "Engleski, Italijanski",
+    "titlovi": [
+      "Srpski",
+      "Engleski",
+      "Italijanski"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915cbaacec3dde96bfd2935"
+    },
+    "naslov": "Fight Club",
+    "opis": "Nezadovoljni kancelarijski radnik i proizvođač sapuna osnivaju underground klub za borbu. Tyler Durden vodi naratora u svet nasilja i anarhije.",
+    "poster": "https://image.tmdb.org/t/p/w500/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
+    "trajanjeMin": 139,
+    "godina": 1999,
+    "zanr": [
+      "Drama",
+      "Triler"
+    ],
+    "reziser": [
+      "David Fincher"
+    ],
+    "glumci": [
+      "Brad Pitt",
+      "Edward Norton",
+      "Helena Bonham Carter",
+      "Meat Loaf"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/qtRKdVHc-cE",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 5,
+    "dostupnoKomada": 3,
+    "cenaDnevno": 110,
+    "produkcija": "20th Century Fox, Regency Enterprises",
+    "budzet": "63 miliona $",
+    "boxOffice": "101.2 miliona $",
+    "jezik": "Engleski",
+    "titlovi": [
+      "Srpski",
+      "Engleski",
+      "Francuski"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915cbaacec3dde96bfd2936"
+    },
+    "naslov": "Parasite",
+    "opis": "Siromašna porodica se infiltrira u bogatu kuću sa neočekivanim posledicama. Kim porodica koristi svoju snalažljivost kako bi preživela u Seulu.",
+    "poster": "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+    "trajanjeMin": 132,
+    "godina": 2019,
+    "zanr": [
+      "Drama",
+      "Triler",
+      "Komedija"
+    ],
+    "reziser": [
+      "Bong Joon-ho"
+    ],
+    "glumci": [
+      "Song Kang-ho",
+      "Lee Sun-kyun",
+      "Cho Yeo-jeong",
+      "Choi Woo-shik"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/5xH0HfJHsaY",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 6,
+    "dostupnoKomada": 2,
+    "cenaDnevno": 140,
+    "produkcija": "CJ Entertainment, Barunson E&A",
+    "budzet": "11.4 miliona $",
+    "boxOffice": "258.8 miliona $",
+    "jezik": "Korejski, Engleski",
+    "titlovi": [
+      "Srpski",
+      "Engleski",
+      "Korejski",
+      "Francuski"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915cbaacec3dde96bfd2937"
+    },
+    "naslov": "Goodfellas",
+    "opis": "Priča o usponu i padu mafijaša tokom tri decenije. Henry Hill živi američki san kroz život u mafiji, od mladog ulična kriminalca do moćnog gangstera.",
+    "poster": "https://image.tmdb.org/t/p/w500/aKuFiU82s5ISJpGZp7YkIr3kCUd.jpg",
+    "trajanjeMin": 145,
+    "godina": 1990,
+    "zanr": [
+      "Krimi",
+      "Drama"
+    ],
+    "reziser": [
+      "Martin Scorsese"
+    ],
+    "glumci": [
+      "Robert De Niro",
+      "Ray Liotta",
+      "Joe Pesci",
+      "Lorraine Bracco"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/qo5jJpHtI1Y",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 4,
+    "dostupnoKomada": 4,
+    "cenaDnevno": 100,
+    "produkcija": "Warner Bros. Pictures",
+    "budzet": "25 miliona $",
+    "boxOffice": "46.8 miliona $",
+    "jezik": "Engleski",
+    "titlovi": [
+      "Srpski",
+      "Engleski",
+      "Italijanski"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915cbaacec3dde96bfd2938"
+    },
+    "naslov": "The Silence of the Lambs",
+    "opis": "Mlada FBI agentkinja traži pomoć od zatvorenog kanibala da uhvati drugog serijskog ubicu. Clarice Starling mora da se suoči sa svojim strahovima dok razgovara sa Hannibalom Lecterom.",
+    "poster": "https://image.tmdb.org/t/p/w500/uS9m8OBk1A8eM9I042bx8XXpqAq.jpg",
+    "trajanjeMin": 118,
+    "godina": 1991,
+    "zanr": [
+      "Triler",
+      "Krimi",
+      "Horor"
+    ],
+    "reziser": [
+      "Jonathan Demme"
+    ],
+    "glumci": [
+      "Jodie Foster",
+      "Anthony Hopkins",
+      "Scott Glenn",
+      "Ted Levine"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/W6Mm8Sbe__o",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 3,
+    "dostupnoKomada": 1,
+    "cenaDnevno": 130,
+    "produkcija": "Orion Pictures",
+    "budzet": "19 miliona $",
+    "boxOffice": "272.7 miliona $",
+    "jezik": "Engleski",
+    "titlovi": [
+      "Srpski",
+      "Engleski",
+      "Nemački"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915cbaacec3dde96bfd2939"
+    },
+    "naslov": "Schindler's List",
+    "opis": "U okupiranoj Poljskoj, nemački biznismen spašava više od hiljadu poljskih Jevreja od holokausta. Oskar Schindler koristi svoju fabriku kao zaklon za Jevreje.",
+    "poster": "https://image.tmdb.org/t/p/w500/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg",
+    "trajanjeMin": 195,
+    "godina": 1993,
+    "zanr": [
+      "Drama",
+      "Istorijski",
+      "Ratni"
+    ],
+    "reziser": [
+      "Steven Spielberg"
+    ],
+    "glumci": [
+      "Liam Neeson",
+      "Ben Kingsley",
+      "Ralph Fiennes",
+      "Caroline Goodall"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/gG22XNhtnoY",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 2,
+    "dostupnoKomada": 2,
+    "cenaDnevno": 130,
+    "produkcija": "Universal Pictures, Amblin Entertainment",
+    "budzet": "22 miliona $",
+    "boxOffice": "322.2 miliona $",
+    "jezik": "Engleski, Nemački, Poljski",
+    "titlovi": [
+      "Srpski",
+      "Engleski",
+      "Nemački",
+      "Poljski"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915cbaacec3dde96bfd293a"
+    },
+    "naslov": "The Lord of the Rings: The Return of the King",
+    "opis": "Gandalf i Aragorn vode svet ljudi u poslednju bitku za Srednju zemlju protiv Sauronovih snaga. Frodo i Sam nastavljaju svoj put ka Mordoru da unište Prsten.",
+    "poster": "https://image.tmdb.org/t/p/w500/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
+    "trajanjeMin": 201,
+    "godina": 2003,
+    "zanr": [
+      "Avantura",
+      "Fantazija",
+      "Akcija"
+    ],
+    "reziser": [
+      "Peter Jackson"
+    ],
+    "glumci": [
+      "Elijah Wood",
+      "Viggo Mortensen",
+      "Ian McKellen",
+      "Orlando Bloom",
+      "Sean Astin"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/r5X-hFf6Bwo",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 8,
+    "dostupnoKomada": 5,
+    "cenaDnevno": 120,
+    "produkcija": "New Line Cinema, WingNut Films",
+    "budzet": "94 miliona $",
+    "boxOffice": "1.142 milijardi $",
+    "jezik": "Engleski",
+    "titlovi": [
+      "Srpski",
+      "Engleski",
+      "Francuski",
+      "Nemački",
+      "Španski"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915cbaacec3dde96bfd293b"
+    },
+    "naslov": "Star Wars: Episode V - The Empire Strikes Back",
+    "opis": "Nakon uništenja Zvezde smrti, Imperija udara nazad. Luke Skywalker trenira sa Yodom dok Han Solo i Leia bekaju od Darth Vadera.",
+    "poster": "https://image.tmdb.org/t/p/w500/nNAeTmF4CtdSgMDplXTDPOpYzsX.jpg",
+    "trajanjeMin": 124,
+    "godina": 1980,
+    "zanr": [
+      "Akcija",
+      "Avantura",
+      "Naučna fantastika"
+    ],
+    "reziser": [
+      "Irvin Kershner"
+    ],
+    "glumci": [
+      "Mark Hamill",
+      "Harrison Ford",
+      "Carrie Fisher",
+      "Billy Dee Williams",
+      "James Earl Jones"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/JNwNXF9Y6kY",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 6,
+    "dostupnoKomada": 3,
+    "cenaDnevno": 100,
+    "produkcija": "Lucasfilm, 20th Century Fox",
+    "budzet": "18 miliona $",
+    "boxOffice": "538.4 miliona $",
+    "jezik": "Engleski",
+    "titlovi": [
+      "Srpski",
+      "Engleski",
+      "Francuski",
+      "Španski"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915cbaacec3dde96bfd293c"
+    },
+    "naslov": "Gladiator",
+    "opis": "Bivši rimski general traži osvetu protiv korumpiranog cara koji je ubio njegovu porodicu. Maximus postaje gladijator i bori se za pravdu.",
+    "poster": "https://image.tmdb.org/t/p/w500/ehGpN04mLJIrSnxcZBMvHeG0eDc.jpg",
+    "trajanjeMin": 155,
+    "godina": 2000,
+    "zanr": [
+      "Akcija",
+      "Drama",
+      "Istorijski"
+    ],
+    "reziser": [
+      "Ridley Scott"
+    ],
+    "glumci": [
+      "Russell Crowe",
+      "Joaquin Phoenix",
+      "Connie Nielsen",
+      "Oliver Reed"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/owK1qxDselE",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 5,
+    "dostupnoKomada": 2,
+    "cenaDnevno": 110,
+    "produkcija": "DreamWorks Pictures, Universal Pictures",
+    "budzet": "103 miliona $",
+    "boxOffice": "460.5 miliona $",
+    "jezik": "Engleski",
+    "titlovi": [
+      "Srpski",
+      "Engleski",
+      "Latinski"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915cbaacec3dde96bfd293d"
+    },
+    "naslov": "Saving Private Ryan",
+    "opis": "Nakon invazije na Normandiju, grupa američkih vojnika kreće u opasnu misiju da pronađe padobranca čija su tri brata ubijena u ratu.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BZGZhZGQ1ZWUtZTZjYS00MDJhLWFkYjctN2ZlYjE5NWYwZDM2XkEyXkFqcGc@._V1_FMjpg_UX800_.jpg",
+    "trajanjeMin": 169,
+    "godina": 1998,
+    "zanr": [
+      "Drama",
+      "Istorijski",
+      "Ratni"
+    ],
+    "reziser": [
+      "Steven Spielberg"
+    ],
+    "glumci": [
+      "Tom Hanks",
+      "Matt Damon",
+      "Tom Sizemore",
+      "Edward Burns",
+      "Barry Pepper"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/9CiW_DgxCnQ",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 4,
+    "dostupnoKomada": 1,
+    "cenaDnevno": 100,
+    "produkcija": "DreamWorks Pictures, Paramount Pictures, Amblin Entertainment",
+    "budzet": "70 miliona $",
+    "boxOffice": "482.3 miliona $",
+    "jezik": "Engleski, Nemački, Francuski",
+    "titlovi": [
+      "Srpski",
+      "Engleski",
+      "Nemački",
+      "Francuski"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915cbaacec3dde96bfd293e"
+    },
+    "naslov": "Jurassic Park",
+    "opis": "Tokom pregleda tematskog parka sa kloniranim dinosaurusima, se sve krene po zlu kada sistem bezbednosti padne. Grupa ljudi mora da preživi napad dinosaurusa.",
+    "poster": "https://image.tmdb.org/t/p/w500/oU7Oq2kFAAlGqbU4VoAE36g4hoI.jpg",
+    "trajanjeMin": 127,
+    "godina": 1993,
+    "zanr": [
+      "Avantura",
+      "Naučna fantastika",
+      "Akcija"
+    ],
+    "reziser": [
+      "Steven Spielberg"
+    ],
+    "glumci": [
+      "Sam Neill",
+      "Laura Dern",
+      "Jeff Goldblum",
+      "Richard Attenborough"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/lc0UehYemQA",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 7,
+    "dostupnoKomada": 6,
+    "cenaDnevno": 180,
+    "produkcija": "Universal Pictures, Amblin Entertainment",
+    "budzet": "63 miliona $",
+    "boxOffice": "1.029 milijardi $",
+    "jezik": "Engleski",
+    "titlovi": [
+      "Srpski",
+      "Engleski",
+      "Španski"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915cbaacec3dde96bfd293f"
+    },
+    "naslov": "Titanic",
+    "opis": "Siromašni umetnik i bogata devojka se zaljubljuju na kobnom prvom putovanju RMS Titanica. Jack i Rose se bore da prežive tonjenje broda.",
+    "poster": "https://image.tmdb.org/t/p/w500/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg",
+    "trajanjeMin": 194,
+    "godina": 1997,
+    "zanr": [
+      "Drama",
+      "Romansa"
+    ],
+    "reziser": [
+      "James Cameron"
+    ],
+    "glumci": [
+      "Leonardo DiCaprio",
+      "Kate Winslet",
+      "Billy Zane",
+      "Kathy Bates"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/2e-eXJ6HgkQ",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 5,
+    "dostupnoKomada": 3,
+    "cenaDnevno": 110,
+    "produkcija": "20th Century Fox, Paramount Pictures, Lightstorm Entertainment",
+    "budzet": "200 miliona $",
+    "boxOffice": "2.187 milijardi $",
+    "jezik": "Engleski",
+    "titlovi": [
+      "Srpski",
+      "Engleski",
+      "Francuski",
+      "Nemački",
+      "Italijanski"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915cbaacec3dde96bfd2940"
+    },
+    "naslov": "The Green Mile",
+    "opis": "Život čuvara zatvora na smrtnom odeljenju se menja kada upozna blage div divana sa nadnaravnim sposobnostima. John Coffey donosi čudesne lekove u tužan svet zatvora.",
+    "poster": "https://image.tmdb.org/t/p/w500/velWPhVMQeQKcxggNEU8YmIo52R.jpg",
+    "trajanjeMin": 189,
+    "godina": 1999,
+    "zanr": [
+      "Drama",
+      "Fantazija",
+      "Krimi"
+    ],
+    "reziser": [
+      "Frank Darabont"
+    ],
+    "glumci": [
+      "Tom Hanks",
+      "Michael Clarke Duncan",
+      "David Morse",
+      "Bonnie Hunt"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/Ki4haFrqSrw",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 3,
+    "dostupnoKomada": 3,
+    "cenaDnevno": 100,
+    "produkcija": "Castle Rock Entertainment, Warner Bros.",
+    "budzet": "60 miliona $",
+    "boxOffice": "286.8 miliona $",
+    "jezik": "Engleski",
+    "titlovi": [
+      "Srpski",
+      "Engleski",
+      "Francuski"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ce96cec3dde96bfd2944"
+    },
+    "naslov": "12 Angry Men",
+    "opis": "Porota jednog ubistva mora da donese jednoglasnu odluku da li će osuđeni tinejdžer biti poslat na električni stolac.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMWU4N2FjNzYtNTVkNC00NzQ0LTg0MjAtYTJlMjFhNGUxZDFmXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg",
+    "trajanjeMin": 97,
+    "godina": 1957,
+    "zanr": [
+      "Drama",
+      "Krimi",
+      "Istorijski"
+    ],
+    "reziser": [
+      "Sidney Lumet"
+    ],
+    "glumci": [
+      "Henry Fonda",
+      "Lee J. Cobb",
+      "Martin Balsam"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/TEN-2uTi2c0",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 51,
+    "dostupnoKomada": 2,
+    "cenaDnevno": 100,
+    "produkcija": "Orion-Nova Productions",
+    "budzet": "350,000 $",
+    "boxOffice": "2 miliona $",
+    "jezik": "English",
+    "titlovi": [
+      "Serbian",
+      "English"
+    ],
+    "updatedAt": {
+      "$date": "2025-11-14T16:20:01.862Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6915ce96cec3dde96bfd2946"
+    },
+    "naslov": "One Flew Over the Cuckoos Nest",
+    "opis": "U jesen 1963. godine, recidivista se pretvara da je lud kako bi izbegao zatvorsku kaznu, ali ga umesto toga šalju u psihijatrijsku ustanovu.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BZjA0OWVhOTAtYWQxNi00YzNhLWI4ZjYtNjFjZTEyYjJlNDVlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+    "trajanjeMin": 133,
+    "godina": 1975,
+    "zanr": [
+      "Drama"
+    ],
+    "reziser": [
+      "Milos Forman"
+    ],
+    "glumci": [
+      "Jack Nicholson",
+      "Louise Fletcher",
+      "Michael Berryman"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/OXrcDonY-B8",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 3,
+    "dostupnoKomada": 1,
+    "cenaDnevno": 120,
+    "produkcija": "United Artists",
+    "budzet": "3 miliona $",
+    "boxOffice": "112 miliona $",
+    "jezik": "English",
+    "titlovi": [
+      "Serbian",
+      "English"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ce96cec3dde96bfd2947"
+    },
+    "naslov": "Seven Samurai",
+    "opis": "Siromašno selo pod napadom razbojnika angažuje sedam samuraja da ih brani.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTI4Nzc5MzAtYjVmOC00MjI0LWI0NzYtMmVkYTAyNDNkM2U3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "trajanjeMin": 207,
+    "godina": 1954,
+    "zanr": [
+      "Akcija",
+      "Drama"
+    ],
+    "reziser": [
+      "Akira Kurosawa"
+    ],
+    "glumci": [
+      "Toshirô Mifune",
+      "Takashi Shimura",
+      "Keiko Tsushima"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/wJ1TOratCTo",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 2,
+    "dostupnoKomada": 2,
+    "cenaDnevno": 100,
+    "produkcija": "Toho Company",
+    "budzet": "500,000 $",
+    "boxOffice": "270,977 $",
+    "jezik": "Japanese",
+    "titlovi": [
+      "Serbian",
+      "English",
+      "Japanese"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ce96cec3dde96bfd2948"
+    },
+    "naslov": "Its a Wonderful Life",
+    "opis": "Anđeo pokušava da ubedi frustriranog biznismena da njegov život ima vrednost pokazujući mu šta bi bilo da nikad nije rođen.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BZjc4NDZhZWMtNGEzYS00ZWU2LThlM2ItNTA0YzQ0OTExMTE2XkEyXkFqcGdeQXVyNjUwMzI2NzU@._V1_SX300.jpg",
+    "trajanjeMin": 130,
+    "godina": 1946,
+    "zanr": [
+      "Drama",
+      "Porodični",
+      "Fantazija"
+    ],
+    "reziser": [
+      "Frank Capra"
+    ],
+    "glumci": [
+      "James Stewart",
+      "Donna Reed",
+      "Lionel Barrymore"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/iLR3gZrU2Xo",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 3,
+    "dostupnoKomada": 3,
+    "cenaDnevno": 100,
+    "produkcija": "Liberty Films",
+    "budzet": "3.2 miliona $",
+    "boxOffice": "3.3 miliona $",
+    "jezik": "English",
+    "titlovi": [
+      "Serbian",
+      "English"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ce96cec3dde96bfd2949"
+    },
+    "naslov": "Spirited Away",
+    "opis": "Tokom preseljavanja svoje porodice u predgrađe, sumorna desetogodišnja devojčica luta u svet kojim vladaju bogovi, veštice i duhovi.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+    "trajanjeMin": 125,
+    "godina": 2001,
+    "zanr": [
+      "Animirani",
+      "Avantura",
+      "Porodični"
+    ],
+    "reziser": [
+      "Hayao Miyazaki"
+    ],
+    "glumci": [
+      "Daveigh Chase",
+      "Suzanne Pleshette",
+      "Miyu Irino"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/ByXuk9QqQkk",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 4,
+    "dostupnoKomada": 4,
+    "cenaDnevno": 130,
+    "produkcija": "Studio Ghibli",
+    "budzet": "19 miliona $",
+    "boxOffice": "355.5 miliona $",
+    "jezik": "Japanese",
+    "titlovi": [
+      "Serbian",
+      "English",
+      "Japanese"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ce96cec3dde96bfd294a"
+    },
+    "naslov": "Casablanca",
+    "opis": "Ciničan američki emigrant se mora odlučiti da li da pomogne svojoj bivšoj ljubavi i njenom mužu izbeglici da pobegnu iz Marokanskog grada Kazablanka.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BY2IzZGY2YmEtYzljNS00NTM5LTgwMzUtMzM1NjQ4NGI0OTk0XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_SX300.jpg",
+    "trajanjeMin": 102,
+    "godina": 1942,
+    "zanr": [
+      "Drama",
+      "Romansa",
+      "Ratni"
+    ],
+    "reziser": [
+      "Michael Curtiz"
+    ],
+    "glumci": [
+      "Humphrey Bogart",
+      "Ingrid Bergman",
+      "Paul Henreid"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/BkL9l7qovsE",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 2,
+    "dostupnoKomada": 1,
+    "cenaDnevno": 100,
+    "produkcija": "Warner Bros.",
+    "budzet": "950,000 $",
+    "boxOffice": "10.5 miliona $",
+    "jezik": "English",
+    "titlovi": [
+      "Serbian",
+      "English",
+      "French",
+      "German"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ce96cec3dde96bfd294b"
+    },
+    "naslov": "City of God",
+    "opis": "U siromašnim predgrađima Rio de Janeira, dve dečakove sudbine će se razići dok jedan postaje fotograf, a drugi kralj droge.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BOTMwYjc5ZmItYTFjZC00ZGQ3LTlkNTMtMjZiNTZlMWQzNzI5XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+    "trajanjeMin": 130,
+    "godina": 2002,
+    "zanr": [
+      "Krimi",
+      "Drama"
+    ],
+    "reziser": [
+      "Fernando Meirelles",
+      "Kátia Lund"
+    ],
+    "glumci": [
+      "Alexandre Rodrigues",
+      "Leandro Firmino",
+      "Matheus Nachtergaele"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/dcUOO4Itgmw",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 3,
+    "dostupnoKomada": 2,
+    "cenaDnevno": 100,
+    "produkcija": "O2 Filmes",
+    "budzet": "3.3 miliona $",
+    "boxOffice": "30.7 miliona $",
+    "jezik": "Portuguese",
+    "titlovi": [
+      "Serbian",
+      "English",
+      "Portuguese"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ce96cec3dde96bfd294c"
+    },
+    "naslov": "Life Is Beautiful",
+    "opis": "Kada italijansko-jevrejska porodica bude poslata u koncentracioni logor, otac koristi maštu da zaštiti svog sina od užasa oko njih.",
+    "poster": "https://image.tmdb.org/t/p/w500/74hLDKjD5aGYOotO6esUVaeISa2.jpg",
+    "trajanjeMin": 116,
+    "godina": 1997,
+    "zanr": [
+      "Komedija",
+      "Drama",
+      "Romansa"
+    ],
+    "reziser": [
+      "Roberto Benigni"
+    ],
+    "glumci": [
+      "Roberto Benigni",
+      "Nicoletta Braschi",
+      "Giorgio Cantarini"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/pAYEQP8gx3w",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 3,
+    "dostupnoKomada": 3,
+    "cenaDnevno": 130,
+    "produkcija": "Melampo Cinematografica",
+    "budzet": "20 miliona $",
+    "boxOffice": "229.2 miliona $",
+    "jezik": "Italian",
+    "titlovi": [
+      "Serbian",
+      "English",
+      "Italian",
+      "German"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ce96cec3dde96bfd294d"
+    },
+    "naslov": "Se7en",
+    "opis": "Dva detektiva, veteran i početnik, love serijskog ubicu koji koristi sedam smrtnih grehova kao motiv za svoje ubistva.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BOTUwODM5MTctZjczMi00OTk4LTg3NWUtNmVhMTAzNTNjYjcyXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+    "trajanjeMin": 127,
+    "godina": 1995,
+    "zanr": [
+      "Krimi",
+      "Drama",
+      "Misterija"
+    ],
+    "reziser": [
+      "David Fincher"
+    ],
+    "glumci": [
+      "Morgan Freeman",
+      "Brad Pitt",
+      "Kevin Spacey"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/znmZoVkCjpI",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 4,
+    "dostupnoKomada": 2,
+    "cenaDnevno": 130,
+    "produkcija": "New Line Cinema",
+    "budzet": "33 miliona $",
+    "boxOffice": "327.3 miliona $",
+    "jezik": "English",
+    "titlovi": [
+      "Serbian",
+      "English"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ce96cec3dde96bfd294e"
+    },
+    "naslov": "The Usual Suspects",
+    "opis": "Jedini preživeli pljačke jahte u San Pedru priča iskrivljenu priču u policijskoj stanici, i na taj način počinje da se razotkrije legenda o misterioznom kriminalcu Keyser Soze.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYTViNjMyNmUtNDFkNC00ZDRlLThmMDUtZDU2YWE4NGI2ZjVmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+    "trajanjeMin": 106,
+    "godina": 1995,
+    "zanr": [
+      "Krimi",
+      "Drama",
+      "Misterija"
+    ],
+    "reziser": [
+      "Bryan Singer"
+    ],
+    "glumci": [
+      "Kevin Spacey",
+      "Gabriel Byrne",
+      "Chazz Palminteri"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/x3t0Nc6fg7w",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 3,
+    "dostupnoKomada": 1,
+    "cenaDnevno": 100,
+    "produkcija": "PolyGram Filmed Entertainment",
+    "budzet": "6 miliona $",
+    "boxOffice": "23.3 miliona $",
+    "jezik": "English",
+    "titlovi": [
+      "Serbian",
+      "English",
+      "Hungarian",
+      "Spanish",
+      "French"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ce96cec3dde96bfd294f"
+    },
+    "naslov": "Leon: The Professional",
+    "opis": "12-godišnja devojčica je nevoljno uzeta pod okrilje profesionalnog ubice nakon što je njena porodica ubijena.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BODllNWE0MmEtYjUwZi00ZjY3LThmNmQtZjZlMjI2YTZjYmQ0XkEyXkFqcGdeQXVyNTc1NTQxODI@._V1_SX300.jpg",
+    "trajanjeMin": 110,
+    "godina": 1994,
+    "zanr": [
+      "Akcija",
+      "Krimi",
+      "Drama"
+    ],
+    "reziser": [
+      "Luc Besson"
+    ],
+    "glumci": [
+      "Jean Reno",
+      "Gary Oldman",
+      "Natalie Portman"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/aNQqoExfQsg",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 4,
+    "dostupnoKomada": 3,
+    "cenaDnevno": 100,
+    "produkcija": "Gaumont",
+    "budzet": "16 miliona $",
+    "boxOffice": "19.5 miliona $",
+    "jezik": "English",
+    "titlovi": [
+      "Serbian",
+      "English",
+      "Italian"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ce96cec3dde96bfd2950"
+    },
+    "naslov": "The Lion King",
+    "opis": "Princ lav Simba i njegov otac su na meti njegovog gorkog ujaka koji želi da uzme presto za sebe.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYTYxNGMyZTYtMjE3MS00MzNjLWFjNmYtMDk3N2FmM2JiM2M1XkEyXkFqcGdeQXVyNjY5NDU4NzI@._V1_SX300.jpg",
+    "trajanjeMin": 88,
+    "godina": 1994,
+    "zanr": [
+      "Animirani",
+      "Avantura",
+      "Drama"
+    ],
+    "reziser": [
+      "Roger Allers",
+      "Rob Minkoff"
+    ],
+    "glumci": [
+      "Matthew Broderick",
+      "Jeremy Irons",
+      "James Earl Jones"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/lFzVJEksoDY",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 5,
+    "dostupnoKomada": 5,
+    "cenaDnevno": 150,
+    "produkcija": "Walt Disney Pictures",
+    "budzet": "45 miliona $",
+    "boxOffice": "968.5 miliona $",
+    "jezik": "English",
+    "titlovi": [
+      "Serbian",
+      "English"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ce96cec3dde96bfd2952"
+    },
+    "naslov": "The Pianist",
+    "opis": "Poljski-jevrejski muzičar se bori da preživi destrukciju Varšavskog geta tokom Drugog svetskog rata.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BOWRiZDIxZjktMTA1NC00MDQ2LWEzMjUtMTliZmY3NjQ3ODJiXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+    "trajanjeMin": 150,
+    "godina": 2002,
+    "zanr": [
+      "Biografski",
+      "Drama",
+      "Muzički"
+    ],
+    "reziser": [
+      "Roman Polanski"
+    ],
+    "glumci": [
+      "Adrien Brody",
+      "Thomas Kretschmann",
+      "Frank Finlay"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/BFwGqLa_oAo",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 3,
+    "dostupnoKomada": 3,
+    "cenaDnevno": 120,
+    "produkcija": "R.P. Productions",
+    "budzet": "35 miliona $",
+    "boxOffice": "120.1 miliona $",
+    "jezik": "English",
+    "titlovi": [
+      "Serbian",
+      "English",
+      "German",
+      "Russian"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ce96cec3dde96bfd2953"
+    },
+    "naslov": "Terminator 2: Judgment Day",
+    "opis": "Kiborg, identičan onome koji nije uspeo da ubije Saru Konor, mora da zaštiti njenog sina od još naprednijeg i moćnijeg kiborga.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMGU2NzRmZjUtOGUxYS00ZjdjLWEwZWItY2NlM2JhNjkxNTFmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+    "trajanjeMin": 137,
+    "godina": 1991,
+    "zanr": [
+      "Akcija",
+      "Naučna fantastika"
+    ],
+    "reziser": [
+      "James Cameron"
+    ],
+    "glumci": [
+      "Arnold Schwarzenegger",
+      "Linda Hamilton",
+      "Edward Furlong"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/CRRlbK5w8AE",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 4,
+    "dostupnoKomada": 2,
+    "cenaDnevno": 150,
+    "produkcija": "Carolco Pictures",
+    "budzet": "102 miliona $",
+    "boxOffice": "520.9 miliona $",
+    "jezik": "English",
+    "titlovi": [
+      "Serbian",
+      "English",
+      "Spanish"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ce96cec3dde96bfd2954"
+    },
+    "naslov": "Back to the Future",
+    "opis": "Marty McFly, 17-godišnji srednjoškolac, slučajno je poslat trideset godina u prošlost pomoću mašine za putovanje kroz vreme DeLorean.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BZmU0M2Y1OGUtZjIxNi00ZjBkLTg1MjgtOWIyNThiZWIwYjRiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+    "trajanjeMin": 116,
+    "godina": 1985,
+    "zanr": [
+      "Avantura",
+      "Komedija",
+      "Naučna fantastika"
+    ],
+    "reziser": [
+      "Robert Zemeckis"
+    ],
+    "glumci": [
+      "Michael J. Fox",
+      "Christopher Lloyd",
+      "Lea Thompson"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/qvsgGtivCgs",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 4,
+    "dostupnoKomada": 4,
+    "cenaDnevno": 130,
+    "produkcija": "Universal Pictures",
+    "budzet": "19 miliona $",
+    "boxOffice": "388.8 miliona $",
+    "jezik": "English",
+    "titlovi": [
+      "Serbian",
+      "English"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ce96cec3dde96bfd2955"
+    },
+    "naslov": "Modern Times",
+    "opis": "Skitnica pokušava da zaradi za život u industrijalizovanom svetu, gde su mašine zamenjujući ljude.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYjJiZjMzYzktNjU0NS00OTkxLWEwYzItYzdhYWJjN2QzMTRlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+    "trajanjeMin": 87,
+    "godina": 1936,
+    "zanr": [
+      "Komedija",
+      "Drama",
+      "Romansa"
+    ],
+    "reziser": [
+      "Charles Chaplin"
+    ],
+    "glumci": [
+      "Charles Chaplin",
+      "Paulette Goddard",
+      "Henry Bergman"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/GLeDdzGUTq0",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 2,
+    "dostupnoKomada": 2,
+    "cenaDnevno": 100,
+    "produkcija": "Charles Chaplin Productions",
+    "budzet": "1.5 miliona $",
+    "boxOffice": "163,245 $",
+    "jezik": "English",
+    "titlovi": [
+      "Serbian",
+      "English"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ce96cec3dde96bfd2956"
+    },
+    "naslov": "Apocalypse Now",
+    "opis": "Tokom Vijetnamskog rata, kapetanu Willardu je naređeno da locira potpukovnika Kurtza, oficira za specijalističke operacije koji je navodno poludeo.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYmQyNTA1ZGItNjZjMi00NzFlLWEzMWEtNWMwN2Q2MjJhYzEyXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg",
+    "trajanjeMin": 147,
+    "godina": 1979,
+    "zanr": [
+      "Drama",
+      "Misterija",
+      "Ratni"
+    ],
+    "reziser": [
+      "Francis Ford Coppola"
+    ],
+    "glumci": [
+      "Martin Sheen",
+      "Marlon Brando",
+      "Robert Duvall"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/9l-ViOOFH-s",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 3,
+    "dostupnoKomada": 1,
+    "cenaDnevno": 110,
+    "produkcija": "Zoetrope Studios",
+    "budzet": "31.5 miliona $",
+    "boxOffice": "96 miliona $",
+    "jezik": "English",
+    "titlovi": [
+      "Serbian",
+      "English",
+      "French",
+      "Vietnamese"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ce96cec3dde96bfd2957"
+    },
+    "naslov": "Alien",
+    "opis": "Posada komercijalne svemirske tegljačke brode naiđe na smrtonosnu formu života nakon što istražuju nepoznat signal na dalekoj planeti.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BOGQzZTBjMjQtOTVmMS00NGE5LWEyYmMtOGQ1ZGZjNmRkYjFhXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg",
+    "trajanjeMin": 117,
+    "godina": 1979,
+    "zanr": [
+      "Horor",
+      "Naučna fantastika"
+    ],
+    "reziser": [
+      "Ridley Scott"
+    ],
+    "glumci": [
+      "Sigourney Weaver",
+      "Tom Skerritt",
+      "John Hurt"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/LjLamj-b0I8",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 4,
+    "cenaDnevno": 120,
+    "produkcija": "20th Century Fox",
+    "budzet": "11 miliona $",
+    "boxOffice": "106.3 miliona $",
+    "jezik": "English",
+    "titlovi": [
+      "Serbian",
+      "English"
+    ],
+    "__v": 2,
+    "updatedAt": {
+      "$date": "2025-11-15T11:53:11.942Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6915ce96cec3dde96bfd2958"
+    },
+    "naslov": "The Shining",
+    "opis": "Porodica koja vodi hotel tokom zime pomalo poludi zbog uticaja nadprirodnih sila na njihovoj novoj lokaciji.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BZWFlYmY2MGEtZjVkYS00YzU4LTg0YjQtYzY1ZGE3NTA5NGQxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+    "trajanjeMin": 146,
+    "godina": 1980,
+    "zanr": [
+      "Drama",
+      "Horor"
+    ],
+    "reziser": [
+      "Stanley Kubrick"
+    ],
+    "glumci": [
+      "Jack Nicholson",
+      "Shelley Duvall",
+      "Danny Lloyd"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/5Cb3ik6zP2I",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 3,
+    "dostupnoKomada": 2,
+    "cenaDnevno": 100,
+    "produkcija": "Warner Bros.",
+    "budzet": "19 miliona $",
+    "boxOffice": "44.2 miliona $",
+    "jezik": "English",
+    "titlovi": [
+      "Serbian",
+      "English"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ce96cec3dde96bfd2959"
+    },
+    "naslov": "The Great Dictator",
+    "opis": "Diktator Tomanie vlada zemljom uz pomoć svojih slugu, ali dvostruko oličen u običnom jevrejskom berberu koji ga nesvesno imitira.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMmExYWJjNTktNGUyZS00ODhmLTkxYzAtNWIzOGEyMGNiMmUwXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+    "trajanjeMin": 125,
+    "godina": 1940,
+    "zanr": [
+      "Komedija",
+      "Drama",
+      "Ratni"
+    ],
+    "reziser": [
+      "Charles Chaplin"
+    ],
+    "glumci": [
+      "Charles Chaplin",
+      "Paulette Goddard",
+      "Jack Oakie"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/i1C6qZVeFtA",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 2,
+    "dostupnoKomada": 2,
+    "cenaDnevno": 100,
+    "produkcija": "Charles Chaplin Productions",
+    "budzet": "2 miliona $",
+    "boxOffice": "5 miliona $",
+    "jezik": "English",
+    "titlovi": [
+      "Serbian",
+      "English"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ce96cec3dde96bfd295a"
+    },
+    "naslov": "Django Unchained",
+    "opis": "Sa pomoću nemačkog lovca na ucenjene ljude, oslobođeni rob kreće na spasavanje svoje supruge iz brutalnog vlasnika plantaže.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_SX300.jpg",
+    "trajanjeMin": 165,
+    "godina": 2012,
+    "zanr": [
+      "Drama",
+      "Vestern"
+    ],
+    "reziser": [
+      "Quentin Tarantino"
+    ],
+    "glumci": [
+      "Jamie Foxx",
+      "Christoph Waltz",
+      "Leonardo DiCaprio"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/0fUCuvNlOCg",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 4,
+    "dostupnoKomada": 3,
+    "cenaDnevno": 130,
+    "produkcija": "The Weinstein Company",
+    "budzet": "100 miliona $",
+    "boxOffice": "425.4 miliona $",
+    "jezik": "English",
+    "titlovi": [
+      "Serbian",
+      "English",
+      "French",
+      "German",
+      "Italian"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ce96cec3dde96bfd295b"
+    },
+    "naslov": "WALL·E",
+    "opis": "U dalekoj budućnosti, mali robot za čišćenje naiđe na novu svrhu u životu kada upozna svemirskog istraživačkog robota.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjExMTg5OTU0NF5BMl5BanBnXkFtZTcwMjMxMzMzMw@@._V1_SX300.jpg",
+    "trajanjeMin": 98,
+    "godina": 2008,
+    "zanr": [
+      "Animirani",
+      "Avantura",
+      "Porodični"
+    ],
+    "reziser": [
+      "Andrew Stanton"
+    ],
+    "glumci": [
+      "Ben Burtt",
+      "Elissa Knight",
+      "Jeff Garlin"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/CZ1CATNbXg0",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 5,
+    "dostupnoKomada": 5,
+    "cenaDnevno": 150,
+    "produkcija": "Pixar Animation Studios",
+    "budzet": "180 miliona $",
+    "boxOffice": "532.5 miliona $",
+    "jezik": "English",
+    "titlovi": [
+      "Serbian",
+      "English"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ce96cec3dde96bfd295c"
+    },
+    "naslov": "The Lives of Others",
+    "opis": "U 1984. godini u Istočnoj Nemačkoj, agent Tajne službe provodi nadzor nad piscem i njegovom ljubavnicom i postaje sve više apsorbovan u njihovim životima.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNmQyNmJjM2ItNTQzYi00ZjMxLWFjMDYtZjUyN2YwZDk5YWQ2XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg",
+    "trajanjeMin": 137,
+    "godina": 2006,
+    "zanr": [
+      "Drama",
+      "Misterija",
+      "Triler"
+    ],
+    "reziser": [
+      "Florian Henckel von Donnersmarck"
+    ],
+    "glumci": [
+      "Ulrich Mühe",
+      "Martina Gedeck",
+      "Sebastian Koch"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/n3_iLOp6IhM",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 2,
+    "dostupnoKomada": 1,
+    "cenaDnevno": 110,
+    "produkcija": "Wiedemann & Berg Filmproduktion",
+    "budzet": "2 miliona $",
+    "boxOffice": "77.4 miliona $",
+    "jezik": "German",
+    "titlovi": [
+      "Serbian",
+      "English",
+      "German",
+      "Russian"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ce96cec3dde96bfd295d"
+    },
+    "naslov": "Paths of Glory",
+    "opis": "Nakon što je jedna francuska vojska poražena u nemoguće misiji, trojica vojnika biraju se za suđenje, kao primer disciplineu.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNmQ2NmI2ODYtMDQzNS00NzQyLTkzZjgtZmZlYTQ5MTc1OWU3XkEyXkFqcGc@._V1_FMjpg_UX1045_.jpg",
+    "trajanjeMin": 88,
+    "godina": 1957,
+    "zanr": [
+      "Drama",
+      "Ratni"
+    ],
+    "reziser": [
+      "Stanley Kubrick"
+    ],
+    "glumci": [
+      "Kirk Douglas",
+      "Ralph Meeker",
+      "Adolphe Menjou"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/nmDA60X-f_A",
+    "komentari": [],
+    "ukupnoKomada": 2,
+    "dostupnoKomada": 2,
+    "cenaDnevno": 100,
+    "produkcija": "Bryna Productions",
+    "budzet": "935,000 $",
+    "boxOffice": "300,000 $",
+    "jezik": "English",
+    "titlovi": [
+      "Serbian",
+      "English",
+      "German"
+    ],
+    "ocene": []
+  },
+  {
+    "_id": {
+      "$oid": "6915ce96cec3dde96bfd295e"
+    },
+    "naslov": "Avengers: Infinity War",
+    "opis": "Osvetnici i njihovi saveznici moraju biti voljni da žrtvuju sve u pokušaju da poraze moćnog Thanosa pre nego što njegova bljesak devastacije i propasti stavi tačku na univerzum.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SX300.jpg",
+    "trajanjeMin": 149,
+    "godina": 2018,
+    "zanr": [
+      "Akcija",
+      "Avantura",
+      "Naučna fantastika"
+    ],
+    "reziser": [
+      "Anthony Russo",
+      "Joe Russo"
+    ],
+    "glumci": [
+      "Robert Downey Jr.",
+      "Chris Hemsworth",
+      "Mark Ruffalo"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/6ZfuNTqbHE8",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 6,
+    "dostupnoKomada": 4,
+    "cenaDnevno": 180,
+    "produkcija": "Marvel Studios",
+    "budzet": "321 miliona $",
+    "boxOffice": "2.048 milijardi $",
+    "jezik": "English",
+    "titlovi": [
+      "Serbian",
+      "English"
+    ],
+    "__v": 3,
+    "updatedAt": {
+      "$date": "2025-11-15T13:19:39.367Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6915ce96cec3dde96bfd295f"
+    },
+    "naslov": "Witness for the Prosecution",
+    "opis": "Oboljevši advokat preuzima slučaj odbrane muškarca optuženog za ubistvo, ali tek kasnije otkriva da ima mnogo više od tog slučaja nego što se čini.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNDQwODU5OWYtNDcyNi00MDQ1LThiOGMtZDkwNWJiM2Y3MDg0XkEyXkFqcGdeQXVyMDI2NDg0NQ@@._V1_SX300.jpg",
+    "trajanjeMin": 116,
+    "godina": 1957,
+    "zanr": [
+      "Krimi",
+      "Drama",
+      "Misterija"
+    ],
+    "reziser": [
+      "Billy Wilder"
+    ],
+    "glumci": [
+      "Tyrone Power",
+      "Marlene Dietrich",
+      "Charles Laughton"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/GMlJfiA2u7Y",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 2,
+    "dostupnoKomada": 2,
+    "cenaDnevno": 100,
+    "produkcija": "Theme Pictures",
+    "budzet": "3 miliona $",
+    "boxOffice": "7 miliona $",
+    "jezik": "English",
+    "titlovi": [
+      "Serbian",
+      "English",
+      "German"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ce96cec3dde96bfd2960"
+    },
+    "naslov": "Spider-Man: Into the Spider-Verse",
+    "opis": "Tinejdžer Miles Morales postaje Spider-Man svog univerzuma i mora se pridružiti sa pet spider-ljudi iz drugih dimenzija da zaustave pretnju za sve realnosti.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_SX300.jpg",
+    "trajanjeMin": 117,
+    "godina": 2018,
+    "zanr": [
+      "Animirani",
+      "Akcija",
+      "Avantura"
+    ],
+    "reziser": [
+      "Bob Persichetti",
+      "Peter Ramsey",
+      "Rodney Rothman"
+    ],
+    "glumci": [
+      "Shameik Moore",
+      "Jake Johnson",
+      "Hailee Steinfeld"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/tg52up16eq0",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 5,
+    "dostupnoKomada": 4,
+    "cenaDnevno": 130,
+    "produkcija": "Columbia Pictures",
+    "budzet": "90 miliona $",
+    "boxOffice": "384.3 miliona $",
+    "jezik": "English",
+    "titlovi": [
+      "Serbian",
+      "English",
+      "Spanish"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ce96cec3dde96bfd2961"
+    },
+    "naslov": "The Grand Budapest Hotel",
+    "opis": "Pustolovine legendarnog konsijerža u čuvenom hotelu u Evropi između ratova i njegovog prijateljstva sa mladim zaposlenim koji postaje njegov poverljivi svedok.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMzM5NjUxOTEyMl5BMl5BanBnXkFtZTgwNjEyMDM0MDE@._V1_SX300.jpg",
+    "trajanjeMin": 99,
+    "godina": 2014,
+    "zanr": [
+      "Avantura",
+      "Komedija",
+      "Krimi"
+    ],
+    "reziser": [
+      "Wes Anderson"
+    ],
+    "glumci": [
+      "Ralph Fiennes",
+      "F. Murray Abraham",
+      "Mathieu Amalric"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/1Fg5iWmQjwk",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 4,
+    "dostupnoKomada": 3,
+    "cenaDnevno": 120,
+    "produkcija": "Fox Searchlight Pictures",
+    "budzet": "25 miliona $",
+    "boxOffice": "174.6 miliona $",
+    "jezik": "English",
+    "titlovi": [
+      "Serbian",
+      "English",
+      "French",
+      "German"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ce96cec3dde96bfd2962"
+    },
+    "naslov": "Coco",
+    "opis": "Aspirantni muzičar Miguel, suočen sa zabranama porodice muzike, uđe u Zemlju mrtvih kako bi pronašao svog pradedu, legendarnog pevača.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_SX300.jpg",
+    "trajanjeMin": 105,
+    "godina": 2017,
+    "zanr": [
+      "Animirani",
+      "Avantura",
+      "Komedija"
+    ],
+    "reziser": [
+      "Lee Unkrich",
+      "Adrian Molina"
+    ],
+    "glumci": [
+      "Anthony Gonzalez",
+      "Gael García Bernal",
+      "Benjamin Bratt"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/Rvr68u6k5sI",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 5,
+    "dostupnoKomada": 5,
+    "cenaDnevno": 150,
+    "produkcija": "Pixar Animation Studios",
+    "budzet": "175 miliona $",
+    "boxOffice": "807.1 miliona $",
+    "jezik": "English",
+    "titlovi": [
+      "Serbian",
+      "English",
+      "Spanish"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ce96cec3dde96bfd2963"
+    },
+    "naslov": "Joker",
+    "opis": "U Gotam Cityu, mentalno nestabilan komičar je gurnut u put ludila i nihilizma, podstičući revoluciju kriminala.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+    "trajanjeMin": 122,
+    "godina": 2019,
+    "zanr": [
+      "Krimi",
+      "Drama",
+      "Triler"
+    ],
+    "reziser": [
+      "Todd Phillips"
+    ],
+    "glumci": [
+      "Joaquin Phoenix",
+      "Robert De Niro",
+      "Zazie Beetz"
+    ],
+    "trailerUrl": "https://www.youtube.com/embed/zAGVQLHvwOY",
+    "ocene": [],
+    "komentari": [],
+    "ukupnoKomada": 5,
+    "dostupnoKomada": 2,
+    "cenaDnevno": 180,
+    "produkcija": "Warner Bros.",
+    "budzet": "55 miliona $",
+    "boxOffice": "1.074 milijardi $",
+    "jezik": "English",
+    "titlovi": [
+      "Serbian",
+      "English"
+    ]
+  }
+]

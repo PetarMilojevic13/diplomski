@@ -1,0 +1,1483 @@
+[
+  {
+    "_id": {
+      "$oid": "6915ee2dcec3dde96bfd297e"
+    },
+    "ime": "Adrian Molina",
+    "biografija": "Američki animator, scenarist i reditelj poznat po svom radu u Pixar Animation Studios. Ko-režirao je film 'Coco' koji je osvojio Oscara za najbolji animirani film. Molina je diplomirao na CalArts i pridružio se Pixar-u 2006. godine, gde je radio na mnogim projektima pre nego što je postao ko-režiser na 'Coco'.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BNzg3NjYyODM0N15BMl5BanBnXkFtZTgwMjQwMDMzNDM@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "23.08.1985",
+    "mestoRodjenja": "Yuma, Arizona, SAD",
+    "nagrade": [
+      "Oscar za najbolji animirani film - Coco (2018)",
+      "Golden Globe za najbolji animirani film - Coco (2018)",
+      "BAFTA za najbolji animirani film - Coco (2018)",
+      "Annie Award za režiju - Coco (2018)"
+    ],
+    "aktivanOd": 2006,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm2129662/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/adrian_molina"
+    },
+    "zanimljivosti": [
+      "Ko-režirao je Coco sa Lee Unkrichom",
+      "Takođe je bio ko-scenarist na Coco",
+      "Studirao je animaciju na California Institute of the Arts",
+      "Radio je kao story artist na Toy Story 3",
+      "Meksička kultura i muzika su bile velika inspiracija za Coco",
+      "Najmlađi režiser u Pixar-u kada je dobio tu ulogu"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ee2dcec3dde96bfd297f"
+    },
+    "ime": "Akira Kurosawa",
+    "biografija": "Japanski filmski režiser, scenarist i producent, jedan od najuticajnijih reditelja u istoriji filma. Njegove epske sage redefinisale su kinematografiju i uticale na generacije filmaša širom sveta. Poznat po samurajskim epovima, ali i po dramatičnim filmovima koji istražuju ljudsku prirodu.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BMTM3NDQxNDY3N15BMl5BanBnXkFtZTcwNTMxMjQyNA@@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "23.03.1910",
+    "mestoRodjenja": "Tokyo, Japan",
+    "nagrade": [
+      "Oscar za životno delo (1990)",
+      "Zlatna palma - Kagemusha (1980)",
+      "Zlatni lav za životno delo (1982)",
+      "Oscar za najbolji strani film - Dersu Uzala (1976)",
+      "Srebrni lav - Rashomon (1951)"
+    ],
+    "aktivanOd": 1943,
+    "aktivanDo": 1998,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0000041/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/akira_kurosawa"
+    },
+    "zanimljivosti": [
+      "Njegovo ime znači 'blistava mudrost' na japanskom",
+      "Seven Samurai inspirisao je brojne vesterne, uključujući The Magnificent Seven",
+      "George Lucas je priznao da je Star Wars inspirisan Hidden Fortress",
+      "Bio je slikar pre nego što je postao reditelj",
+      "Radio je sa Toshiro Mifunejem na 16 filmova",
+      "Rashomon je revolucionisao narativnu strukturu u filmu",
+      "Steven Spielberg i Martin Scorsese su bili veliki obožavaoci",
+      "Njegov film Ran je bio najskuplji japanski film u to vreme"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ee2dcec3dde96bfd2980"
+    },
+    "ime": "Andrew Stanton",
+    "biografija": "Američki filmski režiser, scenarist, producent i animator. Jedna od ključnih figura u usponu Pixar Animation Studios. Režirao je neke od najuspešnijih i najcenjenijih animiranih filmova uključujući Finding Nemo i WALL-E, oba su osvojila Oscara.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BMTczNTI2OTEzMF5BMl5BanBnXkFtZTcwNzk2MTAwNw@@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "03.12.1965",
+    "mestoRodjenja": "Rockport, Massachusetts, SAD",
+    "nagrade": [
+      "Oscar za najbolji animirani film - Finding Nemo (2004)",
+      "Oscar za najbolji animirani film - WALL-E (2009)",
+      "Golden Globe za najbolji animirani film - WALL-E (2009)",
+      "BAFTA za najbolji animirani film - WALL-E (2009)",
+      "Numerous Annie Awards"
+    ],
+    "aktivanOd": 1990,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0004056/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/andrew_stanton"
+    },
+    "zanimljivosti": [
+      "Napisao je scenario za Toy Story, prvi Pixar film",
+      "WALL-E ima samo 30 minuta dijaloga u celom filmu",
+      "Ko-napisao je scenario za A Bug's Life, Finding Nemo i Monsters, Inc.",
+      "Režirao je John Carter (2012), njegov prvi live-action film",
+      "Glas ribice Crush u Finding Nemo",
+      "Diplomirao je na California Institute of the Arts",
+      "Bio je jedan od originalnih zaposlenih u Pixar-u",
+      "Finding Dory je bio nastavak Finding Nemo-a 13 godina kasnije"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ee2dcec3dde96bfd2981"
+    },
+    "ime": "Anthony Russo",
+    "biografija": "Američki filmski i televizijski režiser, producent i scenarist. Zajedno sa svojim bratom Joeom Russo, čini reditelj duo poznat kao 'Russo Brothers'. Režirali su neke od najuspešnijih Marvel filmova uključujući Captain America: The Winter Soldier, Captain America: Civil War, Avengers: Infinity War i Avengers: Endgame.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BMTc5MDgyMDg4Ml5BMl5BanBnXkFtZTgwODYxNTg3MjE@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "03.02.1970",
+    "mestoRodjenja": "Cleveland, Ohio, SAD",
+    "nagrade": [
+      "Saturn Award za najbolju režiju - Avengers: Infinity War (2019)",
+      "Saturn Award za najbolju režiju - Avengers: Endgame (2020)",
+      "MTV Movie Award - Avengers: Endgame",
+      "People's Choice Award - Avengers: Endgame"
+    ],
+    "aktivanOd": 1997,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0751577/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/anthony_russo"
+    },
+    "zanimljivosti": [
+      "Avengers: Endgame je postao najuspešniji film svih vremena (privremeno)",
+      "Počeli su sa režijom na TV serijama kao što je Arrested Development i Community",
+      "Diplomirali su na Case Western Reserve University",
+      "Njihov debitantski film bio je Welcome to Collinwood (2002)",
+      "Bliska saradnja sa scenaristima Christopher Markusom i Stephen McFeely",
+      "Poznati po složenim akcijskim sekvencama",
+      "Cherry (2021) je bio njihov prvi film nakon Marvel-a",
+      "Infinity War i Endgame snimani su istovremeno"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ee2dcec3dde96bfd2982"
+    },
+    "ime": "Billy Wilder",
+    "biografija": "Austro-američki filmski režiser, scenarist i producent, jedan od najvažnijih stvaralaca Zlatnog doba Holivuda. Poznat po briljantnim scenarijima, oštrim dijalozima i majstorstvu u različitim žanrovima - od noir trilera do romantičnih komedija. Njegov rad ostavio je neizbrisiv trag na filmsku umetnost.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BMTMxNjAyODU2M15BMl5BanBnXkFtZTcwMDk5MTMyNA@@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "22.06.1906",
+    "mestoRodjenja": "Sucha, Austro-Ugarska (sada Poljska)",
+    "nagrade": [
+      "Oscar za najbolju režiju - The Lost Weekend (1946)",
+      "Oscar za najbolju režiju - The Apartment (1961)",
+      "Oscar za najbolji scenario - The Lost Weekend (1946)",
+      "Oscar za najbolji scenario - Sunset Boulevard (1951)",
+      "Oscar za najbolji scenario - The Apartment (1961)",
+      "AFI Life Achievement Award (1986)",
+      "Irving G. Thalberg Memorial Award (1988)"
+    ],
+    "aktivanOd": 1929,
+    "aktivanDo": 2002,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0000697/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/billy_wilder"
+    },
+    "zanimljivosti": [
+      "Pobegao je iz Nemačke kada su nacisti došli na vlast",
+      "Njegova majka, baka i brat ubijeni su u Auschwitzu",
+      "Govorio je pet jezika tečno",
+      "Napisao ili ko-napisao je sve svoje filmove",
+      "Some Like It Hot je smatran najboljom komedijom svih vremena",
+      "Često je radio sa scenaristom I.A.L. Diamondom",
+      "Imao je oštru repliku i ciničan humor",
+      "Njegova posmrtna poruka: 'I'm a writer, but then nobody's perfect' (referenca na Some Like It Hot)"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ee2dcec3dde96bfd2983"
+    },
+    "ime": "Bob Persichetti",
+    "biografija": "Američki animator i filmski režiser poznat po svom radu u Sony Pictures Animation. Ko-režirao je 'Spider-Man: Into the Spider-Verse' koji je osvojio Oscara za najbolji animirani film. Pre toga radio je kao story artist i head of story na brojnim animiranim projektima.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BMTY5MTMyNDgzMl5BMl5BanBnXkFtZTgwNzM3MjA0MzE@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "01.01.1973",
+    "mestoRodjenja": "SAD",
+    "nagrade": [
+      "Oscar za najbolji animirani film - Spider-Man: Into the Spider-Verse (2019)",
+      "Golden Globe za najbolji animirani film - Spider-Man: Into the Spider-Verse (2019)",
+      "BAFTA za najbolji animirani film - Spider-Man: Into the Spider-Verse (2019)",
+      "Annie Award za režiju - Spider-Man: Into the Spider-Verse (2019)"
+    ],
+    "aktivanOd": 2001,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0675060/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/bob_persichetti"
+    },
+    "zanimljivosti": [
+      "Ko-režirao Spider-Verse sa Peter Ramsey i Rodney Rothman",
+      "Bio je head of story na The Little Prince",
+      "Radio je kao story artist na Puss in Boots",
+      "Spider-Verse je revolucionisao animaciju kombinovanjem 2D i 3D tehnika",
+      "Film je imao jedinstveni 'comic book' vizuelni stil",
+      "Diplomirao na School of Visual Arts u New Yorku"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ee2dcec3dde96bfd2984"
+    },
+    "ime": "Bong Joon-ho",
+    "biografija": "Južnokorejski filmski režiser i scenarist, jedan od najznačajnijih savremenih autora. Poznat po socijalnim trilerima koji kombinuju različite žanrove i istražuju klasne razlike. Njegov film 'Parasite' postao je prvi ne-engleski film koji je osvojio Oscar za najbolji film.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BMTUwMDg5ODM4M15BMl5BanBnXkFtZTgwNjM3NDY2MDE@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "14.09.1969",
+    "mestoRodjenja": "Daegu, Južna Koreja",
+    "nagrade": [
+      "Oscar za najbolji film - Parasite (2020)",
+      "Oscar za najbolju režiju - Parasite (2020)",
+      "Oscar za najbolji originalni scenario - Parasite (2020)",
+      "Oscar za najbolji internacionalni film - Parasite (2020)",
+      "Zlatna palma - Parasite (2019)",
+      "BAFTA za najbolji film - Parasite (2020)",
+      "Golden Globe za najbolji strani film - Parasite (2020)"
+    ],
+    "aktivanOd": 2000,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0094435/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/joon_ho_bong"
+    },
+    "zanimljivosti": [
+      "Prvi korejski reditelj koji je osvojio Oscara",
+      "Parasite je osvojio 4 Oscara u jednoj noći",
+      "Studirao je sociologiju pre filma",
+      "Veliki obožavalac Alfred Hitchcocka",
+      "Memories of Murder je bio inspirisan stvarnim serijskim ubicom",
+      "Snowpiercer je bio njegov prvi engleski film",
+      "Okja je bio Netflix original",
+      "Poznat po metaforama i simbolizmu u filmovima",
+      "Često istražuje klasne razlike u društvu"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ee2dcec3dde96bfd2985"
+    },
+    "ime": "Bryan Singer",
+    "biografija": "Američki filmski režiser i producent poznat po X-Men serijalu filmova koji je pokrenuo modernu eru superherojskih filmova. Režirao je takođe 'The Usual Suspects', kritiči hvaljeni triler sa kultnim statusom.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BMTk0Mzc0OTkzN15BMl5BanBnXkFtZTcwNzk1MTM0Ng@@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "17.09.1965",
+    "mestoRodjenja": "New York City, SAD",
+    "nagrade": [
+      "BAFTA za najbolji film - The Usual Suspects (1996)",
+      "Saturn Award za najbolju režiju - X-Men (2001)",
+      "Saturn Award za najbolju režiju - X2 (2004)",
+      "Empire Award - X-Men: Days of Future Past (2015)"
+    ],
+    "aktivanOd": 1993,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0001741/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/bryan_singer"
+    },
+    "zanimljivosti": [
+      "X-Men (2000) je pokrenuo val superherojskih filmova",
+      "The Usual Suspects ima jedan od najpoznatijih plot twistova u istoriji",
+      "Studirao je na School of Cinematic Arts na USC",
+      "Njegov film Superman Returns (2006) bio je pokušaj oživljavanja franšize",
+      "Režirao je Bohemian Rhapsody pre nego što je zamenjen",
+      "Često radi sa scenaristom Christopherom McQuarriejem",
+      "X-Men: Days of Future Past kombinovao je dve timeline-a franšize"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ee2dcec3dde96bfd2986"
+    },
+    "ime": "Charles Chaplin",
+    "biografija": "Britanski komičar, reditelj, scenarist i kompozitor, jedna od najznačajnijih figura u istoriji filma. Njegova ikonična figura 'The Tramp' (Skitnica) postala je simbol ere nemih filmova. Pionir fizičke komedije i socijalnog komentara u filmu.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BYzJkYjgyNzQtNGFhZC00MTE3LWE4ODctMWM3MTM5OTRiZjkxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "16.04.1889",
+    "mestoRodjenja": "London, Engleska",
+    "nagrade": [
+      "Počasni Oscar za svestranost i genijalnost (1972)",
+      "Oscar za najbolju originalnu muziku - Limelight (1973)",
+      "Oscar za najbolju originalnu muziku - nominacija - The Great Dictator (1941)",
+      "Počasni Oscar - posebni doprinos filmu (1929)"
+    ],
+    "aktivanOd": 1914,
+    "aktivanDo": 1967,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0000122/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/charles_chaplin"
+    },
+    "zanimljivosti": [
+      "Nastavio je da pravi neme filmove nakon što je zvuk postao standard",
+      "The Tramp lik nosio je preuzane pantalone, uske sakoe i melon šešir",
+      "Komponovao je muziku za svoje filmove",
+      "Osnovao je United Artists sa D.W. Griffithom, Mary Pickford i Douglasom Fairbanksom",
+      "The Great Dictator bila je hrabra satira Hitlera",
+      "Modern Times bila je kritika industrijske revolucije",
+      "Bio je izgnан iz SAD zbog političkih stavova tokom McCarthyizma",
+      "Jedan od prvih globalnih filmskih zvezda"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ee2dcec3dde96bfd2987"
+    },
+    "ime": "Christopher Nolan",
+    "biografija": "Britanski filmski reditelj, scenarist i producent poznat po svojim cerebralno zahtevnim i vizuelno spektakularnim filmovima. Njegove priče često istražuju teme kao što su vreme, memorija, identitet i ljudska percepcija.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BNjE3NDQyOTYyMV5BMl5BanBnXkFtZTcwODcyODU2Mw@@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "30.07.1970",
+    "mestoRodjenja": "London, Engleska",
+    "nagrade": [
+      "Oscar za najbolju režiju - Oppenheimer (2024)",
+      "Golden Globe za najbolju režiju - Oppenheimer (2024)",
+      "BAFTA za najbolju režiju - Dunkirk (2018)",
+      "Numerous Critics' Choice Awards"
+    ],
+    "aktivanOd": 1998,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0634240/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/christopher_nolan"
+    },
+    "zanimljivosti": [
+      "Retko koristi CGI, preferira praktične efekte",
+      "Njegovi filmovi su zaradili preko 6 milijardi dolara širom sveta",
+      "Snima isključivo na film, a ne digitalno",
+      "Često sarađuje sa kompozitorom Hans Zimmerom",
+      "Ne koristi pametni telefon niti email",
+      "Inception je bio projekat koji je razvijao 10 godina",
+      "The Dark Knight trilogija redefinisala je superherojske filmove",
+      "Interstellar je konsultovan sa fizičarem Kipom Thorneom"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ef47cec3dde96bfd2989"
+    },
+    "ime": "David Fincher",
+    "biografija": "Američki filmski režiser poznat po mračnim, vizuelno sofisticiranim trilerima koji istražuju najcrnje aspekte ljudske prirode. Počeo je karijeru režirajući muzičke spotove za Madonna, Paula Abdul i druge zvezde pre nego što je prešao na film. Njegovi filmovi karakterišu perfekcionizam, tehnička preciznost i atmosfera koja ostaje sa gledaocem.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BMTc1NjUzNzkxMV5BMl5BanBnXkFtZTcwOTg5MTY3NA@@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "28.08.1962",
+    "mestoRodjenja": "Denver, Colorado, SAD",
+    "nagrade": [
+      "Golden Globe za najbolju režiju - The Social Network (2011)",
+      "BAFTA za najbolju režiju - The Social Network (2011)",
+      "Emmy Award za režiju - House of Cards (2013)",
+      "Saturn Award - Se7en (1996)",
+      "Numerous Critics' Choice Awards"
+    ],
+    "aktivanOd": 1984,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0000399/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/david_fincher"
+    },
+    "zanimljivosti": [
+      "Poznat po snimanju velikog broja dubla - ponekad preko 50 po sceni",
+      "Fight Club je bio komercijalni promašaj ali je postao kultni klasik",
+      "Režirao je ikonične muzičke spotove uključujući Madonna's 'Vogue'",
+      "The Social Network je bio prvi Facebook film",
+      "Gone Girl je bio adaptacija bestseler romana",
+      "Mank (2020) je bila posveta njegovom ocu koji je napisao scenario",
+      "Često sarađuje sa kompozitorima Trent Reznor i Atticus Ross",
+      "House of Cards je bila prva Netflix originalna serija koja je osvojila Emmy",
+      "Zodiac je bio detaljno istraživanje pravog serijskog ubice"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ef47cec3dde96bfd298a"
+    },
+    "ime": "Fernando Meirelles",
+    "biografija": "Brazilski filmski režiser i scenarist poznat po filmu 'City of God' (Cidade de Deus) koji je postao međunarodni fenomen. Počeo je karijeru režirajući reklame pre nego što je stvorio jedan od najuticajnijih latinoameričkih filmova. Njegov stil karakteriše dinamična kamera, energična montaža i socijalna svest.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BMTYzNzc0MjkwMl5BMl5BanBnXkFtZTcwNTE1Njk0Mg@@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "09.11.1955",
+    "mestoRodjenja": "São Paulo, Brazil",
+    "nagrade": [
+      "Nominacija za Oscar - najbolja režija - City of God (2004)",
+      "Nominacija za Oscar - najbolja režija - The Constant Gardener (2006)",
+      "BAFTA nominacija - City of God",
+      "Cannes Film Festival - nominacija za Zlatnu palmu",
+      "Golden Globe nominacija - The Constant Gardener"
+    ],
+    "aktivanOd": 1984,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0577987/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/fernando_meirelles"
+    },
+    "zanimljivosti": [
+      "City of God je bio zasnovan na stvarnim događajima u faveli u Rio de Janeiru",
+      "Film je koristio amaterske glumce iz favela",
+      "Revolucionarna kamera i montažna tehnika u City of God",
+      "The Constant Gardener je bio politički triler o farmaceutskim kompanijama",
+      "Režirao je Blindness sa Julianne Moore",
+      "Aktivista za ekološka pitanja",
+      "The Two Popes (2019) je bio Netflix film o Papi Benediktu i Papi Franju",
+      "Počeo je sa reklamama i TV serijama u Brazilu"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ef47cec3dde96bfd298b"
+    },
+    "ime": "Florian Henckel von Donnersmarck",
+    "biografija": "Nemački filmski režiser i scenarist poznat po intelektualno zahtevnim filmovima koji istražuju političke i moralne dileme. Njegov debitantski film 'The Lives of Others' (Das Leben der Anderen) osvojio je Oscara i postao jedan od najuspešnijih nemačkih filmova ikada.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BMjE5MTg2NTE4NF5BMl5BanBnXkFtZTcwODY0MjMwNA@@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "02.05.1973",
+    "mestoRodjenja": "Cologne, Nemačka",
+    "nagrade": [
+      "Oscar za najbolji strani film - The Lives of Others (2007)",
+      "BAFTA za najbolji film na stranom jeziku - The Lives of Others (2007)",
+      "Golden Globe za najbolji strani film - The Lives of Others (2007)",
+      "European Film Award za najbolji film - The Lives of Others (2006)"
+    ],
+    "aktivanOd": 2002,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0233612/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/florian_henckel_von_donnersmarck"
+    },
+    "zanimljivosti": [
+      "The Lives of Others bio je njegov prvi dugometražni film",
+      "Film istražuje nadzor u Istočnoj Nemačkoj pre pada Berlinskog zida",
+      "Potomak je nemačke aristokratije",
+      "Studirao je na HFF München (filmska škola u Minhenu)",
+      "Njegov drugi film The Tourist (2010) sa Angelinom Jolie i Johnnyjem Deppom",
+      "Never Look Away (2018) je bio nominovan za Oscara",
+      "Govori nekoliko jezika tečno",
+      "Poznat po dugimperiodima razvoja između filmova"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ef47cec3dde96bfd298c"
+    },
+    "ime": "Francis Ford Coppola",
+    "biografija": "Američki filmski režiser, producent i scenarist, jedna od najuticajnijih figura u istoriji holivudskog filma. Kreator legendarnog 'The Godfather' trilogije koja je redefinisala gangsterski žanr. Vizionar Novog Holivuda 1970-ih čiji rad je ostavio dubok uticaj na filmsku umetnost.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BMjIyNTY5NDQxMV5BMl5BanBnXkFtZTcwODY0NDIzNA@@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "07.04.1939",
+    "mestoRodjenja": "Detroit, Michigan, SAD",
+    "nagrade": [
+      "Oscar za najbolju režiju - The Godfather Part II (1975)",
+      "Oscar za najbolji scenario - The Godfather (1973)",
+      "Oscar za najbolji scenario - The Godfather Part II (1975)",
+      "Oscar za najbolji scenario - Patton (1971)",
+      "Zlatna palma - The Conversation (1974)",
+      "Zlatna palma - Apocalypse Now (1979)",
+      "Irving G. Thalberg Memorial Award (2010)"
+    ],
+    "aktivanOd": 1962,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0000338/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/francis_ford_coppola"
+    },
+    "zanimljivosti": [
+      "The Godfather je bio adaptacija romana Maria Puza",
+      "Apocalypse Now je bio kaotična produkcija u Filipinima",
+      "Otac glumice Sophie Coppola i producenta Romana Coppole",
+      "Osnovao je American Zoetrope studio",
+      "Otkrio je Georgea Lucasa",
+      "The Conversation je bio ahead of its time triler o nadzoru",
+      "Poseduje vinariju u Napa Valley",
+      "Megalopolis je njegov dugo očekivani projekat",
+      "Bio je mentor mladim redateljima kao što su George Lucas i Steven Spielberg"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ef47cec3dde96bfd298d"
+    },
+    "ime": "Frank Capra",
+    "biografija": "Italijansko-američki filmski režiser poznat po optimističnim filmovima o običnim ljudima koji se bore protiv korupcije i pohlepe. Majstor 'screwball' komedije i socijalnih drama. Njegovi filmovi slave američki duh i veru u dobrotu čoveka. Jedan od najvažnijih reditelja Zlatnog doba Holivuda.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BMTQzMzg1NTE2Nl5BMl5BanBnXkFtZTcwODEwMDIxNA@@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "18.05.1897",
+    "mestoRodjenja": "Bisacquino, Sicilija, Italija",
+    "nagrade": [
+      "Oscar za najbolju režiju - It Happened One Night (1935)",
+      "Oscar za najbolju režiju - Mr. Deeds Goes to Town (1937)",
+      "Oscar za najbolju režiju - You Can't Take It with You (1939)",
+      "AFI Life Achievement Award (1982)",
+      "Irving G. Thalberg Memorial Award (1943)"
+    ],
+    "aktivanOd": 1922,
+    "aktivanDo": 1961,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0001008/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/frank_capra"
+    },
+    "zanimljivosti": [
+      "It's a Wonderful Life postalo je božićni klasik iako je u početku bio neuspeh",
+      "It Happened One Night prvi film koji je osvojio 'Big Five' Oscara",
+      "Imigrant koji je postao jedan od najuspešnijih holivudskih reditelja",
+      "Režirao je propagandne filmove tokom Drugog svetskog rata (Why We Fight serija)",
+      "Meet John Doe je bio politički triler o populizmu",
+      "Poznat po 'Capracorn' - optimističnom pogledu na Ameriku",
+      "Radio je sa scenografom Robertom Riskin na mnogim filmovima",
+      "Mr. Smith Goes to Washington je bio politička satira",
+      "Osnivač Directors Guild of America"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ef47cec3dde96bfd298e"
+    },
+    "ime": "Frank Darabont",
+    "biografija": "Američki filmski režiser, scenarist i producent mađarskog porekla, poznat po adaptacijama dela Stephena Kinga. Kreirao je dva od najcenjenijih filmova svih vremena - 'The Shawshank Redemption' i 'The Green Mile'. Takođe poznat po svom radu na seriji 'The Walking Dead'.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BNjk0MTkxNzQwOF5BMl5BanBnXkFtZTcwODM5OTMwNA@@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "28.01.1959",
+    "mestoRodjenja": "Montbéliard, Francuska",
+    "nagrade": [
+      "Nominacija za Oscar - najbolji adaptirani scenario - The Shawshank Redemption (1995)",
+      "Nominacija za Oscar - najbolji adaptirani scenario - The Green Mile (2000)",
+      "Saturn Award - The Shawshank Redemption",
+      "Writers Guild Award - The Shawshank Redemption",
+      "Emmy nominacija - The Walking Dead"
+    ],
+    "aktivanOd": 1987,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0001104/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/frank_darabont"
+    },
+    "zanimljivosti": [
+      "The Shawshank Redemption je #1 na IMDb Top 250 lista",
+      "Born je u izbeglićkom kampu u Francuskoj",
+      "Porodica je emigrirala u SAD kada je imao 5 godina",
+      "Radio je u propratni biznis pre nego što je postao scenarist",
+      "Blizak prijatelj Stephena Kinga",
+      "Napisao je scenario za A Nightmare on Elm Street 3",
+      "The Mist (2007) je imao kontroverzan završetak",
+      "Kreirao je i producirao prvu sezonu The Walking Dead",
+      "The Green Mile je bio nominovan za 4 Oscara"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ef47cec3dde96bfd298f"
+    },
+    "ime": "Hayao Miyazaki",
+    "biografija": "Japanski animator, režiser, scenarist i mangaka, ko-osnivač Studio Ghibli. Jedna od najuticajnijih figura u istoriji animacije, često nazivan 'japanski Walt Disney'. Njegovi filmovi kombinuju fantastiku sa dubokim temama o ekologiji, pacifizmu i odrastanju. Majstor ručno crtane animacije.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BMTQxNTA2NzU4N15BMl5BanBnXkFtZTcwNzEzNjk1OA@@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "05.01.1941",
+    "mestoRodjenja": "Tokyo, Japan",
+    "nagrade": [
+      "Oscar za najbolji animirani film - Spirited Away (2003)",
+      "Zlatni lav za životno delo (2005)",
+      "Počasni Oscar za životno delo (2014)",
+      "Zlatni medved - Spirited Away (2002)",
+      "Annie Award za životno delo (1998)",
+      "Nebula Award - Nausicaä"
+    ],
+    "aktivanOd": 1963,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0594503/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/hayao_miyazaki"
+    },
+    "zanimljivosti": [
+      "Ko-osnovao je Studio Ghibli 1985. godine",
+      "Spirited Away je najuspešniji film u istoriji Japana",
+      "Najavio je penziju nekoliko puta ali nastavio sa radom",
+      "Jak zaštitnik životne sredine i pacifista",
+      "Njegove heroinje su često jake, nezavisne devojke",
+      "Princess Mononoke je bio njegov prvi film sa ozbiljnom ekološkom temom",
+      "My Neighbor Totoro postao je ikona japanske kulture",
+      "Ne voli CGI animaciju, preferira ručno crtanje",
+      "Howl's Moving Castle je bio adaptacija britanskog romana",
+      "The Wind Rises je bio njegov 'poslednji' film pre penzije"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ef47cec3dde96bfd2990"
+    },
+    "ime": "Irvin Kershner",
+    "biografija": "Američki filmski režiser i producent najpoznatiji po režiji 'The Empire Strikes Back', drugog filma u originalnoj Star Wars trilogiji i najcenjenijem filmu iz serijala. Radio je u različitim žanrovima tokom dugogodišnje karijere, ali je Empire zapečatio njegovo mesto u filmskoj istoriji.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BMTgyMzU5MzA5NV5BMl5BanBnXkFtZTcwMjAwMDMwMw@@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "29.04.1923",
+    "mestoRodjenja": "Philadelphia, Pennsylvania, SAD",
+    "nagrade": [
+      "Saturn Award za najbolju režiju - The Empire Strikes Back (1981)",
+      "Hugo Award nominacija - The Empire Strikes Back",
+      "BAFTA nominacija - The Empire Strikes Back"
+    ],
+    "aktivanOd": 1950,
+    "aktivanDo": 1999,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0449984/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/irvin_kershner"
+    },
+    "zanimljivosti": [
+      "George Lucas je izabrao Kershnera za Empire jer nije želeo da režira nastavak",
+      "Empire Strikes Back je najcenjiji Star Wars film među fanovima i kritičarima",
+      "'I am your father' trenutak je jedan od najvećih plot twist-ova u istoriji",
+      "Studirao je muziku pre nego što je prešao na film",
+      "Režirao je Never Say Never Again, 'neslužbeni' James Bond film sa Seanom Conneryjem",
+      "Bio je profesor filma na USC",
+      "The Eyes of Laura Mars (1978) bio je triler sa Faye Dunaway",
+      "RoboCop 2 (1990) bio je njegov poslednji veliki studijski film",
+      "Poznat po radu sa glumcima i karakternim razvojem"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ef47cec3dde96bfd2991"
+    },
+    "ime": "James Cameron",
+    "biografija": "Kanadsko-američki filmski režiser, producent, scenarist i istraživač, poznat po spektakularnim blockbuster filmovima i revolucionarnim vizuelnim efektima. Kreirao je neke od najuspešnijih filmova u istoriji uključujući Titanic i Avatar. Pionir u korišćenju CGI tehnologije i motion capture.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BMjA0MjU1ODQ2Nl5BMl5BanBnXkFtZTcwNjEyODY5OA@@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "16.08.1954",
+    "mestoRodjenja": "Kapuskasing, Ontario, Kanada",
+    "nagrade": [
+      "Oscar za najbolju režiju - Titanic (1998)",
+      "Oscar za najbolji film - Titanic (1998)",
+      "Oscar za montažu - Titanic (1998)",
+      "Golden Globe za najbolju režiju - Titanic (1998)",
+      "Golden Globe za najbolju režiju - Avatar (2010)",
+      "Saturn Award - numerousne nagrade",
+      "VES Award za vizuelne efekte"
+    ],
+    "aktivanOd": 1978,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0000116/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/james_cameron"
+    },
+    "zanimljivosti": [
+      "Avatar je bio najuspešniji film svih vremena (preko 2.9 milijardi dolara)",
+      "Titanic je bio najskuplji film ikada snimljen u vreme produkcije",
+      "Napravio je solo ronilačko putovanje do najdubljeg mesta na Zemlji (Mariana Trench)",
+      "Terminator franšiza je njegova kreacija",
+      "Aliens (1986) je bio akcioni nastavak Ridleyjevog Alien",
+      "The Abyss je bio pionir u vodenim CGI efektima",
+      "Avatar koristi revolucionarnu motion capture tehnologiju",
+      "Radi na 4 Avatar nastavaka istovremeno",
+      "Poznat po perfekcionizmu i zahtevnosti na setovima",
+      "Bio je vozač kamiona pre nego što je ušao u filmski biznis"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915ef47cec3dde96bfd2992"
+    },
+    "ime": "Joe Russo",
+    "biografija": "Američki filmski i televizijski režiser, producent i scenarist. Zajedno sa svojim bratom Anthonyem čini duo 'Russo Brothers'. Režirali su neke od najuspešnijih Marvel filmova uključujući Avengers: Infinity War i Avengers: Endgame koji je privremeno postao najuspešniji film svih vremena.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BYTYzMjAzMzAyNV5BMl5BanBnXkFtZTgwNzY2MjgzMzE@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "08.07.1971",
+    "mestoRodjenja": "Cleveland, Ohio, SAD",
+    "nagrade": [
+      "Saturn Award za najbolju režiju - Avengers: Infinity War (2019)",
+      "Saturn Award za najbolju režiju - Avengers: Endgame (2020)",
+      "MTV Movie Award - Avengers: Endgame",
+      "People's Choice Award - Avengers: Endgame",
+      "Emmy nominacija - Arrested Development"
+    ],
+    "aktivanOd": 1997,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0751648/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/joe_russo"
+    },
+    "zanimljivosti": [
+      "Avengers: Endgame zaradio je preko 2.798 milijardi dolara",
+      "Počeli su karijeru režirajući TV serije kao Community i Arrested Development",
+      "Mlađi brat od Anthonyja Russo",
+      "Diplomirali su na Case Western Reserve University",
+      "Captain America: The Winter Soldier označio je početak MCU uspona",
+      "Civil War je bio praktično Avengers 2.5 film",
+      "Poznati po emotivnoj dubini u superherojskim filmovima",
+      "Infinity War i Endgame snimani su back-to-back",
+      "Često se pojavljuju u cameo ulogama u svojim filmovima",
+      "The Gray Man (2022) je bio njihov Netflix akcioni film"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915f00dcec3dde96bfd2994"
+    },
+    "ime": "Jonathan Demme",
+    "biografija": "Američki filmski režiser, producent i scenarist poznat po raznovrsnoj karijeri koja obuhvata trilere, drame, komedije i dokumentarce. Najpoznatiji po psihološkom trileru 'The Silence of the Lambs' koji je osvojio svih 'Big Five' Oscara. Radio je sa širokim spektrom umetnika i često eksperimentisao sa različitim žanrovima.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BMTUzMTY4NjI2N15BMl5BanBnXkFtZTcwMTI4MjUxMw@@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "22.02.1944",
+    "mestoRodjenja": "Baldwin, New York, SAD",
+    "nagrade": [
+      "Oscar za najbolju režiju - The Silence of the Lambs (1992)",
+      "Golden Globe za najbolju režiju - The Silence of the Lambs (1992)",
+      "BAFTA za najbolju režiju - The Silence of the Lambs (1992)",
+      "Directors Guild Award - The Silence of the Lambs",
+      "Berlin Film Festival Silver Bear - Something Wild (1987)"
+    ],
+    "aktivanOd": 1974,
+    "aktivanDo": 2017,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0001129/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/jonathan_demme"
+    },
+    "zanimljivosti": [
+      "The Silence of the Lambs je drugi film koji je osvojio 'Big Five' Oscara",
+      "Režirao je brojne koncertne filmove uključujući Stop Making Sense (Talking Heads)",
+      "Philadelphia (1993) bio je jedan od prvih mainstream filmova o AIDS-u",
+      "Počeo je karijeru radeći za Rogera Cormana",
+      "Rachel Getting Married (2008) je bio intimna porodična drama",
+      "Režirao je epizode Netflixove serije Bloodline",
+      "Poznat po korišćenju close-up kadrova gde glumci gledaju direktno u kameru",
+      "Veliki ljubitelj muzike - režirao je dokumentarac o Neil Young",
+      "Something Wild je bio quirky romantični triler"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915f00dcec3dde96bfd2995"
+    },
+    "ime": "Kátia Lund",
+    "biografija": "Brazilsko-američka filmska rediteljka, scenaristica i producent. Ko-režirala je međunarodni hit 'City of God' (Cidade de Deus) sa Fernandom Meirellesom. Poznata po autentičnom prikazivanju brazilske kulture favela i radu sa lokalnim zajednicama. Nastavila je da radi na projektima koji istražuju socijalne teme.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BMTc5NjYwMzI1MV5BMl5BanBnXkFtZTcwNzQ2NjQzMw@@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "01.01.1966",
+    "mestoRodjenja": "São Paulo, Brazil",
+    "nagrade": [
+      "Nominacija za Oscar - najbolja režija - City of God (2004)",
+      "BAFTA nominacija - City of God",
+      "Sundance Film Festival nagrade za dokumentarne filmove",
+      "Emmy nominacija za režiju"
+    ],
+    "aktivanOd": 1995,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0526942/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/katia_lund"
+    },
+    "zanimljivosti": [
+      "Ko-režirala City of God sa Fernandom Meirellesom",
+      "Provela je godine živeći i radeći u favelama Rio de Janeira",
+      "Režirala je City of Men TV seriju, spin-off City of God",
+      "Radila je kao dokumentarista pre prelaska na igrane filmove",
+      "News from a Personal War je bio njen dokumentarac o nasilju u favelama",
+      "Aktivna u edukaciji mladih iz marginalizovanih zajednica",
+      "Dvojno državljanstvo - SAD i Brazil",
+      "Pioneering work sa neprofesonalnim glumcima iz favela"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915f00dcec3dde96bfd2996"
+    },
+    "ime": "Lana Wachowski",
+    "biografija": "Američka filmska rediteljka, scenaristica i producent, jedna polovina kreativnog dua 'Wachowskis'. Zajedno sa sestrom Lilly kreirala je revolucionarnu 'The Matrix' trilogiju koja je promenila naučnu fantastiku i akcioni film. Poznata po filozofski zahtevnim temama, novatorskim vizuelnim efektima i queer perspektivama.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BMTU0ODQ1OTE0MF5BMl5BanBnXkFtZTcwMzYzMzU1Mw@@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "21.06.1965",
+    "mestoRodjenja": "Chicago, Illinois, SAD",
+    "nagrade": [
+      "Saturn Award - The Matrix (2000)",
+      "BAFTA nominacija - The Matrix",
+      "Hugo Award - The Matrix",
+      "MTV Movie Award - The Matrix",
+      "Saturn Award - Cloud Atlas (2013)"
+    ],
+    "aktivanOd": 1996,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0905152/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/lana_wachowski"
+    },
+    "zanimljivosti": [
+      "The Matrix je revolucionisao akcione filmove sa 'bullet time' efektom",
+      "Jedna od prvih trans rediteljki u Hollywoodu",
+      "Bound (1996) je bio njihov debitantski neo-noir triler",
+      "The Matrix je inspirisan filozofijom, cyberpunk literaturom i Hong Kong akcijom",
+      "Speed Racer (2008) je bio vizuelno revolucionaran ali komercijalni promašaj",
+      "Cloud Atlas (2012) je bio ambiozna adaptacija romana Davida Mitchella",
+      "V for Vendetta (2005) je producirala (režirao James McTeigue)",
+      "Sense8 je bila njihova Netflix serija o globalnoj empatiji",
+      "The Matrix Resurrections (2021) je režirala sama, bez Lilly"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915f00dcec3dde96bfd2997"
+    },
+    "ime": "Lee Unkrich",
+    "biografija": "Američki filmski režiser, montažer i scenarist, dugogodišnji Pixar veteran. Režirao je brojne kritički hvaljene animirane filmove uključujući 'Toy Story 3' koji je osvojio Oscara i 'Coco' koji je takođe osvojio Oscara. Jedna od ključnih figura u usponu Pixar Animation Studios.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BMTc0NjgxMjM1MV5BMl5BanBnXkFtZTcwNjA4NDQwOA@@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "08.08.1967",
+    "mestoRodjenja": "Cleveland, Ohio, SAD",
+    "nagrade": [
+      "Oscar za najbolji animirani film - Toy Story 3 (2011)",
+      "Oscar za najbolji animirani film - Coco (2018)",
+      "Golden Globe za najbolji animirani film - Toy Story 3 (2011)",
+      "Golden Globe za najbolji animirani film - Coco (2018)",
+      "BAFTA za najbolji animirani film - Toy Story 3 (2011)",
+      "Annie Award za režiju - Toy Story 3 i Coco"
+    ],
+    "aktivanOd": 1994,
+    "aktivanDo": 2019,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0881279/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/lee_unkrich"
+    },
+    "zanimljivosti": [
+      "Radio je kao montažer na Toy Story, A Bug's Life i Toy Story 2",
+      "Ko-režirao je Toy Story 2, Monsters Inc. i Finding Nemo",
+      "Toy Story 3 je zaradio preko milijardu dolara",
+      "Coco je bio inspirisan meksičkim Dia de los Muertos празником",
+      "Veliki fan horor filmova, posebno The Shining",
+      "Diplomirao na USC School of Cinematic Arts",
+      "Napustio je Pixar 2019. godine nakon 25 godina",
+      "Poznat po emotivnoj dubini u animiranim filmovima",
+      "Toy Story 3 završetak je bio emotivno devastirajući za mnoge fanove"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915f00dcec3dde96bfd2998"
+    },
+    "ime": "Lilly Wachowski",
+    "biografija": "Američka filmska rediteljka, scenaristica i producent, druga polovina kreativnog dua 'Wachowskis'. Zajedno sa sestrom Lanom kreirala je 'The Matrix' trilogiju. Poznata po revolucionarnim vizuelnim efektima, filozofskim temama i queer narativima. Jedna od pionirki trans vidljivosti u Hollywoodu.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BMTc4MjI4MDgxNl5BMl5BanBnXkFtZTcwNTU4NTEwOA@@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "29.12.1967",
+    "mestoRodjenja": "Chicago, Illinois, SAD",
+    "nagrade": [
+      "Saturn Award - The Matrix (2000)",
+      "BAFTA nominacija - The Matrix",
+      "Hugo Award - The Matrix",
+      "MTV Movie Award - The Matrix",
+      "Saturn Award - Cloud Atlas (2013)"
+    ],
+    "aktivanOd": 1996,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0905154/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/lilly_wachowski"
+    },
+    "zanimljivosti": [
+      "Mlađa sestra Lane Wachowski",
+      "Javno je objavila svoju trans tranziciju 2016. godine",
+      "Nije učestvovala u The Matrix Resurrections",
+      "Ko-kreatorka Sense8 Netflix serije",
+      "Radila je sa sestrom na svim Wachowski projektima do 2016",
+      "Bound je bio njihov prvi film - lezbijski neo-noir",
+      "Jupiter Ascending (2015) je bio njihov posle dnji zajednički film",
+      "Režirala je epizode Showtime serije Work in Progress",
+      "The Matrix je imao jaku trans alegoriju prema rečima obe sestara"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915f00dcec3dde96bfd2999"
+    },
+    "ime": "Luc Besson",
+    "biografija": "Francuski filmski režiser, scenarist i producent poznat po vizuelno spektakularnim akcijskim filmovima i evropskim blockbusterima. Kreirao je kultne filmove kao što su 'Léon: The Professional' i 'The Fifth Element'. Osnivač produkcijske kompanije EuropaCorp.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BMTc4MTc3NDQ1MF5BMl5BanBnXkFtZTcwNzA3MzU1Mw@@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "18.03.1959",
+    "mestoRodjenja": "Paris, Francuska",
+    "nagrade": [
+      "César Award - najbolji režiser - Le Grand Bleu (1989)",
+      "European Film Award nominacija - Léon: The Professional",
+      "Saturn Award nominacija - The Fifth Element (1998)",
+      "Lumières Award - Lucy (2015)"
+    ],
+    "aktivanOd": 1981,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0000108/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/luc_besson"
+    },
+    "zanimljivosti": [
+      "Hteo je da postane mornarički ronilac pre nego što je postao reditelj",
+      "Léon imao je kultni status - Natalie Portman u prvoj ulozi",
+      "The Fifth Element je bio najskuplji evropski film u vreme produkcije",
+      "Lucy sa Scarlett Johansson zaradio je preko 450 miliona dolara",
+      "Nikita (La Femme Nikita) je bio remake-ovan u Hollywoodu",
+      "Osnovao je EuropaCorp, veliku produkcijsku kuću",
+      "Producirao je Taken franšizu sa Liamom Neesonom",
+      "Valerian and the City of a Thousand Planets je bio komercijalni promašaj",
+      "Poznat po snimanju u francuskom jeziku ali sa internacionalnom privlačnošću"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915f00dcec3dde96bfd299a"
+    },
+    "ime": "Martin Scorsese",
+    "biografija": "Američki filmski režiser, producent, scenarist i glumac, jedan od najuticajnijih reditelja u istoriji filma. Majstor kriminalističkih drama, biografija i istorijskih epova. Njegov rad karakteriše tehnička virtuoznost, brutalna realnost i duboko razumevanje ljudske prirode. Živi legend holivudskog filma.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BMTcyNDA4Nzk3N15BMl5BanBnXkFtZTcwNDYzMjMxMw@@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "17.11.1942",
+    "mestoRodjenja": "New York City, SAD",
+    "nagrade": [
+      "Oscar za najbolju režiju - The Departed (2007)",
+      "Golden Globe za najbolju režiju - The Departed (2007)",
+      "BAFTA za najbolju režiju - The Departed (2007)",
+      "Zlatna palma - Taxi Driver (1976)",
+      "AFI Life Achievement Award (1997)",
+      "Kennedy Center Honors (2007)",
+      "Cecil B. DeMille Award (2010)"
+    ],
+    "aktivanOd": 1967,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0000217/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/martin_scorsese"
+    },
+    "zanimljivosti": [
+      "Dugogodišnja saradnja sa Robertom De Nirom (9 filmova)",
+      "Goodfellas je smatran najboljim gangsterskim filmom svih vremena",
+      "Raging Bull je bio crno-beli biografski film o bokseru Jake LaMotta",
+      "Taxi Driver je kultni psiho-triler sa ikonskom Travis Bickle ulogom",
+      "The Irishman (2019) je bio Netflix epic sa De Nirom, Pacinom i Peścijem",
+      "Veliki zaštitnik filmske istorije i filmske umetnosti",
+      "Casino, The Wolf of Wall Street - sve o pohlepi i moći",
+      "Počeo je da studira za sveštenstvo pre nego što je otkrio film",
+      "Silence (2016) je bio njegov passion project o jezuitskim misionarima"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915f00dcec3dde96bfd299b"
+    },
+    "ime": "Michael Curtiz",
+    "biografija": "Mađarsko-američki filmski režiser, jedan od najprolifiknijih i najsvestranijih reditelja Zlatnog doba Holivuda. Režirao je preko 100 filmova u raznim žanrovima. Najpoznatiji po klasiku 'Casablanca', jednom od najcenjenijih filmova svih vremena. Majstor vizuelnog stila i atmosfere.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BMTQ4MjEyOTM1NV5BMl5BanBnXkFtZTcwMzI5Mzk0NA@@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "24.12.1886",
+    "mestoRodjenja": "Budapest, Austro-Ugarska (sada Mađarska)",
+    "nagrade": [
+      "Oscar za najbolju režiju - Casablanca (1944)",
+      "Golden Globe za najbolju režiju - nominacija",
+      "Directors Guild Award nominacija"
+    ],
+    "aktivanOd": 1912,
+    "aktivanDo": 1961,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0002030/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/michael_curtiz"
+    },
+    "zanimljivosti": [
+      "Casablanca je snimljena za samo 3 meseca",
+      "Režirao je Errol Flynn u brojnim avanturama (Robin Hood, Captain Blood)",
+      "Rođen kao Manó Kaminer u Budimpešti",
+      "Bežao je iz Mađarske tokom Bele Kun komunističkog režima",
+      "Yangee Doodle Dandy sa Jamesom Cagneyem je bio patriotski mjuzikl",
+      "Mildred Pierce je bio noir film sa Joan Crawford",
+      "Govorio je lomljeni engleski sa jakim akcentom",
+      "Poznat po brutalnom tretmanu glumaca na setu",
+      "Režirao je u tihoj eri, prelaznoj eri i zvučnoj eri filma"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915f00dcec3dde96bfd299c"
+    },
+    "ime": "Milos Forman",
+    "biografija": "Češko-američki filmski režiser poznat po britanskim i američkim filmovima koji istražuju individualne slobode protiv autoritarnih sistema. Osvojio je dva Oscara za najbolju režiju za 'One Flew Over the Cuckoo's Nest' i 'Amadeus'. Oba filma su osvojila 'Big Five' Oscara.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BMTQwMTc3NTA3M15BMl5BanBnXkFtZTcwOTAyNjk3OA@@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "18.02.1932",
+    "mestoRodjenja": "Čáslav, Čehoslovačka",
+    "nagrade": [
+      "Oscar za najbolju režiju - One Flew Over the Cuckoo's Nest (1976)",
+      "Oscar za najbolju režiju - Amadeus (1985)",
+      "Golden Globe za najbolju režiju - One Flew Over the Cuckoo's Nest (1976)",
+      "Golden Globe za najbolju režiju - Amadeus (1985)",
+      "BAFTA za najbolju režiju - Amadeus (1985)",
+      "Cannes Film Festival - Grand Prix - The Firemen's Ball (1968)"
+    ],
+    "aktivanOd": 1963,
+    "aktivanDo": 2018,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0001232/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/milos_forman"
+    },
+    "zanimljivosti": [
+      "Oba roditelja su umrla u nacističkim koncentracionim logorima",
+      "Napustio je Čehoslovačku nakon sovjetske invazije 1968.",
+      "One Flew Over the Cuckoo's Nest je osvojio svih 'Big Five' Oscara",
+      "Amadeus je bio biopic o Mozartu viđen kroz oči Salierija",
+      "Hair (1979) je bila adaptacija anti-ratnog mjuzikla",
+      "The People vs. Larry Flynt (1996) je bio o osnivač Hustler magazina",
+      "Man on the Moon (1999) je bio biopic o komiću Andyju Kaufmanu",
+      "Predavao je film na Columbia University",
+      "Goya's Ghosts (2006) je bio istorijski film o španskoj inkviziciji"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915f00dcec3dde96bfd299d"
+    },
+    "ime": "Peter Jackson",
+    "biografija": "Novozelandski filmski režiser, scenarist i producent, najpoznatiji po epskoj 'The Lord of the Rings' trilogiji koja je redefinisala fantasy film. Osvojio je brojne Oscare i stvorio jednu od najuspešnijih filmskih franšiza u istoriji. Pionir u korišćenju CGI tehnologije i motion capture.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BMTc0NTE4MTQ5Ml5BMl5BanBnXkFtZTcwMzQxMjE1Mw@@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "31.10.1961",
+    "mestoRodjenja": "Wellington, Novi Zeland",
+    "nagrade": [
+      "Oscar za najbolju režiju - The Lord of the Rings: The Return of the King (2004)",
+      "Oscar za najbolji film - The Return of the King (2004)",
+      "Oscar za najbolji adaptirani scenario - The Return of the King (2004)",
+      "Golden Globe za najbolju režiju - The Return of the King (2004)",
+      "BAFTA za najbolju režiju - The Return of the King (2004)",
+      "Saturn Award - numerous nagrade",
+      "Hugo Award - The Fellowship of the Ring"
+    ],
+    "aktivanOd": 1987,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0001392/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/peter_jackson"
+    },
+    "zanimljivosti": [
+      "The Return of the King je osvojio svih 11 Oscara za koje je bio nominovan",
+      "LOTR trilogija je snimana istovremeno tokom 438 dana",
+      "Počeo je sa low-budget horror komedijama (Bad Taste, Braindead)",
+      "Osnovao je Weta Workshop i Weta Digital za vizuelne efekte",
+      "The Hobbit trilogija je takođe snimana u Novom Zelandu",
+      "Heavenly Creatures (1994) je bio njegov prvi mainstream uspeh",
+      "Restaurirao je WWI dokumentarac They Shall Not Grow Old",
+      "King Kong (2005) je bio njegov remake klasika iz 1933",
+      "Veliki fan J.R.R. Tolkiena od detinjstva",
+      "Novi Zeland postao je turistička destinacija zahvaljujući LOTR"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915f12bcec3dde96bfd299f"
+    },
+    "ime": "Peter Ramsey",
+    "biografija": "Američki filmski režiser, storyboard artist i ilustrator poznat po svom radu na animiranim filmovima. Ko-režirao je revolucionarni 'Spider-Man: Into the Spider-Verse' koji je osvojio Oscara za najbolji animirani film. Bio je prvi Afro-Amerikanac koji je režirao Oscar-winning animirani film.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BMjQwMDczOTMyNl5BMl5BanBnXkFtZTgwNjUwNzA4MzE@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "23.12.1962",
+    "mestoRodjenja": "Los Angeles, California, SAD",
+    "nagrade": [
+      "Oscar za najbolji animirani film - Spider-Man: Into the Spider-Verse (2019)",
+      "Golden Globe za najbolji animirani film - Spider-Man: Into the Spider-Verse (2019)",
+      "BAFTA za najbolji animirani film - Spider-Man: Into the Spider-Verse (2019)",
+      "Annie Award za režiju - Spider-Man: Into the Spider-Verse (2019)",
+      "Critics' Choice Award - Spider-Man: Into the Spider-Verse"
+    ],
+    "aktivanOd": 1997,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0708388/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/peter_ramsey"
+    },
+    "zanimljivosti": [
+      "Ko-režirao Spider-Verse sa Bob Persichetti i Rodney Rothman",
+      "Prvi Afro-Amerikanac koji je režirao animirani film koji je osvojio Oscara",
+      "Režirao je Rise of the Guardians (2012) za DreamWorks",
+      "Radio je kao storyboard artist na brojnim filmovima uključujući Minority Report",
+      "Studirao je ilustraciju na Art Center College of Design",
+      "Spider-Verse je imao jedinstveni animacioni stil koji kombinuje 2D i 3D",
+      "Film je bio posveta Strip kulturi i raznolikosti",
+      "Mentor mladim animatorima boje"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915f12bcec3dde96bfd29a0"
+    },
+    "ime": "Quentin Tarantino",
+    "biografija": "Američki filmski režiser, scenarist, producent i glumac, jedan od najuticajnijih i najprepoznatljivijih autora u savremenoj kinematografiji. Poznat po nelinearnim narativima, stilizovanom nasilju, oštrим dijalozima i opsežnim referencama na pop kulturu. Njegovi filmovi su redefinisali nezavisni film i uticali na generacije filmaša.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BMTgyMjI3ODA3Nl5BMl5BanBnXkFtZTcwNzY2MDYxOQ@@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "27.03.1963",
+    "mestoRodjenja": "Knoxville, Tennessee, SAD",
+    "nagrade": [
+      "Oscar za najbolji originalni scenario - Pulp Fiction (1995)",
+      "Oscar za najbolji originalni scenario - Django Unchained (2013)",
+      "Zlatna palma - Pulp Fiction (1994)",
+      "BAFTA za najbolji originalni scenario - Pulp Fiction",
+      "Golden Globe za najbolji scenario - Django Unchained",
+      "Numerous Critics' Choice Awards"
+    ],
+    "aktivanOd": 1992,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0000233/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/quentin_tarantino"
+    },
+    "zanimljivosti": [
+      "Radio je u video klubu pre nego što je postao reditelj",
+      "Pulp Fiction je postao kulturni fenomen i redefinisao nezavisni film",
+      "Kill Bill je bio njegov homaž kung-fu filmovima",
+      "Inglourious Basterds je bila alternativna istorija o Drugom svetskom ratu",
+      "Django Unchained je bio njegovi 'Southern' western",
+      "Once Upon a Time in Hollywood je bio ljubavno pismo Hollywoodu 1969",
+      "Nikada nije pohađao filmsku školu",
+      "Često glumi u svojim filmovima",
+      "Planira da se povuče nakon 10. filma",
+      "The Hateful Eight je snimljen u Ultra Panavision 70mm formatu"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915f12bcec3dde96bfd29a1"
+    },
+    "ime": "Ridley Scott",
+    "biografija": "Britanski filmski režiser i producent poznat po vizuelno spektakularnim filmovima koji obuhvataju naučnu fantastiku, istorijske epove i trilere. Kreirao je neke od najuticajnijih sci-fi filmova ('Alien', 'Blade Runner') i redefinisao žanr. Majstor atmosfere, vizuelnog dizajna i epske kinematografije.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BMTYzMTczMjUxM15BMl5BanBnXkFtZTcwNTgzOTM0OA@@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "30.11.1937",
+    "mestoRodjenja": "South Shields, Engleska",
+    "nagrade": [
+      "Golden Globe za najbolju režiju - The Martian (2016)",
+      "BAFTA Fellowship Award (2018)",
+      "Saturn Award - Alien, Blade Runner, Gladiator",
+      "Nominacija za Oscar - najbolja režija - Thelma & Louise (1992)",
+      "Nominacija za Oscar - najbolja režija - Gladiator (2001)",
+      "Nominacija za Oscar - najbolja režija - Black Hawk Down (2002)"
+    ],
+    "aktivanOd": 1965,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0000631/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/ridley_scott"
+    },
+    "zanimljivosti": [
+      "Alien je revolucionisao naučnu fantastiku i horor",
+      "Blade Runner je kultni klasik cyberpunk žanra",
+      "Gladiator je osvojio 5 Oscara uključujući najbolji film",
+      "Počeo je kao dizajner i režirao je reklame",
+      "Njegov 1984 Apple Macintosh reklama je ikonična",
+      "The Martian je bio optimistični sci-fi film",
+      "Black Hawk Down je bio brutalan ratni film",
+      "Thelma & Louise je bio feminist road movie",
+      "Prometheus je bio 'prequel' Alien-u",
+      "Redovno radi nekoliko projekata istovremeno"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915f12bcec3dde96bfd29a2"
+    },
+    "ime": "Rob Minkoff",
+    "biografija": "Američki filmski režiser i animator poznat po svom radu na animiranim filmovima, naročito Disney klasiku 'The Lion King'. Ko-režirao je sa Roger Allers jedan od najuspešnijih animiranih filmova svih vremena. Nastavio je karijeru sa živim akcijama i hibridnim filmovima.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BMTQwMTYyODMxMl5BMl5BanBnXkFtZTcwMDQyNTk2Mg@@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "11.08.1962",
+    "mestoRodjenja": "Palo Alto, California, SAD",
+    "nagrade": [
+      "Annie Award za režiju - The Lion King (1995)",
+      "Golden Globe nominacija - The Lion King",
+      "Saturn Award nominacija - Stuart Little",
+      "Kids' Choice Award - Stuart Little"
+    ],
+    "aktivanOd": 1983,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0591450/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/rob_minkoff"
+    },
+    "zanimljivosti": [
+      "Ko-režirao The Lion King sa Roger Allers",
+      "The Lion King je zaradio preko 960 miliona dolara",
+      "Film je adaptiran u Broadway mjuzikl koji traje decenijama",
+      "Režirao je Stuart Little (1999) - pionirski CGI miš u live-action svetu",
+      "Stuart Little 2 (2002) je takođe režirao",
+      "The Haunted Mansion (2003) sa Eddie Murphyem",
+      "Mr. Peabody & Sherman (2014) je bio DreamWorks animacija",
+      "Studirao je na California Institute of the Arts",
+      "Radio je na Mickey's Christmas Carol kao animator"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915f12bcec3dde96bfd29a3"
+    },
+    "ime": "Robert Zemeckis",
+    "biografija": "Američki filmski režiser, producent i scenarist poznat po tehnički inovativnim filmovima koji kombinuju srce sa cutting-edge vizuelnim efektima. Kreirao je kultne klasike kao 'Back to the Future' trilogiju, 'Forrest Gump' i 'Who Framed Roger Rabbit'. Pionir u digitalnoj kinematografiji i motion capture tehnologiji.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BMTgyMTMzNzU3MF5BMl5BanBnXkFtZTcwODA0ODMyMw@@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "14.05.1951",
+    "mestoRodjenja": "Chicago, Illinois, SAD",
+    "nagrade": [
+      "Oscar za najbolju režiju - Forrest Gump (1995)",
+      "Golden Globe za najbolju režiju - Forrest Gump (1995)",
+      "Saturn Award - Back to the Future, Who Framed Roger Rabbit",
+      "Hugo Award - Back to the Future",
+      "BAFTA nominacija - Forrest Gump"
+    ],
+    "aktivanOd": 1972,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0000709/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/robert_zemeckis"
+    },
+    "zanimljivosti": [
+      "Back to the Future trilogija je kulturni fenomen",
+      "Forrest Gump je zaradio preko 677 miliona dolara",
+      "Who Framed Roger Rabbit kombinovao je live-action sa animacijom",
+      "Cast Away imao je godinu pauze da Tom Hanks izgubi težinu",
+      "The Polar Express (2004) je bio pionir motion capture animacije",
+      "Studirao je na USC School of Cinematic Arts",
+      "Steven Spielberg je bio njegov mentor",
+      "Death Becomes Her imao je revolucionarne CGI efekte",
+      "Contact (1997) je bio njegov sci-fi film sa Jodie Foster",
+      "Beowulf i A Christmas Carol su bili motion capture filmovi"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915f12bcec3dde96bfd29a4"
+    },
+    "ime": "Roberto Benigni",
+    "biografija": "Italijanski glumac, komičar, scenarist i režiser poznat po fizičkoj komediji i optimističnom stilu. Kreirao je i glavnu ulogu igrao u 'Life is Beautiful' (La vita è bella), filmu koji je osvojio tri Oscara. Jedna od najcenjenijih italijanskih filmskih figura savremenog doba.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BMTY3ODMxMjI1MV5BMl5BanBnXkFtZTcwMjU4MTczMQ@@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "27.10.1952",
+    "mestoRodjenja": "Manciano La Misericordia, Italija",
+    "nagrade": [
+      "Oscar za najboljeg glumca - Life is Beautiful (1999)",
+      "Oscar za najbolji strani film - Life is Beautiful (1999)",
+      "Oscar za najbolji originalni scenario - Life is Beautiful (1999)",
+      "BAFTA za najboljeg glumca - Life is Beautiful",
+      "Cannes Film Festival - Grand Prix - Life is Beautiful (1998)",
+      "Screen Actors Guild Award"
+    ],
+    "aktivanOd": 1977,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0000905/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/roberto_benigni"
+    },
+    "zanimljivosti": [
+      "Režirao, napisao scenario i glumio u Life is Beautiful",
+      "Prvi glumac koji je osvojio Oscara za performans na stranom jeziku od Sophije Loren",
+      "Njegova zahvalnica na Oscarima bila je energična i emotivna",
+      "Film kombinuje komediju sa tragedijom Holokausta",
+      "Il Mostro (1994) je bila njegova komedija pre Life is Beautiful",
+      "Pinocchio (2002) je režirao i glumio u ulozi Pinocchia",
+      "Poznat po fizičkoj komediji u stilu Chaplina",
+      "Blizak prijatelj i saradnik sa Federico Fellinijem",
+      "Johnny Stecchino (1991) je bio ogroman hit u Italiji"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915f12bcec3dde96bfd29a5"
+    },
+    "ime": "Rodney Rothman",
+    "biografija": "Američki scenarist, producent i režiser poznat po svom radu na komedijama i animiranim projektima. Ko-režirao je revolucionarni 'Spider-Man: Into the Spider-Verse' koji je osvojio Oscara. Ranije je radio kao scenarist na različitim TV serijama i filmovima.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BMjI3MDM0NTg4NV5BMl5BanBnXkFtZTgwMDU5NDk4MzE@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "01.01.1970",
+    "mestoRodjenja": "SAD",
+    "nagrade": [
+      "Oscar za najbolji animirani film - Spider-Man: Into the Spider-Verse (2019)",
+      "Golden Globe za najbolji animirani film - Spider-Man: Into the Spider-Verse (2019)",
+      "BAFTA za najbolji animirani film - Spider-Man: Into the Spider-Verse (2019)",
+      "Annie Award za režiju - Spider-Man: Into the Spider-Verse (2019)",
+      "Writers Guild Award nominacija"
+    ],
+    "aktivanOd": 1998,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0744835/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/rodney_rothman"
+    },
+    "zanimljivosti": [
+      "Ko-režirao Spider-Verse sa Peter Ramsey i Bob Persichetti",
+      "Takođe je bio ko-scenarist na Spider-Verse",
+      "Radio je kao scenarist na Late Show with David Letterman",
+      "Napisao je scenario za Get Him to the Greek",
+      "Produkovao je 22 Jump Street",
+      "Njegov memoir 'Early Bird' je bio bestseller",
+      "Spider-Verse je bio njegov režijski debi",
+      "Diplomirao na Brown University",
+      "Poznat po oštrom i duhovitom stilu pisanja"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915f12bcec3dde96bfd29a6"
+    },
+    "ime": "Roger Allers",
+    "biografija": "Američki filmski režiser, scenarist i animator poznat po svom radu u Disney Animation Studios. Ko-režirao je kultni klasik 'The Lion King', jedan od najuspešnijih animiranih filmova svih vremena. Dugogodišnji Disney veteran koji je radio na brojnim projektima pre režijskog debija.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BMjE5NjYyNDY0N15BMl5BanBnXkFtZTcwOTA4NDQyMw@@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "29.06.1949",
+    "mestoRodjenja": "Rye, New York, SAD",
+    "nagrade": [
+      "Annie Award za režiju - The Lion King (1995)",
+      "Golden Globe nominacija - The Lion King",
+      "Saturn Award nominacija - The Lion King",
+      "Annie Award za scenario - Open Season (2007)"
+    ],
+    "aktivanOd": 1971,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0020879/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/roger_allers"
+    },
+    "zanimljivosti": [
+      "Ko-režirao The Lion King sa Rob Minkoff",
+      "The Lion King je inspirisan Hamletom i afričkim folklorom",
+      "Radio je kao animator na The Little Mermaid",
+      "Bio je story supervisor na Beauty and the Beast",
+      "Open Season (2006) je režirao za Sony Pictures Animation",
+      "The Prophet (2014) je bio njegov nezavisni animirani film",
+      "Studirao je animaciju na CalArts",
+      "Živeo je i putovao po Japanu gde je studirao animaciju",
+      "Mentor mnogim mladim animatorima u Disney-u"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915f12bcec3dde96bfd29a7"
+    },
+    "ime": "Roman Polanski",
+    "biografija": "Poljsko-francuski filmski režiser, producent, scenarist i glumac, jedan od najkontroverznijih i najtalentovanijih reditelja u istoriji. Poznat po psihološkim trilerima koji istražuju paranoju, izolaciju i ljudsku prirodu. Njegov rad obuhvata različite žanrove i jezike. Dobitnik brojnih međunarodnih nagrada.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BMTQxMTQ4MzcyNl5BMl5BanBnXkFtZTcwMDYxNTIzNA@@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "18.08.1933",
+    "mestoRodjenja": "Paris, Francuska",
+    "nagrade": [
+      "Oscar za najbolju režiju - The Pianist (2003)",
+      "Zlatna palma - The Pianist (2002)",
+      "BAFTA za najbolju režiju - The Pianist (2003)",
+      "César Award za najbolju režiju - The Pianist (2003)",
+      "Silver Bear - Repulsion (1965)",
+      "Golden Globe nominacija - Chinatown"
+    ],
+    "aktivanOd": 1955,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0000591/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/roman_polanski"
+    },
+    "zanimljivosti": [
+      "Preživeo je Holokausta kao dete - njegova majka je ubijena u Auschwitzu",
+      "Rosemary's Baby je bio kultni horor triler",
+      "Chinatown je smatran jednim od najboljih filmova svih vremena",
+      "The Pianist je autobiografski film o poljskom pijanisti Władysławu Szpilmanu",
+      "Njegova supruga Sharon Tate je ubijena od strane Manson family",
+      "Bežao je iz SAD posle optužbi iz 1977",
+      "The Ghost Writer je bio politički triler",
+      "Knife in the Water je bio njegov poljski debi",
+      "Repulsion i The Tenant su bili psihološki trileri",
+      "An Officer and a Spy je osvojio Grand Prix u Veneciji"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915f12bcec3dde96bfd29a8"
+    },
+    "ime": "Sidney Lumet",
+    "biografija": "Američki filmski režiser poznat po društveno svesnim dramama koje istražuju pravosudni sistem, policijsku korupciju i moralne dileme. Majstor ansambla i režiser glumaca. Tokom 50-godišnje karijere režirao je preko 50 filmova, mnogi od njih postali su klasici. Primljen je u Directors Guild of America Hall of Fame.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BMTM2MTU3MjA0N15BMl5BanBnXkFtZTcwNDY5MDgzNA@@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "25.06.1924",
+    "mestoRodjenja": "Philadelphia, Pennsylvania, SAD",
+    "nagrade": [
+      "Počasni Oscar za životno delo (2005)",
+      "BAFTA Fellowship Award (1993)",
+      "Nominacija za Oscar - najbolja režija - 12 Angry Men (1958)",
+      "Nominacija za Oscar - najbolja režija - Dog Day Afternoon (1976)",
+      "Nominacija za Oscar - najbolja režija - Network (1977)",
+      "Nominacija za Oscar - najbolja režija - The Verdict (1983)",
+      "Emmy Award - numerous TV work"
+    ],
+    "aktivanOd": 1950,
+    "aktivanDo": 2007,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0001486/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/sidney_lumet"
+    },
+    "zanimljivosti": [
+      "12 Angry Men je bio njegov režijski debi - kultni klasik",
+      "Film je snimljen za samo 20 dana u jednoj prostoriji",
+      "Network je bio proročanska satira televizije",
+      "Dog Day Afternoon je bio zasnovan na stvarnom pljački banke",
+      "Serpico je bio biopic o policijskom zviždaču sa Al Pacinom",
+      "The Verdict sa Paulom Newmanom je bio pravni triler",
+      "Before the Devil Knows You're Dead je bio njegov poslednji film",
+      "Počeo je kao dečji glumac na Broadwayu",
+      "Režirao je preko 200 epizoda TV serija",
+      "Poznat po brзom snimanju i efikasnosti na setu"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915f1d8cec3dde96bfd29aa"
+    },
+    "ime": "Stanley Kubrick",
+    "biografija": "Amerikanski filmski režiser, scenarist, producent i fotograf, široko smatran jednim od najvećih i najuticajnijih reditelja u istoriji filma. Poznat po perfekcionizmu, inovativnim tehnikama snimanja i tematskoj raznolikosti. Njegovi filmovi istražuju ljudsku prirodu kroz različite žanrove - od naučne fantastike do istorijskih drama. Vizionar čiji rad nastavlja da utiče na kinematografiju.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BMTQxMjI1MDk5Ml5BMl5BanBnXkFtZTcwNTAzMjg0NA@@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "26.07.1928",
+    "mestoRodjenja": "New York City, SAD",
+    "nagrade": [
+      "Oscar za najbolje vizuelne efekte - 2001: A Space Odyssey (1969)",
+      "BAFTA za najbolju režiju - Barry Lyndon (1976)",
+      "New York Film Critics Circle Award - A Clockwork Orange",
+      "Saturn Award - The Shining",
+      "Nominacija za Oscar - najbolja režija - A Clockwork Orange (1972)",
+      "Nominacija za Oscar - najbolja režija - Barry Lyndon (1976)",
+      "Nominacija za Oscar - najbolja režija - Full Metal Jacket (1988)",
+      "Directors Guild of America Lifetime Achievement Award (1997)"
+    ],
+    "aktivanOd": 1951,
+    "aktivanDo": 1999,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0000040/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/stanley_kubrick"
+    },
+    "zanimljivosti": [
+      "2001: A Space Odyssey je revolucionisao sci-fi film i vizuelne efekte",
+      "The Shining je postao kultni horor klasik",
+      "A Clockwork Orange je bio kontroverzna distopijska satira",
+      "Dr. Strangelove je bila crna komedija o nuklearnoj apokalipsi",
+      "Full Metal Jacket je bio brutalan anti-ratni film o Vijetnamskom ratu",
+      "Barry Lyndon je sniman uz prirodno svetlo i sveće",
+      "Paths of Glory je bio jedan od prvih anti-ratnih filmova",
+      "Spartacus je bio njegov jedini film gde nije imao potpunu kontrolu",
+      "Ekstremni perfekcionista - snimao je do 100 dubla po sceni",
+      "Počeo je kao fotograf za Look magazin",
+      "Eyes Wide Shut je bio njegov poslednji film",
+      "Napoleon je bio njegov nezavršeni projekat o kom je sanjao"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915f1d8cec3dde96bfd29ab"
+    },
+    "ime": "Steven Spielberg",
+    "biografija": "Američki filmski režiser, producent i scenarist, jedan od najpopularnijih i najuticajnijih filmaša u istoriji. Ko-osnivač DreamWorks Studios. Kreirao je neke od najuspešnijih filmova svih vremena obuhvatajući različite žanrove - od blockbuster avantura do ozbiljnih istorijskih drama. Pionir moderne blockbuster ere i majstor emocionalnog pripovedanja.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BMTY1NjAzODYzMl5BMl5BanBnXkFtZTcwNjM2MTAzMw@@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "18.12.1946",
+    "mestoRodjenja": "Cincinnati, Ohio, SAD",
+    "nagrade": [
+      "Oscar za najbolju režiju - Schindler's List (1994)",
+      "Oscar za najbolju režiju - Saving Private Ryan (1999)",
+      "Oscar za najbolji film - Schindler's List (1994)",
+      "Golden Globe za najbolju režiju - Schindler's List (1994)",
+      "Golden Globe za najbolju režiju - Saving Private Ryan (1999)",
+      "BAFTA za najbolju režiju - Schindler's List (1994)",
+      "Irving G. Thalberg Memorial Award (1987)",
+      "AFI Life Achievement Award (1995)",
+      "Kennedy Center Honors (2006)",
+      "Cecil B. DeMille Award (2009)"
+    ],
+    "aktivanOd": 1969,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0000229/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/steven_spielberg"
+    },
+    "zanimljivosti": [
+      "Jaws (1975) je kreirao modernu blockbuster eru",
+      "E.T. the Extra-Terrestrial je bio emotivno devastirajući sci-fi",
+      "Jurassic Park je revolucionisao CGI i praktične efekte",
+      "Schindler's List je bio sniman u crno-belom kao memorial Holokaustu",
+      "Indiana Jones serijal je redefinisao avanturističke filmove",
+      "Saving Private Ryan ima jednu od najrealističnijih ratnih scena ikad snimljenih",
+      "Close Encounters of the Third Kind je bio njegov lični sci-fi projekat",
+      "Režirao je 32 dugometražna filma",
+      "Ko-osnivač DreamWorks SKG sa Jeffreyjem Katzenbergom i Davidom Geffenom",
+      "The Fabelmans (2022) je bio njegov auto-biografski film",
+      "Producirao je Back to the Future trilogiju",
+      "Njegovi filmovi su zaradili preko 10 milijardi dolara"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915f1d8cec3dde96bfd29ac"
+    },
+    "ime": "Todd Phillips",
+    "biografija": "Američki filmski režiser, producent i scenarist poznat po komedijama i drama-trilerima. Kreirao je 'The Hangover' trilogiju, jednu od najuspešnijih komedijskih franšiza. Njegov film 'Joker' bio je revolucionaran pristup superherojskom žanru, kombinujući DC strip sa psihološkim trilerom u stilu Martina Scorsesea.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BMTY1OTczMzg5MF5BMl5BanBnXkFtZTcwNzE3MjQxMw@@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "20.12.1970",
+    "mestoRodjenja": "Brooklyn, New York, SAD",
+    "nagrade": [
+      "Zlatni lav - Joker (2019)",
+      "BAFTA nominacija - najbolji adaptirani scenario - Joker",
+      "Nominacija za Oscar - najbolja režija - Joker (2020)",
+      "Nominacija za Oscar - najbolji adaptirani scenario - Joker (2020)",
+      "Directors Guild Award nominacija - Joker",
+      "Critics' Choice Award nominacija - Joker"
+    ],
+    "aktivanOd": 1993,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0680846/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/todd_phillips"
+    },
+    "zanimljivosti": [
+      "Joker je zaradio preko milijardu dolara - prvi R-rated film koji je to postigao",
+      "Joaquin Phoenix je osvojio Oscara za performans u Joker",
+      "The Hangover je zaradio preko 467 miliona dolara",
+      "The Hangover Part II je zaradio preko 586 miliona dolara",
+      "Počeo je sa dokumentarcima - Hated: GG Allin and the Murder Junkies",
+      "Old School (2003) je bio njegov komedijski hit sa Willem Ferrellom",
+      "Road Trip (2000) je bio njegov režijski debi u igranom filmu",
+      "Joker je bio inspirisan filmovima Martina Scorsesea (Taxi Driver, King of Comedy)",
+      "War Dogs (2016) je bio triler baziran na istinitoj priči",
+      "Joker: Folie à Deux (2024) je bio njegov nastavak Jokera kao mjuzikl"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6915f1d8cec3dde96bfd29ad"
+    },
+    "ime": "Wes Anderson",
+    "biografija": "Američki filmski režiser, scenarist i producent poznat po jedinstvenom vizuelnom stilu, simetričnim kompozicijama, pastelnim bojama i ekscentričnim likovima. Njegove priče kombinuju melanholiju sa humorom i istražuju disfunkcionalne porodice i čudake. Auteur čiji je stil prepoznatljiv i često imitiran ali nikada dostižan.",
+    "profilnaSlika": "https://m.media-amazon.com/images/M/MV5BMTM3MjQ2MjI2MV5BMl5BanBnXkFtZTcwNzM4MDYxOA@@._V1_FMjpg_UX1000_.jpg",
+    "datumRodjenja": "01.05.1969",
+    "mestoRodjenja": "Houston, Texas, SAD",
+    "nagrade": [
+      "Oscar za najbolji animirani film - Fantastic Mr. Fox (2010) - nominacija",
+      "BAFTA za najbolji originalni scenario - The Grand Budapest Hotel (2015)",
+      "Silver Bear - The Grand Budapest Hotel (2014)",
+      "Golden Globe nominacija - The Royal Tenenbaums",
+      "Nominacija za Oscar - najbolja režija - The Grand Budapest Hotel (2015)",
+      "Numerous Critics' Choice Awards",
+      "Cannes Film Festival nagrada"
+    ],
+    "aktivanOd": 1996,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0027572/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/wes_anderson"
+    },
+    "zanimljivosti": [
+      "The Grand Budapest Hotel je osvojio 4 Oscara (sve tehničke kategorije)",
+      "Njegov vizuelni stil je postao prepoznatljiva estetika",
+      "Često sarađuje sa istim glumcima - Bill Murray, Owen Wilson, Jason Schwartzman",
+      "Bottle Rocket (1996) je bio njegov režijski debi",
+      "Rushmore (1998) je uspostavio njegov stil",
+      "The Royal Tenenbaums je bio njegov prvi mainstream uspeh",
+      "Moonrise Kingdom je bio ljubavna priča o deci",
+      "Isle of Dogs (2018) je bio stop-motion animacija o Japanu",
+      "The French Dispatch (2021) je bio homaž novinarstvu",
+      "Fantastic Mr. Fox je bila stop-motion adaptacija Roalda Dahla",
+      "Studirao je filozofiju na University of Texas",
+      "Poznat po ekstremno detaljnoj produkcijskom dizajnu"
+    ]
+  }
+]

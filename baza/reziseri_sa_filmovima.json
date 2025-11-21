@@ -1,0 +1,324 @@
+[
+  {
+    "ime": "Adrian Molina",
+    "brojFilmova": 1,
+    "filmovi": [
+      "Coco"
+    ]
+  },
+  {
+    "ime": "Akira Kurosawa",
+    "brojFilmova": 1,
+    "filmovi": [
+      "Seven Samurai"
+    ]
+  },
+  {
+    "ime": "Andrew Stanton",
+    "brojFilmova": 1,
+    "filmovi": [
+      "WALL·E"
+    ]
+  },
+  {
+    "ime": "Anthony Russo",
+    "brojFilmova": 1,
+    "filmovi": [
+      "Avengers: Infinity War"
+    ]
+  },
+  {
+    "ime": "Billy Wilder",
+    "brojFilmova": 1,
+    "filmovi": [
+      "Witness for the Prosecution"
+    ]
+  },
+  {
+    "ime": "Bob Persichetti",
+    "brojFilmova": 1,
+    "filmovi": [
+      "Spider-Man: Into the Spider-Verse"
+    ]
+  },
+  {
+    "ime": "Bong Joon-ho",
+    "brojFilmova": 1,
+    "filmovi": [
+      "Parasite"
+    ]
+  },
+  {
+    "ime": "Bryan Singer",
+    "brojFilmova": 1,
+    "filmovi": [
+      "The Usual Suspects"
+    ]
+  },
+  {
+    "ime": "Charles Chaplin",
+    "brojFilmova": 2,
+    "filmovi": [
+      "Modern Times",
+      "The Great Dictator"
+    ]
+  },
+  {
+    "ime": "Christopher Nolan",
+    "brojFilmova": 3,
+    "filmovi": [
+      "Inception",
+      "The Dark Knight",
+      "Interstellar"
+    ]
+  },
+  {
+    "ime": "David Fincher",
+    "brojFilmova": 2,
+    "filmovi": [
+      "Fight Club",
+      "Se7en"
+    ]
+  },
+  {
+    "ime": "Fernando Meirelles",
+    "brojFilmova": 1,
+    "filmovi": [
+      "City of God"
+    ]
+  },
+  {
+    "ime": "Florian Henckel von Donnersmarck",
+    "brojFilmova": 1,
+    "filmovi": [
+      "The Lives of Others"
+    ]
+  },
+  {
+    "ime": "Francis Ford Coppola",
+    "brojFilmova": 2,
+    "filmovi": [
+      "The Godfather",
+      "Apocalypse Now"
+    ]
+  },
+  {
+    "ime": "Frank Capra",
+    "brojFilmova": 1,
+    "filmovi": [
+      "Its a Wonderful Life"
+    ]
+  },
+  {
+    "ime": "Frank Darabont",
+    "brojFilmova": 2,
+    "filmovi": [
+      "The Shawshank Redemption",
+      "The Green Mile"
+    ]
+  },
+  {
+    "ime": "Hayao Miyazaki",
+    "brojFilmova": 1,
+    "filmovi": [
+      "Spirited Away"
+    ]
+  },
+  {
+    "ime": "Irvin Kershner",
+    "brojFilmova": 2,
+    "filmovi": [
+      "Star Wars: Episode V - The Empire Strikes Back",
+      "Star Wars: Episode V - The Empire Strikes Back"
+    ]
+  },
+  {
+    "ime": "James Cameron",
+    "brojFilmova": 2,
+    "filmovi": [
+      "Titanic",
+      "Terminator 2: Judgment Day"
+    ]
+  },
+  {
+    "ime": "Joe Russo",
+    "brojFilmova": 1,
+    "filmovi": [
+      "Avengers: Infinity War"
+    ]
+  },
+  {
+    "ime": "Jonathan Demme",
+    "brojFilmova": 1,
+    "filmovi": [
+      "The Silence of the Lambs"
+    ]
+  },
+  {
+    "ime": "Kátia Lund",
+    "brojFilmova": 1,
+    "filmovi": [
+      "City of God"
+    ]
+  },
+  {
+    "ime": "Lana Wachowski",
+    "brojFilmova": 1,
+    "filmovi": [
+      "The Matrix"
+    ]
+  },
+  {
+    "ime": "Lee Unkrich",
+    "brojFilmova": 1,
+    "filmovi": [
+      "Coco"
+    ]
+  },
+  {
+    "ime": "Lilly Wachowski",
+    "brojFilmova": 1,
+    "filmovi": [
+      "The Matrix"
+    ]
+  },
+  {
+    "ime": "Luc Besson",
+    "brojFilmova": 1,
+    "filmovi": [
+      "Leon: The Professional"
+    ]
+  },
+  {
+    "ime": "Martin Scorsese",
+    "brojFilmova": 1,
+    "filmovi": [
+      "Goodfellas"
+    ]
+  },
+  {
+    "ime": "Michael Curtiz",
+    "brojFilmova": 1,
+    "filmovi": [
+      "Casablanca"
+    ]
+  },
+  {
+    "ime": "Milos Forman",
+    "brojFilmova": 1,
+    "filmovi": [
+      "One Flew Over the Cuckoos Nest"
+    ]
+  },
+  {
+    "ime": "Peter Jackson",
+    "brojFilmova": 1,
+    "filmovi": [
+      "The Lord of the Rings: The Return of the King"
+    ]
+  },
+  {
+    "ime": "Peter Ramsey",
+    "brojFilmova": 1,
+    "filmovi": [
+      "Spider-Man: Into the Spider-Verse"
+    ]
+  },
+  {
+    "ime": "Quentin Tarantino",
+    "brojFilmova": 2,
+    "filmovi": [
+      "Pulp Fiction",
+      "Django Unchained"
+    ]
+  },
+  {
+    "ime": "Ridley Scott",
+    "brojFilmova": 2,
+    "filmovi": [
+      "Gladiator",
+      "Alien"
+    ]
+  },
+  {
+    "ime": "Rob Minkoff",
+    "brojFilmova": 1,
+    "filmovi": [
+      "The Lion King"
+    ]
+  },
+  {
+    "ime": "Robert Zemeckis",
+    "brojFilmova": 2,
+    "filmovi": [
+      "Forrest Gump",
+      "Back to the Future"
+    ]
+  },
+  {
+    "ime": "Roberto Benigni",
+    "brojFilmova": 1,
+    "filmovi": [
+      "Life Is Beautiful"
+    ]
+  },
+  {
+    "ime": "Rodney Rothman",
+    "brojFilmova": 1,
+    "filmovi": [
+      "Spider-Man: Into the Spider-Verse"
+    ]
+  },
+  {
+    "ime": "Roger Allers",
+    "brojFilmova": 1,
+    "filmovi": [
+      "The Lion King"
+    ]
+  },
+  {
+    "ime": "Roman Polanski",
+    "brojFilmova": 1,
+    "filmovi": [
+      "The Pianist"
+    ]
+  },
+  {
+    "ime": "Sidney Lumet",
+    "brojFilmova": 1,
+    "filmovi": [
+      "12 Angry Men"
+    ]
+  },
+  {
+    "ime": "Stanley Kubrick",
+    "brojFilmova": 2,
+    "filmovi": [
+      "The Shining",
+      "Paths of Glory"
+    ]
+  },
+  {
+    "ime": "Steven Spielberg",
+    "brojFilmova": 3,
+    "filmovi": [
+      "Schindler's List",
+      "Saving Private Ryan",
+      "Jurassic Park"
+    ]
+  },
+  {
+    "ime": "Todd Phillips",
+    "brojFilmova": 1,
+    "filmovi": [
+      "Joker"
+    ]
+  },
+  {
+    "ime": "Wes Anderson",
+    "brojFilmova": 1,
+    "filmovi": [
+      "The Grand Budapest Hotel"
+    ]
+  }
+]

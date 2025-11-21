@@ -1,0 +1,146 @@
+{
+  "updatedAt": "2025-11-17T00:49:35.662Z",
+  "count": 50,
+  "sample": [
+    {
+      "naslov": "Inception",
+      "budzetOld": 160000000,
+      "budzetNew": "160 miliona $",
+      "boxOld": 836800000,
+      "boxNew": "836.8 miliona $"
+    },
+    {
+      "naslov": "The Shawshank Redemption",
+      "budzetOld": 25000000,
+      "budzetNew": "25 miliona $",
+      "boxOld": 73300000,
+      "boxNew": "73.3 miliona $"
+    },
+    {
+      "naslov": "The Dark Knight",
+      "budzetOld": 185000000,
+      "budzetNew": "185 miliona $",
+      "boxOld": 1005000000,
+      "boxNew": "1.005 milijardi $"
+    },
+    {
+      "naslov": "Pulp Fiction",
+      "budzetOld": 8500000,
+      "budzetNew": "8.5 miliona $",
+      "boxOld": 213900000,
+      "boxNew": "213.9 miliona $"
+    },
+    {
+      "naslov": "Forrest Gump",
+      "budzetOld": 55000000,
+      "budzetNew": "55 miliona $",
+      "boxOld": 678200000,
+      "boxNew": "678.2 miliona $"
+    },
+    {
+      "naslov": "The Matrix",
+      "budzetOld": 63000000,
+      "budzetNew": "63 miliona $",
+      "boxOld": 467200000,
+      "boxNew": "467.2 miliona $"
+    },
+    {
+      "naslov": "Interstellar",
+      "budzetOld": 165000000,
+      "budzetNew": "165 miliona $",
+      "boxOld": 701700000,
+      "boxNew": "701.7 miliona $"
+    },
+    {
+      "naslov": "The Godfather",
+      "budzetOld": 7,
+      "budzetNew": "7 $",
+      "boxOld": 271,
+      "boxNew": "271 $"
+    },
+    {
+      "naslov": "Fight Club",
+      "budzetOld": 63000000,
+      "budzetNew": "63 miliona $",
+      "boxOld": 101200000,
+      "boxNew": "101.2 miliona $"
+    },
+    {
+      "naslov": "Parasite",
+      "budzetOld": 11400000,
+      "budzetNew": "11.4 miliona $",
+      "boxOld": 258800000,
+      "boxNew": "258.8 miliona $"
+    },
+    {
+      "naslov": "Goodfellas",
+      "budzetOld": 25000000,
+      "budzetNew": "25 miliona $",
+      "boxOld": 46800000,
+      "boxNew": "46.8 miliona $"
+    },
+    {
+      "naslov": "The Silence of the Lambs",
+      "budzetOld": 19000000,
+      "budzetNew": "19 miliona $",
+      "boxOld": 272700000,
+      "boxNew": "272.7 miliona $"
+    },
+    {
+      "naslov": "Schindler's List",
+      "budzetOld": 22000000,
+      "budzetNew": "22 miliona $",
+      "boxOld": 322200000,
+      "boxNew": "322.2 miliona $"
+    },
+    {
+      "naslov": "The Lord of the Rings: The Return of the King",
+      "budzetOld": 94000000,
+      "budzetNew": "94 miliona $",
+      "boxOld": 1142000000,
+      "boxNew": "1.142 milijardi $"
+    },
+    {
+      "naslov": "Star Wars: Episode V - The Empire Strikes Back",
+      "budzetOld": 18000000,
+      "budzetNew": "18 miliona $",
+      "boxOld": 538400000,
+      "boxNew": "538.4 miliona $"
+    },
+    {
+      "naslov": "Gladiator",
+      "budzetOld": 103000000,
+      "budzetNew": "103 miliona $",
+      "boxOld": 460500000,
+      "boxNew": "460.5 miliona $"
+    },
+    {
+      "naslov": "Saving Private Ryan",
+      "budzetOld": 70000000,
+      "budzetNew": "70 miliona $",
+      "boxOld": 482300000,
+      "boxNew": "482.3 miliona $"
+    },
+    {
+      "naslov": "Jurassic Park",
+      "budzetOld": 63000000,
+      "budzetNew": "63 miliona $",
+      "boxOld": 1029000000,
+      "boxNew": "1.029 milijardi $"
+    },
+    {
+      "naslov": "Titanic",
+      "budzetOld": 200000000,
+      "budzetNew": "200 miliona $",
+      "boxOld": 2187000000,
+      "boxNew": "2.187 milijardi $"
+    },
+    {
+      "naslov": "The Green Mile",
+      "budzetOld": 60000000,
+      "budzetNew": "60 miliona $",
+      "boxOld": 286800000,
+      "boxNew": "286.8 miliona $"
+    }
+  ]
+}

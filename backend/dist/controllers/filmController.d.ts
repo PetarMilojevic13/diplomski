@@ -1,0 +1,21 @@
+import { Request, Response } from 'express';
+export declare const getAllFilms: (req: Request, res: Response) => Promise<void>;
+export declare const getFilmById: (req: Request, res: Response) => Promise<void>;
+export declare const createFilm: (req: Request, res: Response) => Promise<void>;
+export declare const searchFilms: (req: Request, res: Response) => Promise<void>;
+export declare const getFilmsByGenre: (req: Request, res: Response) => Promise<void>;
+export declare const getSimilarFilms: (req: Request, res: Response) => Promise<void>;
+export declare const addRating: (req: Request, res: Response) => Promise<void>;
+export declare const addComment: (req: Request, res: Response) => Promise<void>;
+export declare const rentFilm: (req: Request, res: Response) => Promise<void>;
+export declare const rentFilmByUsername: (req: Request, res: Response) => Promise<void>;
+export declare const checkAvailability: (req: Request, res: Response) => Promise<void>;
+export declare const getFilmsByDirector: (req: Request, res: Response) => Promise<void>;
+export declare const getFilmsByActor: (req: Request, res: Response) => Promise<void>;
+export declare const getTopRatedFilms: (req: Request, res: Response) => Promise<void>;
+export declare const getNewestFilms: (req: Request, res: Response) => Promise<void>;
+export declare const updateFilm: (req: Request, res: Response) => Promise<void>;
+export declare const deleteFilm: (req: Request, res: Response) => Promise<void>;
+export declare const addRatingByUsername: (req: Request, res: Response) => Promise<void>;
+export declare const addCommentByUsername: (req: Request, res: Response) => Promise<void>;
+//# sourceMappingURL=filmController.d.ts.map

@@ -1,0 +1,144 @@
+[
+  {
+    "ime": "Stanley Kubrick",
+    "biografija": "Amerikanski filmski režiser, scenarist, producent i fotograf, široko smatran jednim od najvećih i najuticajnijih reditelja u istoriji filma. Poznat po perfekcionizmu, inovativnim tehnikama snimanja i tematskoj raznolikosti. Njegovi filmovi istražuju ljudsku prirodu kroz različite žanrove - od naučne fantastike do istorijskih drama. Vizionar čiji rad nastavlja da utiče na kinematografiju.",
+    "profilnaSlika": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Kubrick_on_the_set_of_Barry_Lyndon_%281975_publicity_photo%29.jpg/330px-Kubrick_on_the_set_of_Barry_Lyndon_%281975_publicity_photo%29.jpg",
+    "datumRodjenja": "26.07.1928",
+    "mestoRodjenja": "New York City, SAD",
+    "nagrade": [
+      "Oscar za najbolje vizuelne efekte - 2001: A Space Odyssey (1969)",
+      "BAFTA za najbolju režiju - Barry Lyndon (1976)",
+      "New York Film Critics Circle Award - A Clockwork Orange",
+      "Saturn Award - The Shining",
+      "Nominacija za Oscar - najbolja režija - A Clockwork Orange (1972)",
+      "Nominacija za Oscar - najbolja režija - Barry Lyndon (1976)",
+      "Nominacija za Oscar - najbolja režija - Full Metal Jacket (1988)",
+      "Directors Guild of America Lifetime Achievement Award (1997)"
+    ],
+    "aktivanOd": 1951,
+    "aktivanDo": 1999,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0000040/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/stanley_kubrick"
+    },
+    "zanimljivosti": [
+      "2001: A Space Odyssey je revolucionisao sci-fi film i vizuelne efekte",
+      "The Shining je postao kultni horor klasik",
+      "A Clockwork Orange je bio kontroverzna distopijska satira",
+      "Dr. Strangelove je bila crna komedija o nuklearnoj apokalipsi",
+      "Full Metal Jacket je bio brutalan anti-ratni film o Vijetnamskom ratu",
+      "Barry Lyndon je sniman uz prirodno svetlo i sveće",
+      "Paths of Glory je bio jedan od prvih anti-ratnih filmova",
+      "Spartacus je bio njegov jedini film gde nije imao potpunu kontrolu",
+      "Ekstremni perfekcionista - snimao je do 100 dubla po sceni",
+      "Počeo je kao fotograf za Look magazin",
+      "Eyes Wide Shut je bio njegov poslednji film",
+      "Napoleon je bio njegov nezavršeni projekat o kom je sanjao"
+    ]
+  },
+  {
+    "ime": "Steven Spielberg",
+    "biografija": "Američki filmski režiser, producent i scenarist, jedan od najpopularnijih i najuticajnijih filmaša u istoriji. Ko-osnivač DreamWorks Studios. Kreirao je neke od najuspešnijih filmova svih vremena obuhvatajući različite žanrove - od blockbuster avantura do ozbiljnih istorijskih drama. Pionir moderne blockbuster ere i majstor emocionalnog pripovedanja.",
+    "profilnaSlika": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Steven_Spielberg_by_Gage_Skidmore.jpg/330px-Steven_Spielberg_by_Gage_Skidmore.jpg",
+    "datumRodjenja": "18.12.1946",
+    "mestoRodjenja": "Cincinnati, Ohio, SAD",
+    "nagrade": [
+      "Oscar za najbolju režiju - Schindler's List (1994)",
+      "Oscar za najbolju režiju - Saving Private Ryan (1999)",
+      "Oscar za najbolji film - Schindler's List (1994)",
+      "Golden Globe za najbolju režiju - Schindler's List (1994)",
+      "Golden Globe za najbolju režiju - Saving Private Ryan (1999)",
+      "BAFTA za najbolju režiju - Schindler's List (1994)",
+      "Irving G. Thalberg Memorial Award (1987)",
+      "AFI Life Achievement Award (1995)",
+      "Kennedy Center Honors (2006)",
+      "Cecil B. DeMille Award (2009)"
+    ],
+    "aktivanOd": 1969,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0000229/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/steven_spielberg"
+    },
+    "zanimljivosti": [
+      "Jaws (1975) je kreirao modernu blockbuster eru",
+      "E.T. the Extra-Terrestrial je bio emotivno devastirajući sci-fi",
+      "Jurassic Park je revolucionisao CGI i praktične efekte",
+      "Schindler's List je bio sniman u crno-belom kao memorial Holokaustu",
+      "Indiana Jones serijal je redefinisao avanturističke filmove",
+      "Saving Private Ryan ima jednu od najrealističnijih ratnih scena ikad snimljenih",
+      "Close Encounters of the Third Kind je bio njegov lični sci-fi projekat",
+      "Režirao je 32 dugometražna filma",
+      "Ko-osnivač DreamWorks SKG sa Jeffreyjem Katzenbergom i Davidom Geffenom",
+      "The Fabelmans (2022) je bio njegov auto-biografski film",
+      "Producirao je Back to the Future trilogiju",
+      "Njegovi filmovi su zaradili preko 10 milijardi dolara"
+    ]
+  },
+  {
+    "ime": "Todd Phillips",
+    "biografija": "Američki filmski režiser, producent i scenarist poznat po komedijama i drama-trilerima. Kreirao je 'The Hangover' trilogiju, jednu od najuspešnijih komedijskih franšiza. Njegov film 'Joker' bio je revolucionaran pristup superherojskom žanru, kombinujući DC strip sa psihološkim trilerom u stilu Martina Scorsesea.",
+    "profilnaSlika": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Todd_Phillips_by_Gage_Skidmore.jpg/330px-Todd_Phillips_by_Gage_Skidmore.jpg",
+    "datumRodjenja": "20.12.1970",
+    "mestoRodjenja": "Brooklyn, New York, SAD",
+    "nagrade": [
+      "Zlatni lav - Joker (2019)",
+      "BAFTA nominacija - najbolji adaptirani scenario - Joker",
+      "Nominacija za Oscar - najbolja režija - Joker (2020)",
+      "Nominacija za Oscar - najbolji adaptirani scenario - Joker (2020)",
+      "Directors Guild Award nominacija - Joker",
+      "Critics' Choice Award nominacija - Joker"
+    ],
+    "aktivanOd": 1993,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0680846/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/todd_phillips"
+    },
+    "zanimljivosti": [
+      "Joker je zaradio preko milijardu dolara - prvi R-rated film koji je to postigao",
+      "Joaquin Phoenix je osvojio Oscara za performans u Joker",
+      "The Hangover je zaradio preko 467 miliona dolara",
+      "The Hangover Part II je zaradio preko 586 miliona dolara",
+      "Počeo je sa dokumentarcima - Hated: GG Allin and the Murder Junkies",
+      "Old School (2003) je bio njegov komedijski hit sa Willem Ferrellom",
+      "Road Trip (2000) je bio njegov režijski debi u igranom filmu",
+      "Joker je bio inspirisan filmovima Martina Scorsesea (Taxi Driver, King of Comedy)",
+      "War Dogs (2016) je bio triler baziran na istinitoj priči",
+      "Joker: Folie à Deux (2024) je bio njegov nastavak Jokera kao mjuzikl"
+    ]
+  },
+  {
+    "ime": "Wes Anderson",
+    "biografija": "Američki filmski režiser, scenarist i producent poznat po jedinstvenom vizuelnom stilu, simetričnim kompozicijama, pastelnim bojama i ekscentričnim likovima. Njegove priče kombinuju melanholiju sa humorom i istražuju disfunkcionalne porodice i čudake. Auteur čiji je stil prepoznatljiv i često imitiran ali nikada dostižan.",
+    "profilnaSlika": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Wes_Anderson_2023.jpg/330px-Wes_Anderson_2023.jpg",
+    "datumRodjenja": "01.05.1969",
+    "mestoRodjenja": "Houston, Texas, SAD",
+    "nagrade": [
+      "Oscar za najbolji animirani film - Fantastic Mr. Fox (2010) - nominacija",
+      "BAFTA za najbolji originalni scenario - The Grand Budapest Hotel (2015)",
+      "Silver Bear - The Grand Budapest Hotel (2014)",
+      "Golden Globe nominacija - The Royal Tenenbaums",
+      "Nominacija za Oscar - najbolja režija - The Grand Budapest Hotel (2015)",
+      "Numerous Critics' Choice Awards",
+      "Cannes Film Festival nagrada"
+    ],
+    "aktivanOd": 1996,
+    "socialMedia": {
+      "imdb": "https://www.imdb.com/name/nm0027572/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/celebrity/wes_anderson"
+    },
+    "zanimljivosti": [
+      "The Grand Budapest Hotel je osvojio 4 Oscara (sve tehničke kategorije)",
+      "Njegov vizuelni stil je postao prepoznatljiva estetika",
+      "Često sarađuje sa istim glumcima - Bill Murray, Owen Wilson, Jason Schwartzman",
+      "Bottle Rocket (1996) je bio njegov režijski debi",
+      "Rushmore (1998) je uspostavio njegov stil",
+      "The Royal Tenenbaums je bio njegov prvi mainstream uspeh",
+      "Moonrise Kingdom je bio ljubavna priča o deci",
+      "Isle of Dogs (2018) je bio stop-motion animacija o Japanu",
+      "The French Dispatch (2021) je bio homaž novinarstvu",
+      "Fantastic Mr. Fox je bila stop-motion adaptacija Roalda Dahla",
+      "Studirao je filozofiju na University of Texas",
+      "Poznat po ekstremno detaljnoj produkcijskom dizajnu"
+    ]
+  }
+]

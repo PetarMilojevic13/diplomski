@@ -1,0 +1,232 @@
+[{
+  "_id": {
+    "$oid": "6914b2c243a677849f61c62e"
+  },
+  "kor_ime": "petar",
+  "lozinka": "petar123",
+  "ime": "Petar",
+  "prezime": "Petrović",
+  "pol": "M",
+  "adresa": "Kralja Petra 15, Beograd",
+  "telefon": "0601234567",
+  "email": "petar@videokub.com",
+  "profileImage": "https://i.pravatar.cc/150?img=12",
+  "type": "korisnik",
+  "status": 1,
+  "deactivated": 0,
+  "wishlist": [],
+  "favorites": []
+},
+{
+  "_id": {
+    "$oid": "6914b2c243a677849f61c62f"
+  },
+  "kor_ime": "ana",
+  "lozinka": "ana123",
+  "ime": "Ana",
+  "prezime": "Anić",
+  "pol": "Ž",
+  "adresa": "Narodnog fronta 22, Novi Sad",
+  "telefon": "0607654321",
+  "email": "ana@videokub.com",
+  "profileImage": "https://i.pravatar.cc/150?img=47",
+  "type": "korisnik",
+  "status": 1,
+  "deactivated": 0,
+  "wishlist": [],
+  "favorites": []
+},
+{
+  "_id": {
+    "$oid": "6914b2c243a677849f61c630"
+  },
+  "kor_ime": "marko",
+  "lozinka": "marko123",
+  "ime": "Marko",
+  "prezime": "Marković",
+  "pol": "M",
+  "adresa": "Cara Dušana 8, Niš",
+  "telefon": "0609876543",
+  "email": "marko@videokub.com",
+  "profileImage": "https://i.pravatar.cc/150?img=33",
+  "type": "korisnik",
+  "status": 1,
+  "deactivated": 0,
+  "wishlist": [],
+  "favorites": []
+},
+{
+  "_id": {
+    "$oid": "6914b2c243a677849f61c631"
+  },
+  "kor_ime": "jovana",
+  "lozinka": "jovana123",
+  "ime": "Jovana",
+  "prezime": "Jovanović",
+  "pol": "Ž",
+  "adresa": "Svetozara Markovića 45, Kragujevac",
+  "telefon": "0603456789",
+  "email": "jovana@videokub.com",
+  "profileImage": "https://i.pravatar.cc/150?img=25",
+  "type": "korisnik",
+  "status": 1,
+  "deactivated": 0,
+  "wishlist": [],
+  "favorites": []
+},
+{
+  "_id": {
+    "$oid": "6914b2c243a677849f61c632"
+  },
+  "kor_ime": "stefan",
+  "lozinka": "stefan123",
+  "ime": "Stefan",
+  "prezime": "Stefanović",
+  "pol": "M",
+  "adresa": "Bulevar oslobođenja 78, Novi Sad",
+  "telefon": "0621112233",
+  "email": "stefan@videokub.com",
+  "profileImage": "https://i.pravatar.cc/150?img=51",
+  "type": "korisnik",
+  "status": 1,
+  "deactivated": 0,
+  "wishlist": [],
+  "favorites": []
+},
+{
+  "_id": {
+    "$oid": "6914b2c243a677849f61c633"
+  },
+  "kor_ime": "milica",
+  "lozinka": "milica123",
+  "ime": "Milica",
+  "prezime": "Milićević",
+  "pol": "Ž",
+  "adresa": "Kneza Miloša 33, Beograd",
+  "telefon": "0644445566",
+  "email": "milica@videokub.com",
+  "profileImage": "https://i.pravatar.cc/150?img=44",
+  "type": "korisnik",
+  "status": 1,
+  "deactivated": 0,
+  "wishlist": [],
+  "favorites": []
+},
+{
+  "_id": {
+    "$oid": "6914b2c243a677849f61c634"
+  },
+  "kor_ime": "nikola",
+  "lozinka": "nikola123",
+  "ime": "Nikola",
+  "prezime": "Nikolić",
+  "pol": "M",
+  "adresa": "Vojvode Stepe 102, Beograd",
+  "telefon": "0637778899",
+  "email": "nikola@videokub.com",
+  "profileImage": "https://i.pravatar.cc/150?img=15",
+  "type": "korisnik",
+  "status": 1,
+  "deactivated": 0,
+  "wishlist": [],
+  "favorites": []
+},
+{
+  "_id": {
+    "$oid": "6914b2c243a677849f61c635"
+  },
+  "kor_ime": "jelena",
+  "lozinka": "jelena123",
+  "ime": "Jelena",
+  "prezime": "Jelenković",
+  "pol": "Ž",
+  "adresa": "Trg republike 5, Subotica",
+  "telefon": "0669990011",
+  "email": "jelena@videokub.com",
+  "profileImage": "https://i.pravatar.cc/150?img=32",
+  "type": "korisnik",
+  "status": 1,
+  "deactivated": 0,
+  "wishlist": [],
+  "favorites": []
+},
+{
+  "_id": {
+    "$oid": "6915c3a8cec3dde96bfd2924"
+  },
+  "kor_ime": "admin",
+  "lozinka": "admin123",
+  "ime": "Marko",
+  "prezime": "Marković",
+  "pol": "M",
+  "adresa": "Knez Mihailova 10, Beograd",
+  "telefon": "0641234567",
+  "email": "admin@videokub.com",
+  "profileImage": "https://i.pravatar.cc/150?img=33",
+  "type": "admin",
+  "status": 1,
+  "deactivated": 0,
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "6915c3a8cec3dde96bfd2925"
+  },
+  "kor_ime": "ana_admin",
+  "lozinka": "ana123",
+  "ime": "Ana",
+  "prezime": "Jovanović",
+  "pol": "Ž",
+  "adresa": "Terazije 5, Beograd",
+  "telefon": "0652345678",
+  "email": "ana.admin@videokub.com",
+  "profileImage": "https://i.pravatar.cc/150?img=45",
+  "type": "admin",
+  "status": 1,
+  "deactivated": 0,
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "6915c3a8cec3dde96bfd2926"
+  },
+  "kor_ime": "nikola_admin",
+  "lozinka": "nikola123",
+  "ime": "Nikola",
+  "prezime": "Đorđević",
+  "pol": "M",
+  "adresa": "Cara Dušana 25, Novi Sad",
+  "telefon": "0663456789",
+  "email": "nikola.admin@videokub.com",
+  "profileImage": "https://i.pravatar.cc/150?img=52",
+  "type": "admin",
+  "status": 1,
+  "deactivated": 0,
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "69172e19291e615c41abf84d"
+  },
+  "kor_ime": "NoviKorisnik",
+  "lozinka": "Korisnik12",
+  "ime": "Korisnik",
+  "prezime": "Korisnik",
+  "pol": "M",
+  "adresa": "Korisnik 12",
+  "telefon": "+381 63 222222",
+  "email": "korisnik@gmail.com",
+  "profileImage": "",
+  "type": "korisnik",
+  "status": 1,
+  "deactivated": 0,
+  "wishlist": [],
+  "favorites": [],
+  "createdAt": {
+    "$date": "2025-11-14T13:26:49.239Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-14T13:26:49.239Z"
+  },
+  "__v": 0
+}]
