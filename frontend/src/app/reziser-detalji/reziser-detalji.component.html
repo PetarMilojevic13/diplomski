@@ -1,0 +1,180 @@
+<div class="reziser-wrapper">
+  <!-- Back Button -->
+  <button class="btn-back" (click)="goBack()">
+    ← Nazad na katalog
+  </button>
+
+  <!-- Loading Spinner -->
+  @if (loading) {
+    <div class="loading">
+      <div class="spinner"></div>
+      <p>Učitavanje režisera...</p>
+    </div>
+  }
+
+  <!-- Reziser Content -->
+  @if (!loading && reziser) {
+    <div class="reziser-container">
+      <!-- Header Section -->
+      <div class="reziser-header">
+        @if (safeReziser.profilnaSlika) {
+          <img [src]="safeReziser.profilnaSlika" [alt]="safeReziser.ime" class="profile-image">
+        } @else {
+          <div class="profile-placeholder">
+            <span>📽️</span>
+          </div>
+        }
+
+        <div class="reziser-info">
+          <h1>{{ safeReziser.ime }}</h1>
+          <div class="info-grid">
+            <div class="info-item">
+              <span class="info-label">📍 Mesto:</span>
+              <span class="info-value">{{ safeReziser.mestoRodjenja }}</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">🎬 Aktivnost:</span>
+              <span class="info-value">{{ safeReziser.godine }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Biografija Section -->
+      <div class="biografija-section">
+        <h2>📖 Biografija</h2>
+        <p>{{ safeReziser.biografija }}</p>
+      </div>
+
+      <!-- Statistike Section -->
+      @if (statistike) {
+        <div class="statistike-section">
+          <h2>📊 Statistike karijere</h2>
+          <div class="statistike-grid">
+            <div class="stat-card">
+              <div class="stat-icon">🎬</div>
+              <div class="stat-value">{{ statistike.ukupnoFilmova }}</div>
+              <div class="stat-label">Režiranih filmova</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon">⭐</div>
+              <div class="stat-value">{{ statistike.prosecnaOcena.toFixed(1) }}</div>
+              <div class="stat-label">Prosečna ocena</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon">🎭</div>
+              <div class="stat-value">{{ statistike.najcesciZanr }}</div>
+              <div class="stat-label">Najčešći žanr</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon">🏆</div>
+              <div class="stat-value">{{ statistike.najuspesnijiFilm }}</div>
+              <div class="stat-label">Najuspešniji film</div>
+            </div>
+          </div>
+        </div>
+      }
+
+      <!-- Žanr Distribucija Grafikon -->
+      @if (zanrDistribucija.length > 0) {
+        <div class="grafikon-section">
+          <h2>📊 Distribucija žanrova</h2>
+          <p class="grafikon-opis">
+            Procentualna zastupljenost svih žanrova u filmografiji režisera {{ reziserIme }}.
+            <span class="grafikon-napomena">* Jedan film može pripadati više žanrova, tako da je ukupan zbir procenata veći od 100%.</span>
+          </p>
+          <div class="pie-chart-container">
+            <canvas
+              baseChart
+              [data]="pieChartData"
+              [options]="pieChartOptions"
+              [type]="'pie'">
+            </canvas>
+          </div>
+        </div>
+      }
+
+      <!-- Timeline Section -->
+      @if (timelineEvents.length > 0) {
+        <div class="timeline-section">
+          <h2>⏱️ Hronologija karijere</h2>
+          <div class="timeline">
+            @for (event of timelineEvents; track event.godina + event.tekst) {
+              <div class="timeline-item" [class]="'timeline-' + event.tip">
+                <div class="timeline-marker">
+                  <span class="timeline-icon">{{ event.ikona }}</span>
+                </div>
+                <div class="timeline-content">
+                  <div class="timeline-year">{{ event.godina }}</div>
+                  <div class="timeline-text">{{ event.tekst }}</div>
+                </div>
+              </div>
+            }
+          </div>
+        </div>
+      }
+
+      <!-- Social Media Section -->
+      @if (safeSocialMedia && (safeSocialMedia.imdb || safeSocialMedia.rottenTomatoes)) {
+        <div class="social-section">
+          <h2>🌐 Online profili</h2>
+          <div class="social-links">
+            @if (safeSocialMedia.imdb) {
+              <a [href]="safeSocialMedia.imdb" target="_blank" class="social-link imdb">
+                <span class="social-icon">⭐</span>
+                <span>IMDb</span>
+              </a>
+            }
+            @if (safeSocialMedia.rottenTomatoes) {
+              <a [href]="safeSocialMedia.rottenTomatoes" target="_blank" class="social-link rotten-tomatoes">
+                <span class="social-icon">🍅</span>
+                <span>Rotten Tomatoes</span>
+              </a>
+            }
+          </div>
+        </div>
+      }
+
+      <!-- Zanimljivosti Section -->
+      @if (safeReziser.zanimljivosti && safeReziser.zanimljivosti.length > 0) {
+        <div class="zanimljivosti-section">
+          <h2>✨ Zanimljivosti</h2>
+          <div class="zanimljivosti-list">
+            @for (zanimljivost of safeReziser.zanimljivosti; track $index) {
+              <div class="zanimljivost-item">
+                <span class="bullet">🎯</span>
+                <p>{{ zanimljivost }}</p>
+              </div>
+            }
+          </div>
+        </div>
+      }
+
+      <!-- Nagrade Section -->
+      @if (safeReziser.nagrade && safeReziser.nagrade.length > 0) {
+        <div class="nagrade-section">
+          <h2>🏆 Nagrade i priznanja</h2>
+          <div class="nagrade-grid">
+            @for (nagrada of safeReziser.nagrade; track $index) {
+              <div class="nagrada-card">
+                <span class="trophy-icon">🏆</span>
+                <p>{{ nagrada }}</p>
+              </div>
+            }
+          </div>
+        </div>
+      }
+    </div>
+  }
+
+  <!-- Error State -->
+  @if (!loading && !reziser) {
+    <div class="error-state">
+      <h2>😕 Režiser nije pronađen</h2>
+      <p>Ne možemo pronaći informacije o režiseru "{{ reziserIme }}"</p>
+      <button class="btn-back" (click)="goBack()">
+        Nazad na katalog
+      </button>
+    </div>
+  }
+</div>

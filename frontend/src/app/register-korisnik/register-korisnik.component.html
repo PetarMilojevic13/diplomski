@@ -1,0 +1,182 @@
+<div class="register-wrapper">
+	<div class="register-container">
+		<div class="register-box">
+			<div class="brand">
+				<div class="logo">🎬</div>
+				<h1>Video Klub</h1>
+			</div>
+			<h2>Registracija novog korisnika</h2>
+			<p class="subtitle">Kreiraj nalog da bi mogao rezervisati i ocenjivati filmove</p>
+
+			<form (ngSubmit)="register()" #registerForm="ngForm">
+
+			<!-- Korisničko ime -->
+			<div class="form-group">
+				<label for="kor_ime">Korisničko ime:</label>
+				<input
+					type="text"
+					id="kor_ime"
+					name="kor_ime"
+				[(ngModel)]="user.kor_ime"
+				required
+					minlength="3"
+					class="form-control"
+			placeholder="Unesite korisničko ime">
+
+
+			</div>				<!-- Lozinka -->
+				<div class="form-group">
+					<label for="lozinka">Lozinka:</label>
+					<input
+						type="password"
+						id="lozinka"
+						name="lozinka"
+						[(ngModel)]="user.lozinka"
+						required
+						minlength="6"
+						class="form-control"
+						placeholder="Unesite lozinku (min 6 karaktera)">
+				</div>
+
+				<!-- Potvrdi lozinku -->
+				<div class="form-group">
+					<label for="confirmPassword">Potvrdi lozinku:</label>
+					<input
+						type="password"
+						id="confirmPassword"
+						name="confirmPassword"
+						[(ngModel)]="confirmPassword"
+						required
+						class="form-control"
+						placeholder="Ponovite lozinku">
+				</div>
+
+				<!-- Ime -->
+				<div class="form-group">
+					<label for="ime">Ime:</label>
+					<input
+						type="text"
+						id="ime"
+						name="ime"
+						[(ngModel)]="user.ime"
+						required
+						class="form-control"
+						placeholder="Unesite ime">
+				</div>
+
+				<!-- Prezime -->
+				<div class="form-group">
+					<label for="prezime">Prezime:</label>
+					<input
+						type="text"
+						id="prezime"
+						name="prezime"
+						[(ngModel)]="user.prezime"
+						required
+						class="form-control"
+						placeholder="Unesite prezime">
+				</div>
+
+				<!-- Pol -->
+				<div class="form-group">
+					<label>Pol:</label>
+					<div class="radio-group">
+						<label class="radio-option">
+							<input
+								type="radio"
+								name="pol"
+								value="M"
+								[(ngModel)]="user.pol"
+								required>
+							<span>Muški</span>
+						</label>
+						<label class="radio-option">
+							<input
+								type="radio"
+								name="pol"
+								value="Ž"
+								[(ngModel)]="user.pol"
+								required>
+							<span>Ženski</span>
+						</label>
+					</div>
+				</div>
+
+				<!-- Adresa -->
+				<div class="form-group">
+					<label for="adresa">Adresa:</label>
+					<input
+						type="text"
+						id="adresa"
+						name="adresa"
+						[(ngModel)]="user.adresa"
+						required
+						class="form-control"
+						placeholder="Unesite adresu">
+				</div>
+
+				<!-- Telefon -->
+				<div class="form-group">
+					<label for="telefon">Kontakt telefon:</label>
+					<input
+						type="tel"
+						id="telefon"
+						name="telefon"
+						[(ngModel)]="user.telefon"
+						required
+						class="form-control"
+						placeholder="Unesite broj telefona">
+				</div>
+
+			<!-- Email -->
+			<div class="form-group">
+				<label for="email">E-mail adresa:</label>
+				<input
+					type="email"
+					id="email"
+					name="email"
+				[(ngModel)]="user.email"
+				required
+					email
+					class="form-control"
+			placeholder="Unesite e-mail adresu">
+
+
+			</div>				<!-- Profilna slika -->
+				<div class="form-group">
+					<label for="profileImage">Profilna slika:</label>
+					<input
+						type="file"
+						id="profileImage"
+						name="profileImage"
+						accept="image/jpeg,image/jpg,image/png"
+            (change)="onFileSelected($event)"
+						class="form-control file-input">
+					<div class="file-info">
+						@if (selectedFileName) {
+							<span>Izabrana datoteka: {{ selectedFileName }}</span>
+						} @else {
+							<span class="placeholder-text">Izaberite sliku (opciono)</span>
+						}
+					</div>
+				</div>
+
+				@if (error) {
+					<div class="error-message">{{ error }}</div>
+				}
+
+				@if (success) {
+					<div class="success-message">{{ success }}</div>
+				}
+
+				<button type="submit" class="btn-primary">
+					<span>Registruj se</span>
+				</button>
+			</form>
+
+			<div class="links">
+				<p (click)="navigateToLogin()">Već imate nalog? Prijavite se</p>
+			</div>
+		</div>
+	</div>
+</div>

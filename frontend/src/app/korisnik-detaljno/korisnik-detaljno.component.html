@@ -1,0 +1,247 @@
+<div class="profil-wrapper">
+	<div class="profil-container">
+
+		<!-- Header -->
+		<header class="header">
+			<button class="btn-back" (click)="goBack()">
+				← Nazad na katalog
+			</button>
+			<h1>Moj Profil</h1>
+		</header>
+
+		@if (currentUser) {
+			<!-- Korisničke informacije -->
+			<div class="user-info-card">
+				<div class="user-header">
+					<div class="user-avatar-large">
+						@if (currentUser.profileImage) {
+							<img [src]="currentUser.profileImage" [alt]="currentUser.ime" class="avatar-image-large" />
+						} @else {
+							<span class="avatar-initials-large">
+								{{ currentUser.ime.charAt(0) }}{{ currentUser.prezime.charAt(0) }}
+							</span>
+						}
+					</div>
+					<div class="user-details">
+						<h2>{{ currentUser.ime }} {{ currentUser.prezime }}</h2>
+						<p class="username">{{ '@' }}{{ currentUser.kor_ime }}</p>
+						<div class="user-meta">
+							<span class="meta-item">📧 {{ currentUser.email }}</span>
+							<span class="meta-item">📱 {{ currentUser.telefon }}</span>
+							<span class="meta-item">📍 {{ currentUser.adresa }}</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Statistika -->
+			<div class="statistics-grid">
+				<div class="stat-card">
+					<div class="stat-icon">📊</div>
+					<div class="stat-value">{{ ukupnoIznajmljivanja }}</div>
+					<div class="stat-label">Ukupno iznajmljivanja</div>
+				</div>
+				<div class="stat-card active">
+					<div class="stat-icon">🔵</div>
+					<div class="stat-value">{{ aktivnaIznajmljivanja }}</div>
+					<div class="stat-label">Aktivna</div>
+				</div>
+				<div class="stat-card returned">
+					<div class="stat-icon">✅</div>
+					<div class="stat-value">{{ vracenaIznajmljivanja }}</div>
+					<div class="stat-label">Vraćena</div>
+				</div>
+				<div class="stat-card total">
+					<div class="stat-icon">💰</div>
+					<div class="stat-value">{{ ukupnoPotroseno }} RSD</div>
+					<div class="stat-label">Ukupno potrošeno</div>
+				</div>
+			</div>
+
+			<!-- Favoriti -->
+			<div class="wishlist-section">
+				<h2 class="section-title">❤️ Moji Favoriti</h2>
+
+				@if (favoritesLoading) {
+					<div class="loading">
+						<div class="spinner"></div>
+						<p>Učitavanje favorita...</p>
+					</div>
+				}
+
+				@if (!favoritesLoading && favoriteFilms.length === 0) {
+					<div class="no-wishlist">
+						<div class="empty-icon">💔</div>
+						<h3 class="empty-title">Nemaš favorite filmove</h3>
+						<p class="empty-message">
+							Dodaj filmove koje voliš u favorite
+							i brzo ih pronađi kasnije!
+						</p>
+						<div class="empty-tips">
+							<div class="tip">
+								<span class="tip-icon">💡</span>
+								<span class="tip-text">Pretražite katalog filmova</span>
+							</div>
+							<div class="tip">
+								<span class="tip-icon">❤️</span>
+								<span class="tip-text">Kliknite na dugme "Dodaj u Favorite"</span>
+							</div>
+							<div class="tip">
+								<span class="tip-icon">🎬</span>
+								<span class="tip-text">Film će se pojaviti ovde!</span>
+							</div>
+						</div>
+						<button class="btn-browse" (click)="goBack()">
+							📚 Pregledaj katalog filmova
+						</button>
+					</div>
+				}
+
+				@if (!favoritesLoading && favoriteFilms.length > 0) {
+					<div class="wishlist-grid">
+						@for (film of favoriteFilms; track film._id) {
+							<div class="wishlist-card">
+								<div class="wishlist-poster" [routerLink]="['/film', film._id]">
+									<img [src]="film.poster" [alt]="film.naslov" />
+									<div class="wishlist-overlay">
+										<button class="btn-remove-wishlist" (click)="film._id && removeFromFavorites(film._id); $event.stopPropagation()">
+											❌
+										</button>
+									</div>
+								</div>
+								<div class="wishlist-info">
+									<h3 class="wishlist-title" [routerLink]="['/film', film._id]">{{ film.naslov }}</h3>
+									<p class="wishlist-year">📅 {{ film.godina }}</p>
+									<div class="wishlist-rating">
+										<span class="rating-stars">⭐ {{ getAverageRating(film).toFixed(1) }}</span>
+									</div>
+									<div class="wishlist-genres">
+										<span *ngFor="let zanr of film.zanr.slice(0, 2)" class="genre-badge-small">
+											{{ zanr }}
+										</span>
+									</div>
+									<p class="wishlist-availability">
+										   <!-- Dostupnost prikaz uklonjen ili zamenjen dinamičkim prikazom ako je potrebno -->
+									</p>
+								</div>
+							</div>
+						}
+					</div>
+				}
+			</div>
+
+			<!-- Istorija iznajmljivanja -->
+			<div class="rentals-section">
+				<h2 class="section-title">📜 Istorija iznajmljivanja</h2>
+
+				@if (loading) {
+					<div class="loading">
+						<div class="spinner"></div>
+						<p>Učitavanje...</p>
+					</div>
+				}
+
+				@if (!loading && iznajmljivanja.length === 0) {
+					<div class="no-rentals">
+						<div class="empty-icon">🎬</div>
+						<h3 class="empty-title">Nemate istoriju iznajmljivanja</h3>
+						<p class="empty-message">
+							Počnite svoju filmsku avanturu! Iznajmite prvi film
+							i ovde će se prikazati kompletan pregled vaših iznajmljivanja.
+						</p>
+						<div class="empty-steps">
+							<div class="step">
+								<span class="step-number">1</span>
+								<span class="step-text">Pronađite film koji vas zanima</span>
+							</div>
+							<div class="step">
+								<span class="step-number">2</span>
+								<span class="step-text">Izaberite period iznajmljivanja</span>
+							</div>
+							<div class="step">
+								<span class="step-number">3</span>
+								<span class="step-text">Potvrdite iznajmljivanje</span>
+							</div>
+							<div class="step">
+								<span class="step-number">4</span>
+								<span class="step-text">Pratite status ovde u profilu! 📊</span>
+							</div>
+						</div>
+						<button class="btn-browse" (click)="goBack()">
+							🎥 Započni iznajmljivanje
+						</button>
+					</div>
+				}
+
+				@if (!loading && iznajmljivanja.length > 0) {
+					<div class="rentals-list">
+						@for (iznajmljivanje of iznajmljivanja; track iznajmljivanje._id) {
+							<div class="rental-card" [class]="getStatusClass(iznajmljivanje)">
+								<div class="rental-poster" (click)="viewFilmDetails(iznajmljivanje.film._id)">
+									<img [src]="iznajmljivanje.film.poster" [alt]="iznajmljivanje.film.naslov" />
+								</div>
+								<div class="rental-info">
+									<h3 class="rental-title" (click)="viewFilmDetails(iznajmljivanje.film._id)">
+										{{ iznajmljivanje.film.naslov }}
+									</h3>
+									<div class="rental-genres">
+										<span *ngFor="let zanr of iznajmljivanje.film.zanr" class="genre-badge">
+											{{ zanr }}
+										</span>
+									</div>
+									<div class="rental-dates">
+									<div class="date-item">
+										<span class="date-label">Datum početka:</span>
+										<span class="date-value">{{ formatDate(iznajmljivanje.datumIznajmljivanja) }}</span>
+									</div>
+									<div class="date-item">
+										<span class="date-label">Planirano vraćanje:</span>
+										<span class="date-value">{{ formatDate(iznajmljivanje.datumVracanja) }}</span>
+									</div>
+										@if (isRentalPlanned(iznajmljivanje)) {
+											<div class="date-item days-remaining">
+												<span class="date-label">Do početka iznajmljivanja:</span>
+												<span class="date-value" [class.warning]="getDaysUntilStart(iznajmljivanje) <= 1">
+													{{ getDaysUntilStart(iznajmljivanje) }} dana
+												</span>
+											</div>
+										}
+										@if (isRentalActive(iznajmljivanje)) {
+											<div class="date-item days-remaining">
+												<span class="date-label">Do vraćanja:</span>
+												<span class="date-value" [class.warning]="getDaysRemaining(iznajmljivanje) <= 1">
+													{{ getDaysRemaining(iznajmljivanje) }} dana
+												</span>
+											</div>
+										}
+									</div>
+									<div class="rental-footer">
+										<div class="rental-price">
+											<span class="price-label">Broj dana:</span>
+											<span class="price-value">{{ iznajmljivanje.brojDana }} dana</span>
+										</div>
+										<div class="rental-price">
+											<span class="price-label">Ukupno:</span>
+											<span class="price-value total-price">{{ iznajmljivanje.ukupnaCena }} RSD</span>
+										</div>
+										<div class="rental-status">
+											<span class="status-badge" [class]="getStatusClass(iznajmljivanje)">
+												{{ getStatusText(iznajmljivanje) }}
+											</span>
+										</div>
+										@if (canCancelRental(iznajmljivanje)) {
+											<button class="btn-cancel-rental" (click)="cancelRental(iznajmljivanje)">
+												🚫 Otkaži iznajmljivanje
+											</button>
+										}
+									</div>
+								</div>
+							</div>
+						}
+					</div>
+				}
+			</div>
+		}
+
+	</div>
+</div>

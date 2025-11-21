@@ -1,0 +1,291 @@
+<div class="add-film-container">
+  <!-- Header -->
+  <header class="add-header">
+    <button class="btn-back" (click)="onCancel()">
+      <span class="back-icon">←</span>
+      Nazad na Admin Panel
+    </button>
+    <h1 class="page-title">➕ Dodaj Novi Film</h1>
+  </header>
+
+  <!-- Error -->
+  <div *ngIf="errorMessage" class="error-message">
+    <pre class="error-text">{{ errorMessage }}</pre>
+  </div>
+
+  <!-- Success -->
+  <div *ngIf="successMessage" class="success-message">
+    {{ successMessage }}
+  </div>
+
+  <!-- Form -->
+  <form class="add-form" (ngSubmit)="onSubmit()">
+
+    <!-- Osnovni podaci -->
+    <div class="form-section">
+      <h2 class="section-title">📋 Osnovni podaci</h2>
+
+      <div class="form-row">
+        <div class="form-group full-width">
+          <label for="naslov">Naziv filma *</label>
+          <input
+            type="text"
+            id="naslov"
+            [(ngModel)]="film.naslov"
+            name="naslov"
+            placeholder="Npr. Shawshank Redemption"
+            required>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group full-width">
+          <label for="opis">Opis</label>
+          <textarea
+            id="opis"
+            [(ngModel)]="film.opis"
+            name="opis"
+            rows="4"
+            placeholder="Kratak opis radnje filma..."></textarea>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="reziser">Režiser *</label>
+          <input
+            type="text"
+            id="reziser"
+            [(ngModel)]="film.reziser"
+            name="reziser"
+            placeholder="Npr. Frank Darabont"
+            required>
+        </div>
+
+        <div class="form-group">
+          <label for="godina">Godina</label>
+          <input
+            type="number"
+            id="godina"
+            [(ngModel)]="film.godina"
+            name="godina"
+            min="1900"
+            [max]="2025"
+            placeholder="2024">
+        </div>
+
+        <div class="form-group">
+          <label for="trajanje">Trajanje (min)</label>
+          <input
+            type="number"
+            id="trajanje"
+            [(ngModel)]="film.trajanjeMin"
+            name="trajanje"
+            min="1"
+            placeholder="120">
+        </div>
+      </div>
+    </div>
+
+    <!-- Žanrovi -->
+    <div class="form-section">
+      <h2 class="section-title">🎭 Žanrovi *</h2>
+      <div class="checkbox-grid">
+        <label *ngFor="let zanr of availableZanrovi" class="checkbox-label">
+          <input
+            type="checkbox"
+            [checked]="selectedZanrovi[zanr]"
+            (change)="onZanrChange(zanr, $event)">
+          <span>{{ zanr }}</span>
+        </label>
+      </div>
+    </div>
+
+    <!-- Glumci -->
+    <div class="form-section">
+      <h2 class="section-title">🎬 Glumci</h2>
+      <div class="dynamic-list">
+        <div class="add-item">
+          <input
+            type="text"
+            [(ngModel)]="glumacInput"
+            name="glumacInput"
+            placeholder="Ime glumca..."
+            (keyup.enter)="addGlumac()">
+          <button type="button" class="btn-add-item" (click)="addGlumac()">+ Dodaj</button>
+        </div>
+        <div class="item-list">
+          <div *ngFor="let glumac of film.glumci; let i = index" class="item-chip">
+            {{ glumac }}
+            <button type="button" class="btn-remove-chip" (click)="removeGlumac(i)">×</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Poster -->
+    <div class="form-section">
+      <h2 class="section-title">🖼️ Poster</h2>
+
+      <div class="poster-section">
+        <div class="poster-preview" *ngIf="film.poster">
+          <img [src]="film.poster" alt="Poster filma">
+        </div>
+        <div class="poster-preview empty" *ngIf="!film.poster">
+          <span class="empty-text">Nema postera</span>
+        </div>
+        <div class="poster-controls">
+          <div class="form-group full-width">
+            <label for="posterUrl">URL postera</label>
+            <input
+              type="url"
+              id="posterUrl"
+              [(ngModel)]="film.poster"
+              name="posterUrl"
+              placeholder="https://example.com/poster.jpg">
+          </div>
+          <div class="divider">ILI</div>
+          <div class="form-group full-width">
+            <label for="posterFile">Učitaj sliku</label>
+            <input
+              type="file"
+              id="posterFile"
+              accept="image/*"
+              (change)="onPosterChange($event)">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Trailer -->
+    <div class="form-section">
+      <h2 class="section-title">🎥 Trailer</h2>
+      <div class="form-row">
+        <div class="form-group full-width">
+          <label for="trailerUrl">YouTube Embed URL</label>
+          <input
+            type="url"
+            id="trailerUrl"
+            [(ngModel)]="film.trailerUrl"
+            name="trailerUrl"
+            placeholder="https://www.youtube.com/embed/VIDEO_ID">
+          <small class="input-hint">Primer: https://www.youtube.com/embed/YoHD9XEInc0</small>
+        </div>
+      </div>
+    </div>
+
+    <!-- Dostupnost i cena -->
+    <div class="form-section">
+      <h2 class="section-title">💰 Dostupnost i Cena</h2>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="ukupno">Ukupno komada</label>
+          <input
+            type="number"
+            id="ukupno"
+            [(ngModel)]="film.ukupnoKomada"
+            name="ukupno"
+            min="0"
+            placeholder="5">
+        </div>
+
+        <div class="form-group">
+          <!-- Dostupno komada polje uklonjeno -->
+        </div>
+
+        <div class="form-group">
+          <label for="cena">Cena dnevno (RSD)</label>
+          <input
+            type="number"
+            id="cena"
+            [(ngModel)]="film.cenaDnevno"
+            name="cena"
+            min="0"
+            step="10"
+            placeholder="200">
+        </div>
+      </div>
+    </div>
+
+    <!-- Dodatni metadata -->
+    <div class="form-section">
+      <h2 class="section-title">📊 Dodatne informacije (opciono)</h2>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="produkcija">Produkcijska kuća</label>
+          <input
+            type="text"
+            id="produkcija"
+            [(ngModel)]="film.produkcija"
+            name="produkcija"
+            placeholder="Warner Bros. Pictures">
+        </div>
+
+        <div class="form-group">
+          <label for="budzet">Budžet</label>
+          <input
+            type="text"
+            id="budzet"
+            [(ngModel)]="film.budzet"
+            name="budzet"
+            placeholder="$160 million">
+        </div>
+
+        <div class="form-group">
+          <label for="boxOffice">Box Office</label>
+          <input
+            type="text"
+            id="boxOffice"
+            [(ngModel)]="film.boxOffice"
+            name="boxOffice"
+            placeholder="$836 million">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="jezik">Jezik</label>
+          <input
+            type="text"
+            id="jezik"
+            [(ngModel)]="film.jezik"
+            name="jezik"
+            placeholder="Engleski">
+        </div>
+      </div>
+
+      <!-- Titlovi -->
+      <div class="form-group full-width">
+        <label>Dostupni titlovi</label>
+        <div class="dynamic-list">
+          <div class="add-item">
+            <input
+              type="text"
+              [(ngModel)]="titloviInput"
+              name="titloviInput"
+              placeholder="Jezik titla..."
+              (keyup.enter)="addTitl()">
+            <button type="button" class="btn-add-item" (click)="addTitl()">+ Dodaj</button>
+          </div>
+          <div class="item-list">
+            <div *ngFor="let titl of film.titlovi; let i = index" class="item-chip">
+              {{ titl }}
+              <button type="button" class="btn-remove-chip" (click)="removeTitl(i)">×</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Submit buttons -->
+    <div class="form-actions">
+      <button type="button" class="btn-cancel" (click)="onCancel()">
+        Otkaži
+      </button>
+      <button type="submit" class="btn-submit">
+        💾 Dodaj film
+      </button>
+    </div>
+  </form>
+</div>

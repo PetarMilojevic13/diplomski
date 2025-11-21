@@ -1,0 +1,111 @@
+<div class="katalog-wrapper">
+	<div class="katalog-container">
+
+		<!-- Header -->
+		<header class="header">
+			<div class="brand">
+				<div class="logo">🎬</div>
+				<h1>Video Klub - Katalog</h1>
+			</div>
+			<button class="btn-login" (click)="goToLogin()">Prijavi se</button>
+		</header>
+
+		<!-- Filters Section -->
+		<div class="filters-section">
+			<div class="search-bar">
+				<input
+					type="text"
+					[(ngModel)]="searchQuery"
+					(input)="onSearch()"
+					placeholder="🔍 Pretraga po nazivu"
+					class="search-input">
+			</div>
+
+			<div class="filters-row">
+				<div class="filter-group">
+					<label for="zanr">Žanr:</label>
+					<select
+						id="zanr"
+						[(ngModel)]="selectedZanr"
+						(change)="onZanrChange()"
+						class="filter-select">
+						<option value="">Svi žanrovi</option>
+						<option *ngFor="let zanr of allZanrovi" [value]="zanr">{{ zanr }}</option>
+					</select>
+				</div>
+
+				<div class="filter-group">
+					<label for="sort">Sortiraj po:</label>
+					<select
+						id="sort"
+						[(ngModel)]="sortBy"
+						(change)="onSortChange()"
+						class="filter-select">
+						<option value="naslov">Nazivu (A-Z)</option>
+						<option value="godina-desc">Godini (nova → stara)</option>
+						<option value="godina-asc">Godini (stara → nova)</option>
+						<option value="trajanje">Trajanju</option>
+					</select>
+				</div>
+
+				<button class="btn-clear" (click)="clearFilters()">Resetuj filtere</button>
+			</div>
+
+			<div class="results-info">
+				<p>Prikazano: <strong>{{ filteredFilms.length }}</strong> od {{ films.length }} filmova</p>
+			</div>
+		</div>
+
+		<!-- Films Grid -->
+		<div class="films-grid">
+			<!-- Loading State -->
+			@if (loading) {
+				<app-skeleton-loader type="card" [count]="6"></app-skeleton-loader>
+			}
+
+			<!-- No Results -->
+			@if (!loading && filteredFilms.length === 0) {
+				<div class="no-results">
+					<p>😕 Nema rezultata</p>
+					<span>Pokušajte sa drugačijim pretragom ili filterima</span>
+				</div>
+			}
+
+			<!-- Films -->
+			@if (!loading) {
+				@for (film of filteredFilms; track film._id) {
+					<div class="film-card" (click)="viewFilmDetails(film._id!)">
+						<div class="film-poster">
+							<img [src]="film.poster" [alt]="film.naslov" />
+							<div class="overlay">
+								<button class="btn-view">Vidi detalje</button>
+							</div>
+						</div>
+						<div class="film-info">
+							<h3 class="film-title">{{ film.naslov }}</h3>
+							<div class="film-meta">
+								<span class="godina">{{ film.godina }}</span>
+								<span class="separator">•</span>
+								<span class="trajanje">{{ film.trajanjeMin }} min</span>
+							</div>
+							<!-- average rating display removed per request -->
+							<div class="film-zanrovi">
+								<span *ngFor="let zanr of film.zanr" class="zanr-badge">{{ zanr }}</span>
+							</div>
+							<div class="film-comments">
+								<span>💬 {{ getBrojKomentara(film) }} komentara</span>
+							</div>
+						</div>
+					</div>
+				}
+			}
+		</div>
+
+		<!-- Guest Info Banner -->
+		<div class="guest-banner">
+			<p>💡 <strong>Prijavi se</strong> da bi mogao iznajmljivati i ocenjivati filmove!</p>
+			<button class="btn-register" (click)="goToLogin()">Kreiraj nalog</button>
+		</div>
+
+	</div>
+</div>

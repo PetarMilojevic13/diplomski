@@ -1,0 +1,193 @@
+<div class="glumac-wrapper">
+  <div class="glumac-container">
+
+    <!-- Back Button -->
+    <button class="btn-back" (click)="goBack()">← Nazad</button>
+
+    <!-- Loading State -->
+    @if (loading) {
+      <div class="loading">
+        <div class="spinner"></div>
+        <p>Učitavanje...</p>
+      </div>
+    }
+
+    <!-- Glumac Details -->
+    @if (!loading) {
+      <!-- Header sa profilnom slikom -->
+      <div class="glumac-header">
+        <div class="glumac-profile">
+          @if (glumac?.profilnaSlika) {
+            <img [src]="safeGlumac.profilnaSlika!" [alt]="glumacIme" class="profile-image" />
+          } @else {
+            <div class="profile-placeholder">
+              <span class="inicijali">{{ glumac?.inicijali || 'N/A' }}</span>
+            </div>
+          }
+        </div>
+
+        <div class="glumac-info">
+          <h1 class="glumac-name">{{ glumacIme }}</h1>
+
+          <div class="glumac-basic-info">
+            @if (glumac?.datumRodjenja) {
+              <div class="info-item">
+                <span class="info-icon">🎂</span>
+                <span class="info-text">{{ formatDatum(safeGlumac.datumRodjenja) }} ({{ safeGlumac.godinaStarosti }} godina)</span>
+              </div>
+            }
+
+            @if (glumac?.mestoRodjenja) {
+              <div class="info-item">
+                <span class="info-icon">📍</span>
+                <span class="info-text">{{ safeGlumac.mestoRodjenja }}</span>
+              </div>
+            }
+
+            @if (glumac?.statusAktivnosti) {
+              <div class="info-item">
+                <span class="info-icon">🎬</span>
+                <span class="info-text">Aktivnost u glumi: {{ safeGlumac.statusAktivnosti }}</span>
+              </div>
+            }
+          </div>
+        </div>
+      </div>
+
+      <!-- Biografija -->
+      @if (glumac?.biografija) {
+        <div class="biografija-section">
+          <h2>📖 Biografija</h2>
+          <p class="biografija-text">{{ safeGlumac.biografija }}</p>
+        </div>
+      }
+
+      <!-- Statistike -->
+      @if (statistike) {
+        <div class="statistike-section">
+          <h2>📊 Statistike karijere</h2>
+          <div class="statistike-grid">
+            <div class="stat-card">
+              <div class="stat-icon">🎬</div>
+              <div class="stat-value">{{ statistike.ukupnoFilmova }}</div>
+              <div class="stat-label">Ukupno filmova</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon">⭐</div>
+              <div class="stat-value">{{ statistike.prosecnaOcena.toFixed(1) }}</div>
+              <div class="stat-label">Prosečna ocena</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon">🎭</div>
+              <div class="stat-value">{{ statistike.najcesciZanr }}</div>
+              <div class="stat-label">Najčešći žanr</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon">🎥</div>
+              <div class="stat-value">{{ statistike.najcesciReziser }}</div>
+              <div class="stat-label">Najčešći režiser</div>
+            </div>
+          </div>
+        </div>
+      }
+
+      <!-- Žanr Distribucija Grafikon -->
+      @if (zanrDistribucija.length > 0) {
+        <div class="grafikon-section">
+          <h2>📊 Distribucija žanrova</h2>
+          <p class="grafikon-opis">
+            Procentualna zastupljenost svih žanrova u filmografiji glumca {{ safeGlumac.ime }}.
+            <span class="grafikon-napomena">* Jedan film može pripadati više žanrova, tako da je ukupan zbir procenata veći od 100%.</span>
+          </p>
+          <div class="chart-container">
+            @for (item of zanrDistribucija; track item.zanr) {
+              <div class="chart-bar-wrapper">
+                <div class="chart-label">
+                  <span class="zanr-name">{{ item.zanr }}</span>
+                  <span class="zanr-count">{{ item.broj }} {{ item.broj === 1 ? 'film' : 'filmova' }}</span>
+                </div>
+                <div class="chart-bar-container">
+                  <div
+                    class="chart-bar"
+                    [style.width.%]="item.procenat"
+                    [attr.data-procenat]="item.procenat.toFixed(1) + '%'">
+                  </div>
+                </div>
+              </div>
+            }
+          </div>
+        </div>
+      }
+
+      <!-- Timeline karijere -->
+      @if (timelineEvents.length > 0) {
+        <div class="timeline-section">
+          <h2>⏱️ Hronologija karijere</h2>
+          <div class="timeline">
+            @for (event of timelineEvents; track event.godina + event.tekst) {
+              <div class="timeline-item" [class]="'timeline-' + event.tip">
+                <div class="timeline-marker">
+                  <span class="timeline-icon">{{ event.ikona }}</span>
+                </div>
+                <div class="timeline-content">
+                  <div class="timeline-year">{{ event.godina }}</div>
+                  <div class="timeline-text">{{ event.tekst }}</div>
+                </div>
+              </div>
+            }
+          </div>
+        </div>
+      }
+
+      <!-- Social Media -->
+      @if (glumac?.socialMedia) {
+        <div class="social-section">
+          <h2>🌐 Online profili</h2>
+          <div class="social-links">
+            @if (safeSocialMedia.imdb) {
+              <a [href]="safeSocialMedia.imdb" target="_blank" rel="noopener" class="social-link imdb">
+                <span class="social-icon">⭐</span>
+                <span>IMDb</span>
+              </a>
+            }
+            @if (safeSocialMedia.rottenTomatoes) {
+              <a [href]="safeSocialMedia.rottenTomatoes" target="_blank" rel="noopener" class="social-link rotten-tomatoes">
+                <span class="social-icon">🍅</span>
+                <span>Rotten Tomatoes</span>
+              </a>
+            }
+          </div>
+        </div>
+      }
+
+      <!-- Zanimljivosti -->
+      @if (glumac?.zanimljivosti && safeGlumac.zanimljivosti.length > 0) {
+        <div class="zanimljivosti-section">
+          <h2>✨ Zanimljivosti</h2>
+          <div class="zanimljivosti-list">
+            @for (zanimljivost of safeGlumac.zanimljivosti; track zanimljivost) {
+              <div class="zanimljivost-item">
+                <span class="bullet">💡</span>
+                <p>{{ zanimljivost }}</p>
+              </div>
+            }
+          </div>
+        </div>
+      }
+
+      <!-- Nagrade -->
+      @if (glumac?.nagrade && safeGlumac.nagrade.length > 0) {
+        <div class="nagrade-section">
+          <h2>🏆 Nagrade i priznanja</h2>
+          <div class="nagrade-list">
+            <div *ngFor="let nagrada of safeGlumac.nagrade" class="nagrada-item">
+              <span class="nagrada-icon">🏆</span>
+              <span class="nagrada-text">{{ nagrada }}</span>
+            </div>
+          </div>
+        </div>
+      }
+    }
+
+  </div>
+</div>

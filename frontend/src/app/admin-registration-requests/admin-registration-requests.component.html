@@ -1,0 +1,175 @@
+<div class="requests-container">
+  <!-- Header -->
+  <header class="requests-header">
+    <button class="btn-back" (click)="goBack()">
+      <span class="back-icon">←</span>
+      Nazad na Admin Panel
+    </button>
+    <h1 class="page-title">📋 Pending Korisnici</h1>
+  </header>
+
+  <!-- Loading -->
+  <div *ngIf="loading" class="loading-container">
+    <div class="spinner"></div>
+    <p>Učitavanje pending korisnika...</p>
+  </div>
+
+  <!-- Error -->
+  <div *ngIf="error" class="error-message">
+    ❌ {{ error }}
+  </div>
+
+  <!-- Success -->
+  <div *ngIf="success" class="success-message">
+    ✅ {{ success }}
+  </div>
+
+  <!-- Requests List -->
+  <div *ngIf="!loading" class="requests-content">
+    <div class="stats-bar">
+      <div class="stat">
+        <span class="stat-label">Pending korisnika:</span>
+        <span class="stat-value">{{ pendingUsers.length }}</span>
+      </div>
+    </div>
+
+    <div *ngIf="pendingUsers.length === 0" class="no-requests">
+      <div class="no-requests-icon">📭</div>
+      <h3>Nema pending korisnika</h3>
+      <p>Trenutno nema novih korisnika koji čekaju odobrenje.</p>
+    </div>
+
+    <div *ngIf="pendingUsers.length > 0" class="requests-grid">
+      <div *ngFor="let user of pendingUsers" class="request-card">
+        <div class="card-header">
+          <div class="user-avatar">
+            <img *ngIf="user.profileImage" [src]="user.profileImage" alt="Avatar">
+            <div *ngIf="!user.profileImage" class="avatar-placeholder">
+              {{ user.ime.charAt(0) }}{{ user.prezime.charAt(0) }}
+            </div>
+          </div>
+          <div class="user-info">
+            <h3 class="user-name">{{ user.ime }} {{ user.prezime }}</h3>
+            <p class="user-username">{{ '@' + user.kor_ime }}</p>
+          </div>
+          <div class="request-date">
+            <span>{{ user.createdAt | date:'dd.MM.yyyy HH:mm' }}</span>
+          </div>
+        </div>
+
+        <div class="card-body">
+          <div class="info-row">
+            <span class="info-label">📧 Email:</span>
+            <span class="info-value">{{ user.email }}</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">📱 Telefon:</span>
+            <span class="info-value">{{ user.telefon }}</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">📍 Adresa:</span>
+            <span class="info-value">{{ user.adresa }}</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">👤 Pol:</span>
+            <span class="info-value">{{ user.pol === 'M' ? 'Muški' : 'Ženski' }}</span>
+          </div>
+        </div>
+
+        <div class="card-actions">
+          <button class="btn-view" (click)="viewDetails(user)">
+            👁️ Detalji
+          </button>
+          <button class="btn-approve" (click)="approveRequest(user)">
+            ✅ Odobri
+          </button>
+          <button class="btn-reject" (click)="rejectRequest(user)">
+            ❌ Odbij
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Details Modal -->
+  <div *ngIf="showDetailsModal && selectedUser" class="modal-overlay" (click)="closeModal()">
+    <div class="modal-content" (click)="$event.stopPropagation()">
+      <div class="modal-header">
+        <h2>Detalji korisnika</h2>
+        <button class="btn-close-modal" (click)="closeModal()">×</button>
+      </div>
+
+      <div class="modal-body">
+        <div class="detail-avatar">
+          <img *ngIf="selectedUser.profileImage" [src]="selectedUser.profileImage" alt="Avatar">
+          <div *ngIf="!selectedUser.profileImage" class="avatar-placeholder-large">
+            {{ selectedUser.ime.charAt(0) }}{{ selectedUser.prezime.charAt(0) }}
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Lični podaci</h3>
+          <div class="detail-grid">
+            <div class="detail-item">
+              <label>Ime:</label>
+              <span>{{ selectedUser.ime }}</span>
+            </div>
+            <div class="detail-item">
+              <label>Prezime:</label>
+              <span>{{ selectedUser.prezime }}</span>
+            </div>
+            <div class="detail-item">
+              <label>Pol:</label>
+              <span>{{ selectedUser.pol === 'M' ? 'Muški' : 'Ženski' }}</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Kontakt informacije</h3>
+          <div class="detail-grid">
+            <div class="detail-item">
+              <label>Korisničko ime:</label>
+              <span>{{ selectedUser.kor_ime }}</span>
+            </div>
+            <div class="detail-item">
+              <label>Email:</label>
+              <span>{{ selectedUser.email }}</span>
+            </div>
+            <div class="detail-item">
+              <label>Telefon:</label>
+              <span>{{ selectedUser.telefon }}</span>
+            </div>
+            <div class="detail-item">
+              <label>Adresa:</label>
+              <span>{{ selectedUser.adresa }}</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Informacije o korisniku</h3>
+          <div class="detail-grid">
+            <div class="detail-item">
+              <label>Datum registracije:</label>
+              <span>{{ selectedUser.createdAt | date:'dd.MM.yyyy HH:mm' }}</span>
+            </div>
+            <div class="detail-item">
+              <label>Status:</label>
+              <span class="status-badge pending">Pending</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-actions">
+        <button class="btn-modal-approve" (click)="approveRequest(selectedUser); closeModal()">
+          ✅ Odobri korisnika
+        </button>
+        <button class="btn-modal-reject" (click)="rejectRequest(selectedUser); closeModal()">
+          ❌ Odbij korisnika
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

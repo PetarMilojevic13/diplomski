@@ -1,0 +1,470 @@
+<div class="film-details-wrapper">
+  <div class="film-details-container">
+
+  <!-- Loading State -->
+    @if (loading) {
+      <div class="loading">
+    <div class="spinner"></div>
+        <p>Učitavanje...</p>
+  </div>
+    }
+
+  <!-- Error State -->
+    @if (error && !loading) {
+      <div class="error-message">
+        <h2>😕 {{ error }}</h2>
+        <button class="btn-back" (click)="goBack()">← Nazad na katalog</button>
+  </div>
+    }
+
+  <!-- Film Details -->
+    @if (film && !loading && !error) {
+      <div class="film-content">
+
+    <!-- Back Button -->
+        <button class="btn-back" (click)="goBack()">← Nazad na katalog</button>
+
+        <!-- Film Header -->
+      <div class="film-header">
+          <div class="film-poster-large">
+            <img [src]="film.poster" [alt]="film.naslov" />
+        </div>
+
+        <div class="film-info-main">
+          <h1 class="film-title-large">{{ film.naslov }}</h1>
+
+          <div class="film-meta-large">
+            <span class="meta-item">📅 {{ film.godina }}</span>
+            <span class="separator">•</span>
+            <span class="meta-item">⏱️ {{ film.trajanjeMin }} min</span>
+          </div>
+
+          <div class="film-rating-large">
+            <div class="rating-stars">
+                <span class="stars-big">⭐ {{ getProsecnaOcena().toFixed(1) }}</span>
+                <span class="rating-count-big">({{ getBrojOcena() }} ocena)</span>
+              </div>
+              <div class="comments-count">
+                <span>💬 {{ getBrojKomentara() }} komentara</span>
+              </div>
+            </div>
+
+            <div class="film-zanrovi-large">
+              <h3>Žanrovi:</h3>
+              <div class="zanr-list">
+                <span *ngFor="let zanr of film.zanr" class="zanr-badge-large">{{ zanr }}</span>
+              </div>
+            </div>
+
+            @if (film.reziser && film.reziser.length > 0) {
+              <div class="film-reziser">
+                <h3>Režiser{{ film.reziser.length > 1 ? 'i' : '' }}:</h3>
+                <div class="reziser-info">
+                  <a *ngFor="let rez of film.reziser"
+                     [routerLink]="['/reziser', rez]"
+                     class="reziser-badge">
+                    🎬 {{ rez }}
+                  </a>
+                </div>
+              </div>
+            }
+
+            <div class="film-glumci">
+              <h3>Glumci:</h3>
+              <div class="glumci-list">
+                <a
+                  *ngFor="let glumac of film.glumci"
+                  [routerLink]="['/glumac', glumac]"
+                  class="glumac-badge">
+                  {{ glumac }}
+                </a>
+              </div>
+            </div>
+          </div>
+          </div>
+
+        <!-- Action Buttons -->
+        <div class="action-buttons">
+          <button
+            class="btn-favorite"
+            [class.active]="isFavorite"
+            [disabled]="!isLoggedIn"
+            (click)="toggleFavorite()">
+            <span class="icon">{{ isFavorite ? '❤️' : '🤍' }}</span>
+            <span class="text">{{ isFavorite ? 'U Favoritima' : 'Dodaj u Favorite' }}</span>
+          </button>
+
+          @if (!isLoggedIn) {
+            <span class="login-hint">💡 Prijavi se da dodaš filmove u favorite</span>
+          }
+        </div>
+
+        <!-- Rating Statistics Section -->
+        <div class="rating-section">
+          <h3>⭐ Ocene</h3>
+
+          <div class="rating-stats-display">
+            <div class="stat-item">
+              <span class="stat-label">Prosečna ocena:</span>
+              <span class="stat-value">{{ getProsecnaOcena() > 0 ? getProsecnaOcena().toFixed(2) : 'N/A' }} ⭐</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-label">Ukupno ocena:</span>
+              <span class="stat-value">{{ getBrojOcena() }}</span>
+            </div>
+          </div>
+
+          @if (isLoggedIn && !hasUserRated) {
+            <div class="rating-widget">
+              <span class="label">Oceni ovaj film:</span>
+              <div class="stars-rating">
+                @for (star of [1,2,3,4,5]; track star) {
+                  <button
+                    class="star-btn"
+                    [class.active]="star <= userRating"
+                    (click)="rateFilm(star)">
+                    ⭐
+                  </button>
+                }
+              </div>
+            </div>
+          } @else if (isLoggedIn && hasUserRated) {
+            <div class="user-rating-display">
+              <span class="label">Tvoja ocena:</span>
+              <span class="rating-value">{{ userRating }} ⭐</span>
+            </div>
+          } @else {
+            <span class="login-hint">💡 Prijavi se da oceniš film</span>
+          }
+        </div>
+
+        <!-- Comments Section -->
+        <div class="comments-section">
+          <h3>💬 Komentari</h3>
+
+          @if (isLoggedIn) {
+            <div class="comment-form">
+              <textarea
+                [(ngModel)]="newComment"
+                placeholder="Napiši komentar..."
+                rows="3"
+                [disabled]="submittingComment">
+              </textarea>
+              <button
+                class="btn-submit-comment"
+                (click)="submitComment()"
+                [disabled]="submittingComment || !newComment.trim()">
+                {{ submittingComment ? 'Šaljem...' : 'Dodaj komentar' }}
+              </button>
+            </div>
+          } @else {
+            <span class="login-hint">💡 Prijavi se da ostaviš komentar</span>
+          }
+
+          <!-- Display existing comments -->
+          @if (film.komentari && film.komentari.length > 0) {
+            <div class="comments-list">
+              @for (comment of film.komentari; track comment) {
+                <div class="comment-item">
+                  <div class="comment-header">
+                    <span class="comment-author">{{ comment.korisnik }}</span>
+                    <span class="comment-date">{{ comment.datum | date: 'dd.MM.yyyy HH:mm' }}</span>
+                  </div>
+                  <p class="comment-text">{{ comment.tekst }}</p>
+                </div>
+              }
+            </div>
+          } @else {
+            <p class="no-comments">Još nema komentara za ovaj film.</p>
+          }
+        </div>
+
+        <!-- Availability and Rent Section -->
+        <div class="availability-section">
+          <div class="availability-info">
+            <h3>📦 Dostupnost i cena</h3>
+            <div class="stock-info">
+              <span class="stock-label">Ukupno primeraka:</span>
+              <span class="stock-value">{{ film.ukupnoKomada }}</span>
+            </div>
+            <div class="stock-info">
+              <span class="stock-label">Dostupno za iznajmljivanje:</span>
+              <span class="stock-value" [class.out-of-stock]="!isFilmAvailable()">
+                {{ availableCount }}
+              </span>
+            </div>
+            <div class="stock-info price-info">
+              <span class="stock-label">💰 Cena iznajmljivanja (1 dan):</span>
+              <span class="stock-value price-value">{{ film.cenaDnevno }} RSD</span>
+            </div>
+
+            @if (isFilmAvailable()) {
+              <div class="availability-status available">
+                ✅ Film je dostupan
+              </div>
+            } @else {
+              <div class="availability-status unavailable">
+                ❌ Svi primerci su trenutno iznajmljeni
+              </div>
+            }
+          </div>
+
+            <button
+            class="btn-rent"
+            [disabled]="!isLoggedIn || !isFilmAvailable() || rentingInProgress"
+            (click)="rentFilm()">
+            @if (rentingInProgress) {
+              <span class="spinner-small"></span>
+              <span>Obrađujem...</span>
+            } @else {
+              <span class="icon">🎬</span>
+              <span>Iznajmi Film</span>
+            }
+            </button>
+
+          @if (!isLoggedIn) {
+            <span class="login-hint-rent">💡 Prijavi se da iznajmiš film</span>
+          }
+        </div>
+
+        <!-- Metadata Section -->
+        @if (film.produkcija || film.budzet || film.boxOffice || film.jezik || film.titlovi) {
+          <div class="metadata-section">
+            <h2>📋 Dodatne informacije</h2>
+            <div class="metadata-grid">
+              @if (film.produkcija) {
+                <div class="metadata-item">
+                  <span class="metadata-label">🎬 Produkcija:</span>
+                  <span class="metadata-value">{{ film.produkcija }}</span>
+                </div>
+              }
+              @if (film.budzet) {
+                <div class="metadata-item">
+                  <span class="metadata-label">💰 Budžet:</span>
+                  <span class="metadata-value">{{ film.budzet }}</span>
+                </div>
+              }
+              @if (film.boxOffice) {
+                <div class="metadata-item">
+                  <span class="metadata-label">💵 Box Office:</span>
+                  <span class="metadata-value">{{ film.boxOffice }}</span>
+                </div>
+              }
+              @if (film.jezik) {
+                <div class="metadata-item">
+                  <span class="metadata-label">🌍 Jezik:</span>
+                  <span class="metadata-value">{{ film.jezik }}</span>
+                </div>
+              }
+              @if (film.titlovi && film.titlovi.length > 0) {
+                <div class="metadata-item">
+                  <span class="metadata-label">📝 Titlovi:</span>
+                  <span class="metadata-value">
+                    <span *ngFor="let titl of film.titlovi; let last = last">
+                      {{ titl }}<span *ngIf="!last">, </span>
+                    </span>
+                  </span>
+                </div>
+              }
+            </div>
+          </div>
+        }
+
+      <!-- Film Description -->
+      <div class="film-description">
+        <h2>📖 Opis filma</h2>
+        <p>{{ film.opis }}</p>
+      </div>
+
+        <!-- Trailer Section -->
+        @if (film.trailerUrl) {
+          <div class="trailer-section">
+            <h2>🎥 Trailer</h2>
+            <app-video-player
+              [trailerUrl]="film.trailerUrl"
+              [filmNaslov]="film.naslov">
+            </app-video-player>
+          </div>
+        }
+
+        <!-- AI Recommendations Section (KNN Algorithm) -->
+        <div class="recommendations-section">
+          <h2>🤖 Slični filmovi <span class="ai-badge">AI Powered</span></h2>
+          <p class="recommendations-subtitle">
+            Pronađeno pomoću KNN algoritma na osnovu žanrova
+          </p>
+
+          @if (recommendationsLoading) {
+            <div class="recommendations-loading">
+              <div class="spinner"></div>
+              <p>Analiziram slične filmove...</p>
+          </div>
+          } @else if (similarFilms.length > 0) {
+            <div class="similar-films-grid">
+              @for (similarFilm of similarFilms; track similarFilm._id) {
+                <div class="similar-film-card" (click)="navigateToFilm(similarFilm._id!)">
+                  <div class="film-poster">
+                    <img [src]="similarFilm.poster" [alt]="similarFilm.naslov">
+          </div>
+                  <div class="film-info">
+                    <h3>{{ similarFilm.naslov }}</h3>
+                    <p class="film-year">{{ similarFilm.godina }}</p>
+                    <div class="film-genres">
+                      @for (zanr of similarFilm.zanr.slice(0, 2); track zanr) {
+                        <span class="genre-badge">{{ zanr }}</span>
+                      }
+          </div>
+                    <div class="film-rating">
+                      <span class="rating-value">
+                        ⭐ {{ getAverageRating(similarFilm) > 0 ? getAverageRating(similarFilm).toFixed(1) : 'N/A' }}
+                      </span>
+                      <span class="rating-count">({{ similarFilm.ocene.length }})</span>
+        </div>
+      </div>
+    </div>
+              }
+      </div>
+          } @else {
+            <div class="no-recommendations">
+              <p>Trenutno nema dovoljno filmova za preporuke.</p>
+    </div>
+          }
+      </div>
+
+      </div>
+    }
+
+    <!-- Modal za iznajmljivanje -->
+    @if (showRentalModal) {
+      <div class="modal-overlay" (click)="closeRentalModal()">
+        <div class="modal-content" (click)="$event.stopPropagation()">
+          <div class="modal-header">
+            <h2>📅 Iznajmljivanje filma</h2>
+            <button class="btn-close-modal" (click)="closeRentalModal()">✖</button>
+          </div>
+          <div class="modal-body">
+            <div class="film-info-modal">
+              <img [src]="film?.poster" [alt]="film?.naslov" class="poster-small" />
+              <div class="info">
+                <h3>{{ film?.naslov }}</h3>
+                <p>💰 Cena: {{ film?.cenaDnevno }} RSD / dan</p>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="startDate">📅 Datum početka iznajmljivanja:</label>
+              <input
+                type="date"
+                id="startDate"
+                class="date-input"
+                [(ngModel)]="rentalStartDate"
+                [min]="minStartDate"
+                (change)="onStartDateChange()"
+                required />
+              <small class="hint">Minimum: sutra ({{ formatDateDisplay(minStartDate) }})</small>
+            </div>
+            <div class="form-group">
+              <label for="endDate">📅 Datum kraja iznajmljivanja:</label>
+              <input
+                type="date"
+                id="endDate"
+                class="date-input"
+                [(ngModel)]="rentalEndDate"
+                [min]="minEndDate"
+                [disabled]="!rentalStartDate"
+                (change)="onEndDateChange()"
+                required />
+              <small class="hint" *ngIf="rentalStartDate">
+                Minimum: {{ formatDateDisplay(minEndDate) }} (dan nakon početka)
+              </small>
+              <small class="hint" *ngIf="!rentalStartDate">
+                Prvo izaberite datum početka
+              </small>
+            </div>
+            <!-- Polje za kreditnu karticu -->
+            <div class="form-group">
+              <label for="cardNumber">💳 Broj kreditne kartice:</label>
+              <div class="card-input-wrapper">
+                <input
+                  type="text"
+                  id="cardNumber"
+                  class="card-input"
+                  [class.valid]="isCardValid"
+                  [class.invalid]="cardNumber.length >= 15 && !isCardValid"
+                  [(ngModel)]="cardNumber"
+                  (input)="onCardNumberInput()"
+                  placeholder="Unesite broj kartice"
+                  maxlength="16"
+                  required />
+                <!-- Ikonica tipa kartice -->
+                @if (cardType) {
+                  <div class="card-icon">
+                    @if (cardType === 'visa') {
+                      <span class="card-badge visa-badge">VISA</span>
+                    }
+                    @if (cardType === 'mastercard') {
+                      <span class="card-badge mastercard-badge">MasterCard</span>
+                    }
+                    @if (cardType === 'diners') {
+                      <span class="card-badge diners-badge">Diners</span>
+                    }
+                  </div>
+                }
+              </div>
+              <!-- Validaciona poruka -->
+              @if (cardNumber.length > 0 && cardNumber.length < 15) {
+                <small class="hint">Unesite kompletan broj kartice</small>
+              }
+              @if (cardNumber.length >= 15 && !isCardValid) {
+                <small class="error-hint">❌ Nevažeći broj kartice</small>
+              }
+              @if (isCardValid) {
+                <small class="success-hint">✅ Važeći {{ cardType === 'visa' ? 'Visa' : cardType === 'mastercard' ? 'MasterCard' : 'Diners' }} broj</small>
+              }
+              <small class="info-hint">
+                Prihvaćamo: Visa, MasterCard, Diners Club
+              </small>
+            </div>
+            @if (totalDays > 0 && totalPrice > 0) {
+              <div class="rental-summary">
+                <h4>📋 Rezime iznajmljivanja:</h4>
+                <div class="summary-item">
+                  <span>Broj dana:</span>
+                  <strong>{{ totalDays }} {{ totalDays === 1 ? 'dan' : 'dana' }}</strong>
+                </div>
+                <div class="summary-item">
+                  <span>Cena po danu:</span>
+                  <strong>{{ film?.cenaDnevno }} RSD</strong>
+                </div>
+                <div class="summary-item total">
+                  <span>Ukupna cena:</span>
+                  <strong>{{ totalPrice }} RSD</strong>
+                </div>
+              </div>
+            }
+            <!-- Prikaz rezultata iznajmljivanja -->
+            <div *ngIf="rentalResultMessage" [ngClass]="{'rental-result-message': true, 'error': rentalResultError}">
+              {{ rentalResultMessage }}
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn-cancel" (click)="closeRentalModal()">
+              Otkaži
+            </button>
+            <button
+              class="btn-confirm"
+              [disabled]="!rentalStartDate || !rentalEndDate || !isCardValid || totalDays < 1 || rentingInProgress"
+              (click)="confirmRental()">
+              @if (rentingInProgress) {
+                <span class="spinner-small"></span>
+                <span>Obrađujem...</span>
+              } @else {
+                <span>✅ Potvrdi iznajmljivanje</span>
+              }
+            </button>
+          </div>
+        </div>
+      </div>
+    }
+
+  </div>
+</div>

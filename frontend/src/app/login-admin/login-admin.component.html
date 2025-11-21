@@ -1,0 +1,38 @@
+<div class="login-wrapper">
+	<div class="login-container">
+		<div class="brand">
+			<div class="logo">🎬</div>
+			<h1>Video Klub - Admin</h1>
+		</div>
+
+		<form (ngSubmit)="login()" #loginForm="ngForm" class="login-form">
+			<label for="username">Korisničko ime</label>
+			<input
+				id="username"
+				name="username"
+				type="text"
+				[(ngModel)]="username"
+				required
+				placeholder="Unesi admin korisničko ime"
+			/>
+
+			<label for="password">Lozinka</label>
+			<input
+				id="password"
+				name="password"
+				type="password"
+				[(ngModel)]="password"
+				required
+				placeholder="Unesi lozinku"
+			/>
+
+			<div class="actions">
+				<button class="primary" type="submit" [disabled]="!loginForm.form.valid">Prijavi se</button>
+			</div>
+
+			<p class="hint">Admin prijava - za korisnički pristup, koristi odvojenu stranicu.</p>
+
+			<p *ngIf="error" class="error">{{ error }}</p>
+		</form>
+	</div>
+</div>

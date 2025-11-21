@@ -1,0 +1,30 @@
+@if (type === 'card') {
+  @for (item of items; track item) {
+    <div class="skeleton-card">
+      <div class="skeleton skeleton-image"></div>
+      <div class="skeleton-content">
+        <div class="skeleton skeleton-title"></div>
+        <div class="skeleton skeleton-text"></div>
+        <div class="skeleton skeleton-text short"></div>
+      </div>
+    </div>
+  }
+}
+
+@if (type === 'text') {
+  @for (item of items; track item) {
+    <div class="skeleton skeleton-text" [style.width]="width"></div>
+  }
+}
+
+@if (type === 'circle') {
+  @for (item of items; track item) {
+    <div class="skeleton skeleton-circle" [style.width]="width" [style.height]="width"></div>
+  }
+}
+
+@if (type === 'rectangle') {
+  @for (item of items; track item) {
+    <div class="skeleton skeleton-rectangle" [style.width]="width" [style.height]="height"></div>
+  }
+}

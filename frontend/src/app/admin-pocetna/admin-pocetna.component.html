@@ -1,0 +1,219 @@
+<div class="admin-wrapper">
+	<!-- Header -->
+	<header class="admin-header">
+		<div class="header-left">
+			<h1 class="admin-title">🎬 Admin Panel</h1>
+			<p class="admin-subtitle">Video Klub Upravljanje</p>
+		</div>
+
+		<div class="header-right">
+			<!-- Admin Avatar -->
+			<div class="admin-profile">
+				@if (profileImage) {
+					<img [src]="profileImage" [alt]="adminName" class="admin-avatar">
+				} @else {
+					<div class="admin-avatar-placeholder">{{ adminInitials }}</div>
+				}
+				<div class="admin-info">
+					<span class="admin-name">{{ adminName }}</span>
+					<span class="admin-role">Administrator</span>
+				</div>
+			</div>
+
+			<!-- Logout Button -->
+			<button class="btn-logout" (click)="logout()">
+				<span class="logout-icon">🚪</span>
+				Odjava
+			</button>
+		</div>
+	</header>
+
+	<!-- Main Content -->
+	<main class="admin-content">
+		<!-- Dashboard Section -->
+		<section class="dashboard-section">
+			<h2 class="section-title">📊 Statistika</h2>
+
+			<!-- Statistics Cards -->
+			<div class="stats-grid">
+				<!-- Card 1: Ukupno Filmova -->
+				<div class="stat-card films-card">
+					<div class="stat-icon">🎬</div>
+					<div class="stat-content">
+						@if (statsLoading) {
+							<div class="stat-skeleton">
+								<div class="skeleton-line"></div>
+								<div class="skeleton-line short"></div>
+							</div>
+						} @else {
+							<h3 class="stat-value">{{ totalFilms }}</h3>
+							<p class="stat-label">Ukupno filmova</p>
+						}
+					</div>
+				</div>
+
+				<!-- Card 2: Ukupno Korisnika -->
+				<div class="stat-card users-card">
+					<div class="stat-icon">👥</div>
+					<div class="stat-content">
+						@if (statsLoading) {
+							<div class="stat-skeleton">
+								<div class="skeleton-line"></div>
+								<div class="skeleton-line short"></div>
+							</div>
+						} @else {
+							<h3 class="stat-value">{{ totalUsers }}</h3>
+							<p class="stat-label">Registrovanih korisnika</p>
+						}
+					</div>
+				</div>
+
+		<!-- Card 3: Aktivna Iznajmljivanja -->
+		<div class="stat-card rentals-card">
+			<div class="stat-icon">📦</div>
+			<div class="stat-content">
+				@if (statsLoading) {
+					<div class="stat-skeleton">
+						<div class="skeleton-line"></div>
+						<div class="skeleton-line short"></div>
+					</div>
+				} @else {
+					<h3 class="stat-value">{{ activeRentals }}</h3>
+					<p class="stat-label">Aktivna iznajmljivanja</p>
+				}
+			</div>
+		</div>
+
+		<!-- Card 4: Pending Zahtevi -->
+		<div class="stat-card requests-card" (click)="viewRegistrationRequests()" style="cursor: pointer;">
+			<div class="stat-icon">📋</div>
+			<div class="stat-content">
+				<h3 class="stat-value">{{ pendingRequests }}</h3>
+				<p class="stat-label">Pending zahtevi</p>
+				<p class="stat-hint">Klikni za pregled</p>
+			</div>
+		</div>
+	</div>			<!-- Rental Trend Chart -->
+			<div class="chart-section">
+				<div class="chart-header">
+					<h3 class="chart-title">📈 Trend iznajmljivanja (poslednjih 12 meseci)</h3>
+					@if (chartLoading) {
+						<span class="loading-badge">Učitavanje...</span>
+					}
+				</div>
+
+				<div class="chart-container">
+					@if (chartLoading) {
+						<div class="chart-skeleton">
+							<div class="skeleton-chart-line"></div>
+							<div class="skeleton-chart-line"></div>
+							<div class="skeleton-chart-line"></div>
+							<p>Analiziram podatke...</p>
+						</div>
+					} @else {
+						<canvas id="rentalTrendChart"></canvas>
+					}
+				</div>
+			</div>
+		</section>
+
+		<!-- Films Management Section -->
+		<section class="films-section">
+			<div class="section-header">
+				<div class="header-title-group">
+					<h2 class="section-title">🎬 Upravljanje Filmovima</h2>
+					<button class="btn-add-film" (click)="addNewFilm()">
+						<span class="btn-icon">➕</span>
+						Dodaj novi film
+					</button>
+				</div>
+			</div>
+
+			<div class="search-bar">
+				<input
+					type="text"
+					class="search-input"
+					placeholder="🔍 Pretraži filmove po nazivu..."
+					[(ngModel)]="searchQuery"
+					(input)="searchFilms()"
+				/>
+			</div>
+
+			<div class="films-table-container">
+				@if (filmsLoading) {
+					<!-- Loading Skeleton -->
+					<div class="table-skeleton">
+						<div class="skeleton-line"></div>
+						<div class="skeleton-line"></div>
+						<div class="skeleton-line"></div>
+						<div class="skeleton-line"></div>
+						<div class="skeleton-line"></div>
+					</div>
+				} @else if (filteredFilms.length === 0) {
+					<!-- Empty State -->
+					<div class="empty-state">
+						<div class="empty-icon">🎬</div>
+						<h3 class="empty-title">Nema pronađenih filmova</h3>
+						<p class="empty-text">Pokušajte sa drugom pretragom ili proverite filter.</p>
+					</div>
+				} @else {
+					<!-- Films Table -->
+					<div class="films-table">
+						<table>
+							<thead>
+								<tr>
+									<th class="th-image">Poster</th>
+									<th class="th-title">Naziv</th>
+									<th class="th-director">Režiser</th>
+									<th class="th-genre">Žanr</th>
+									<th class="th-year">Godina</th>
+									<th class="th-duration">Trajanje</th>
+									<th class="th-actions">Akcije</th>
+								</tr>
+						</thead>
+						<tbody>
+							@for (film of filteredFilms; track film._id) {
+								<tr class="film-row">
+									<td class="td-image">
+										<img [src]="film.poster" [alt]="film.naslov" class="film-poster">
+									</td>
+									<td class="td-title">
+										<strong>{{ film.naslov }}</strong>
+									</td>
+									<td class="td-director">{{ film.reziser }}</td>
+									<td class="td-genre">
+										<span class="genre-badge">{{ film.zanr.join(', ') }}</span>
+									</td>
+									<td class="td-year">{{ film.godina }}</td>
+									<td class="td-duration">{{ film.trajanjeMin }} min</td>
+									<td class="td-actions">
+										<button
+											class="btn-edit"
+											(click)="editFilm(film._id!)"
+											title="Izmeni film"
+										>
+											<span class="btn-icon">✏️</span>
+											Izmeni
+										</button>
+										<button
+											class="btn-delete"
+											(click)="deleteFilm(film._id!)"
+											title="Obriši film"
+										>
+											<span class="btn-icon">🗑️</span>
+											Obriši
+										</button>
+									</td>
+								</tr>
+							}
+						</tbody>
+					</table>						<!-- Results Counter -->
+						<div class="results-info">
+							Prikazano <strong>{{ filteredFilms.length }}</strong> od <strong>{{ allFilms.length }}</strong> filmova
+						</div>
+					</div>
+				}
+			</div>
+		</section>
+	</main>
+</div>

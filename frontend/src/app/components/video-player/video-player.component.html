@@ -1,0 +1,35 @@
+<div class="video-player-wrapper">
+
+	<!-- Thumbnail sa Play dugmetom -->
+	@if (!showPlayer) {
+		<div class="video-thumbnail" (click)="playTrailer()">
+			<div class="play-button">
+				<svg width="80" height="80" viewBox="0 0 80 80" fill="none">
+					<circle cx="40" cy="40" r="38" fill="rgba(0,0,0,0.7)" stroke="white" stroke-width="2"/>
+					<path d="M32 25L55 40L32 55V25Z" fill="white"/>
+				</svg>
+			</div>
+			<div class="play-overlay">
+				<p class="play-text">▶️ Pogledaj trejler</p>
+				<p class="film-title">{{ filmNaslov }}</p>
+			</div>
+		</div>
+	}
+
+	<!-- Video Player (inline - umesto modal-a) -->
+	@if (showPlayer && safeUrl) {
+		<div class="video-player-inline">
+			<button class="close-btn" (click)="closePlayer()">✕</button>
+			<div class="video-container">
+				<iframe
+					[src]="safeUrl"
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowfullscreen>
+				</iframe>
+			</div>
+		</div>
+	}
+
+</div>

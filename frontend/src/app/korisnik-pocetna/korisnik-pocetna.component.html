@@ -1,0 +1,265 @@
+<div class="katalog-wrapper">
+	<div class="katalog-container">
+
+		<!-- Header sa user info -->
+		<header class="header">
+			<div class="brand">
+				<div class="logo">🎬</div>
+				<h1>Video Klub - Katalog</h1>
+			</div>
+
+			<!-- User Avatar i Info -->
+			<div class="user-section">
+				<span class="welcome-text">Dobrodošao, <strong>{{ userName }}</strong>!</span>
+				<div class="user-avatar" [title]="userName" (click)="goToProfile()">
+					@if (profileImage) {
+						<img [src]="profileImage" [alt]="userName" class="avatar-image" />
+					} @else {
+						<span class="avatar-initials">{{ userInitials }}</span>
+					}
+				</div>
+				<button class="btn-profile" (click)="goToProfile()" title="Moj profil">
+					👤 Profil
+				</button>
+				<button class="btn-logout" (click)="logout()" title="Odjavi se">
+					🚪 Odjavi se
+				</button>
+			</div>
+		</header>
+
+		<!-- Aktivne Rezervacije -->
+		<div class="active-rentals-section">
+			<h2 class="section-title">🎬 Vaše aktivne rezervacije</h2>
+
+			@if (aktivneRezervacije.length === 0) {
+				<div class="no-active-rentals">
+					<p>📭 Trenutno nemate aktivnih rezervacija</p>
+					<span>Izaberite film iz kataloga i iznajmite ga!</span>
+				</div>
+			} @else {
+				<div class="active-rentals-list">
+					@for (rezervacija of aktivneRezervacije; track rezervacija._id) {
+						<div class="active-rental-card">
+							<img
+								[src]="rezervacija.film.poster"
+								[alt]="rezervacija.film.naslov"
+								class="rental-poster-mini"
+								(click)="viewFilmDetails(rezervacija.film._id)">
+							<div class="rental-mini-info">
+								<h4 class="rental-mini-title" (click)="viewFilmDetails(rezervacija.film._id)">
+									{{ rezervacija.film.naslov }}
+								</h4>
+								<p class="rental-mini-date">
+									Vraćanje: {{ rezervacija.datumVracanja | date: 'dd.MM.yyyy' }}
+								</p>
+								<p class="rental-mini-days" [class.last-day]="isLastDay(rezervacija)">
+									@if (getPreostaloDana(rezervacija) === 1) {
+										⏰ Preostao 1 dan
+									} @else {
+										📅 Preostalo {{ getPreostaloDana(rezervacija) }} dana
+									}
+								</p>
+							</div>
+						</div>
+					}
+				</div>
+			}
+		</div>
+
+		<!-- Planirane rezervacije (buduća) -->
+		<div class="active-rentals-section upcoming-rentals-section">
+			<h2 class="section-title">📅 Planirane rezervacije</h2>
+
+			@if (planiraneRezervacije.length === 0) {
+				<div class="no-upcoming">
+					<p>📭 Nemate planiranih rezervacija</p>
+				</div>
+			} @else {
+				<div class="upcoming-rentals-list">
+					@for (rezervacija of planiraneRezervacije; track rezervacija._id) {
+						<div class="active-rental-card upcoming-rental-card">
+							<img
+								[src]="rezervacija.film.poster"
+								[alt]="rezervacija.film.naslov"
+								class="rental-poster-mini"
+								(click)="viewFilmDetails(rezervacija.film._id)">
+							<div class="rental-mini-info">
+								<h4 class="rental-mini-title" (click)="viewFilmDetails(rezervacija.film._id)">
+									{{ rezervacija.film.naslov }}
+								</h4>
+								<p class="rental-mini-date">
+									Počinje: {{ rezervacija.datumIznajmljivanja | date: 'dd.MM.yyyy' }}
+								</p>
+								<p class="rental-mini-days" [class.last-day]="getDaniDoPocetka(rezervacija) <= 1">
+									📅 Počinje za {{ getDaniDoPocetka(rezervacija) }} dana
+								</p>
+							</div>
+						</div>
+					}
+				</div>
+			}
+
+		</div>
+
+		<!-- KNN Personalizovane Preporuke -->
+		<div class="recommendations-section">
+			<h2 class="section-title">
+				🤖 Preporučeno za vas
+				<span class="ai-badge-small">AI Powered</span>
+			</h2>
+			<p class="recommendations-subtitle">
+				Na osnovu vaših prethodnih iznajmljivanja, KNN algoritam je pronašao slične filmove koje još niste gledali
+			</p>
+
+			@if (recommendationsLoading) {
+				<div class="recommendations-loading">
+					<div class="spinner"></div>
+					<p>Analiziram vašu istoriju...</p>
+				</div>
+			} @else if (recommendedFilms.length > 0) {
+				<div class="recommended-films-grid">
+					@for (film of recommendedFilms; track film._id) {
+						<div class="recommended-film-card" (click)="viewFilmDetails(film._id)">
+							<div class="film-poster-wrapper">
+								<img [src]="film.poster" [alt]="film.naslov" class="film-poster-rec">
+								<div class="film-overlay">
+									<span class="view-details-btn">👁️ Pogledaj detalje</span>
+								</div>
+							</div>
+							<div class="film-info-rec">
+								<h3 class="film-title-rec">{{ film.naslov }}</h3>
+								<p class="film-year-rec">{{ film.godina }}</p>
+								<div class="film-genres-rec">
+									@for (zanr of film.zanr.slice(0, 2); track zanr) {
+										<span class="genre-badge-rec">{{ zanr }}</span>
+									}
+								</div>
+								<div class="film-availability-rec">
+									   <!-- Dostupnost prikaz uklonjen ili zamenjen dinamičkim prikazom ako je potrebno -->
+								</div>
+							</div>
+						</div>
+					}
+				</div>
+			} @else {
+				<div class="no-recommendations">
+					<div class="no-rec-icon">🎬</div>
+					<h3 class="no-rec-title">Nema dovoljno podataka za personalizovane preporuke</h3>
+					<p class="no-rec-message">
+						Iznajmite i vratite nekoliko filmova kako bi naš KNN algoritam mogao da analizira vaše preferencije i kreira personalizovane preporuke zasnovane na žanrovima koje volite!
+					</p>
+					<div class="no-rec-steps">
+						<div class="step">
+							<span class="step-number">1</span>
+							<span class="step-text">Izaberite film iz kataloga</span>
+						</div>
+						<div class="step">
+							<span class="step-number">2</span>
+							<span class="step-text">Iznajmite ga</span>
+						</div>
+						<div class="step">
+							<span class="step-number">3</span>
+							<span class="step-text">Vratite film nakon gledanja</span>
+						</div>
+						<div class="step">
+							<span class="step-number">4</span>
+							<span class="step-text">Uživajte u AI preporukama! 🤖</span>
+						</div>
+					</div>
+				</div>
+			}
+		</div>
+
+		<!-- Filters Section -->
+		<div class="filters-section">
+			<div class="search-bar">
+				<input
+					type="text"
+					[(ngModel)]="searchQuery"
+					(input)="onSearch()"
+					placeholder="🔍 Pretraga po nazivu"
+					class="search-input">
+			</div>
+
+			<div class="filters-row">
+				<div class="filter-group">
+					<label for="zanr">Žanr:</label>
+					<select
+						id="zanr"
+						[(ngModel)]="selectedZanr"
+						(change)="onZanrChange()"
+						class="filter-select">
+						<option value="">Svi žanrovi</option>
+						<option *ngFor="let zanr of allZanrovi" [value]="zanr">{{ zanr }}</option>
+					</select>
+				</div>
+
+				<div class="filter-group">
+					<label for="sort">Sortiraj po:</label>
+					<select
+						id="sort"
+						[(ngModel)]="sortBy"
+						(change)="onSortChange()"
+						class="filter-select">
+						<option value="naslov">Nazivu (A-Z)</option>
+						<option value="godina-desc">Godini (nova → stara)</option>
+						<option value="godina-asc">Godini (stara → nova)</option>
+						<option value="trajanje">Trajanju</option>
+					</select>
+				</div>
+
+				<button class="btn-clear" (click)="clearFilters()">Resetuj filtere</button>
+			</div>
+
+			<div class="results-info">
+				<p>Prikazano: <strong>{{ filteredFilms.length }}</strong> od {{ films.length }} filmova</p>
+			</div>
+		</div>
+
+		<!-- Films Grid -->
+		<div class="films-grid">
+			<!-- Loading State -->
+			@if (loading) {
+				<app-skeleton-loader type="card" [count]="6"></app-skeleton-loader>
+			}
+
+			<!-- No Results -->
+			@if (!loading && filteredFilms.length === 0) {
+				<div class="no-results">
+					<p>😕 Nema rezultata</p>
+					<span>Pokušajte sa drugačijim pretragom ili filterima</span>
+				</div>
+			}
+
+			<!-- Films -->
+			@if (!loading) {
+				@for (film of filteredFilms; track film._id) {
+					<div class="film-card" (click)="viewFilmDetails(film._id!)">
+						<div class="film-poster">
+							<img [src]="film.poster" [alt]="film.naslov" />
+							<div class="overlay">
+								<button class="btn-view">Vidi detalje</button>
+						</div>
+					</div>
+					<div class="film-info">
+						<h3 class="film-title">{{ film.naslov }}</h3>
+						<div class="film-meta">
+							<span class="godina">{{ film.godina }}</span>
+							<span class="separator">•</span>
+							<span class="trajanje">{{ film.trajanjeMin }} min</span>
+						</div>
+						<!-- average rating display removed per request -->
+						<div class="film-zanrovi">
+							<span *ngFor="let zanr of film.zanr" class="zanr-badge">{{ zanr }}</span>
+						</div>
+						<div class="film-comments">
+							<span>💬 {{ getBrojKomentara(film) }} komentara</span>
+						</div>
+					</div>
+				</div>
+				}
+			}
+		</div>
+
+	</div>
+</div>

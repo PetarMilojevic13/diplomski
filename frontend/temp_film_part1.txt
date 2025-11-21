@@ -1,0 +1,320 @@
+﻿import { Component, OnInit, ViewChild } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+import { ActivatedRoute, Router, RouterModule } from '@angular/router';
+import { Film } from '../models/film';
+import { GostPocetnaService } from '../services/gost-pocetna.service';
+import { KorisnikDetaljnoService } from '../services/korisnik-detaljno.service';
+import { VideoPlayerComponent } from '../components/video-player/video-player.component';
+import { BaseChartDirective } from 'ng2-charts';
+import { ChartConfiguration, ChartType } from 'chart.js';
+
+@Component({
+  selector: 'app-film',
+  standalone: true,
+  imports: [CommonModule, FormsModule, VideoPlayerComponent, RouterModule, BaseChartDirective],
+  templateUrl: './film.component.html',
+  styleUrl: './film.component.css'
+})
+export class FilmComponent implements OnInit {
+  film: Film | null = null;
+  loading: boolean = true;
+  error: string = '';
+  isFavorite: boolean = false;
+  userRating: number = 0;
+  isLoggedIn: boolean = false;
+  rentingInProgress: boolean = false; // Za loading state dugmeta
+
+  // Modal za iznajmljivanje
+  showRentalModal: boolean = false;
+  rentalStartDate: string = '';
+  rentalEndDate: string = '';
+  minStartDate: string = '';
+  minEndDate: string = '';
+  totalDays: number = 0;
+  totalPrice: number = 0;
+
+  // Chart.js properties
+  public barChartType: ChartType = 'bar';
+  public barChartData: ChartConfiguration['data'] = {
+    labels: [],
+    datasets: []
+  };
+  public barChartOptions: ChartConfiguration['options'] = {
+    responsive: true,
+    maintainAspectRatio: false,
+    scales: {
+      y: {
+        beginAtZero: true,
+        ticks: {
+          stepSize: 1
+        }
+      }
+    },
+    plugins: {
+      legend: {
+        display: false
+      },
+      tooltip: {
+        callbacks: {
+          label: (context) => {
+            return `Broj ocena: ${context.parsed.y}`;
+          }
+        }
+      }
+    }
+  };
+
+  constructor(
+    private route: ActivatedRoute,
+    private router: Router,
+    private gostPocetnaService: GostPocetnaService,
+    private korisnikDetaljnoService: KorisnikDetaljnoService
+  ) {}
+
+  ngOnInit(): void {
+    // Proveri da li je korisnik ulogovan
+    this.checkIfLoggedIn();
+
+    // Postavi minimalni datum za početak (sutra)
+    const tomorrow = new Date();
+    tomorrow.setDate(tomorrow.getDate() + 1);
+    this.minStartDate = this.formatDateForInput(tomorrow);
+
+    const filmId = this.route.snapshot.paramMap.get('id');
+    if (filmId) {
+      this.loadFilm(filmId);
+    } else {
+      this.error = 'ID filma nije pronađen';
+      this.loading = false;
+    }
+  }
+
+  checkIfLoggedIn(): void {
+    // Proveri da li postoji loggedUser u localStorage
+    const token = localStorage.getItem('loggedUser');
+    this.isLoggedIn = !!token;
+  }
+
+  loadFilm(id: string): void {
+    this.gostPocetnaService.getFilmById(id).subscribe({
+      next: (data: Film) => {
+        this.film = data;
+        this.loading = false;
+        this.checkIfFavorite();
+        this.createRatingDistributionChart();
+      },
+      error: (err: any) => {
+        console.error('Greška pri učitavanju filma:', err);
+        this.error = 'Film nije pronađen';
+        this.loading = false;
+      }
+    });
+  }
+
+  checkIfFavorite(): void {
+    // Proveri da li je film u favorites (localStorage)
+    const favorites = JSON.parse(localStorage.getItem('favorites') || '[]');
+    this.isFavorite = favorites.includes(this.film?._id);
+  }
+
+  toggleFavorite(): void {
+    if (!this.film) return;
+
+    // Proveri da li je korisnik ulogovan
+    if (!this.isLoggedIn) {
+      alert('Morate biti ulogovani da biste dodali film u favorite!');
+      this.router.navigate(['/']);
+      return;
+    }
+
+    const favorites = JSON.parse(localStorage.getItem('favorites') || '[]');
+    const index = favorites.indexOf(this.film._id);
+
+    if (index > -1) {
+      // Ukloni iz favorites
+      favorites.splice(index, 1);
+      this.isFavorite = false;
+    } else {
+      // Dodaj u favorites
+      favorites.push(this.film._id);
+      this.isFavorite = true;
+    }
+
+    localStorage.setItem('favorites', JSON.stringify(favorites));
+  }
+
+  rateFilm(rating: number): void {
+    // Proveri da li je korisnik ulogovan
+    if (!this.isLoggedIn) {
+      alert('Morate biti ulogovani da biste ocenili film!');
+      this.router.navigate(['/']);
+      return;
+    }
+
+    this.userRating = rating;
+    // TODO: Pošalji na backend
+    console.log('User rated film:', this.film?.naslov, 'with', rating);
+  }
+
+  goBack(): void {
+    this.router.navigate(['/gost']);
+  }
+
+  getProsecnaOcena(): number {
+    if (!this.film || !this.film.ocene || this.film.ocene.length === 0) {
+      return 0;
+    }
+    const suma = this.film.ocene.reduce((acc: number, ocena: any) => acc + (ocena.vrednost || 0), 0);
+    return suma / this.film.ocene.length;
+  }
+
+  getBrojOcena(): number {
+    return this.film?.ocene ? this.film.ocene.length : 0;
+  }
+
+  getBrojKomentara(): number {
+    return this.film?.komentari ? this.film.komentari.length : 0;
+  }
+
+  // Kreiranje grafikona distribucije ocena
+  createRatingDistributionChart(): void {
+    if (!this.film || !this.film.ocene || this.film.ocene.length === 0) {
+      return;
+    }
+
+    // Brojanje ocena od 1 do 5
+    const distribution = [0, 0, 0, 0, 0]; // [1-star, 2-star, 3-star, 4-star, 5-star]
+
+    this.film.ocene.forEach((ocena: any) => {
+      if (ocena.vrednost >= 1 && ocena.vrednost <= 5) {
+        distribution[ocena.vrednost - 1]++;
+      }
+    });
+
+    // Postavljanje podataka za Chart.js
+    this.barChartData = {
+      labels: ['⭐ 1', '⭐⭐ 2', '⭐⭐⭐ 3', '⭐⭐⭐⭐ 4', '⭐⭐⭐⭐⭐ 5'],
+      datasets: [
+        {
+          data: distribution,
+          backgroundColor: [
+            'rgba(220, 38, 38, 0.7)',   // 1 star - red
+            'rgba(251, 146, 60, 0.7)',  // 2 stars - orange
+            'rgba(251, 191, 36, 0.7)',  // 3 stars - yellow
+            'rgba(132, 204, 22, 0.7)',  // 4 stars - lime
+            'rgba(34, 197, 94, 0.7)'    // 5 stars - green
+          ],
+          borderColor: [
+            'rgba(220, 38, 38, 1)',
+            'rgba(251, 146, 60, 1)',
+            'rgba(251, 191, 36, 1)',
+            'rgba(132, 204, 22, 1)',
+            'rgba(34, 197, 94, 1)'
+          ],
+          borderWidth: 2,
+          borderRadius: 8
+        }
+      ]
+    };
+  }
+
+  // Provera da li je film dostupan za iznajmljivanje
+  isFilmAvailable(): boolean {
+    if (!this.film) return false;
+    return this.film.dostupnoKomada > 0;
+  }
+
+  // Iznajmi film - otvori modal
+  rentFilm(): void {
+    if (!this.film) return;
+
+    // Proveri da li je korisnik ulogovan
+    if (!this.isLoggedIn) {
+      alert('Morate biti ulogovani da biste iznajmili film!');
+      this.router.navigate(['/']);
+      return;
+    }
+
+    // Proveri dostupnost
+    if (!this.isFilmAvailable()) {
+      alert('Trenutno nema dostupnih primeraka ovog filma.');
+      return;
+    }
+
+    // Otvori modal
+    this.showRentalModal = true;
+  }
+
+  // Zatvori modal
+  closeRentalModal(): void {
+    this.showRentalModal = false;
+    this.rentalStartDate = '';
+    this.rentalEndDate = '';
+    this.totalDays = 0;
+    this.totalPrice = 0;
+  }
+
+  // Format datuma za input type="date"
+  formatDateForInput(date: Date): string {
+    const year = date.getFullYear();
+    const month = String(date.getMonth() + 1).padStart(2, '0');
+    const day = String(date.getDate()).padStart(2, '0');
+    return `${year}-${month}-${day}`;
+  }
+
+  // Kada se promeni datum početka
+  onStartDateChange(): void {
+    if (this.rentalStartDate) {
+      // Postavi minimalni datum za kraj (minimum 1 dan posle početka)
+      const startDate = new Date(this.rentalStartDate);
+      startDate.setDate(startDate.getDate() + 1);
+      this.minEndDate = this.formatDateForInput(startDate);
+
+      // Ako je kraj već izabran ali je pre novog minimuma, resetuj ga
+      if (this.rentalEndDate && this.rentalEndDate <= this.rentalStartDate) {
+        this.rentalEndDate = '';
+        this.calculateTotalPrice();
+      } else if (this.rentalEndDate) {
+        this.calculateTotalPrice();
+      }
+    }
+  }
+
+  // Kada se promeni datum kraja
+  onEndDateChange(): void {
+    this.calculateTotalPrice();
+  }
+
+  // Izračunaj ukupnu cenu
+  calculateTotalPrice(): void {
+    if (!this.film || !this.rentalStartDate || !this.rentalEndDate) {
+      this.totalDays = 0;
+      this.totalPrice = 0;
+      return;
+    }
+
+    const start = new Date(this.rentalStartDate);
+    const end = new Date(this.rentalEndDate);
+
+    // Izračunaj broj dana
+    const diffTime = end.getTime() - start.getTime();
+    this.totalDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+
+    // Izračunaj ukupnu cenu
+    this.totalPrice = this.totalDays * this.film.cenaDnevno;
+  }
+
+  // Potvrdi iznajmljivanje
+  confirmRental(): void {
+    if (!this.film || !this.rentalStartDate || !this.rentalEndDate) {
+      alert('Molimo izaberite datum početka i kraja iznajmljivanja!');
+      return;
+    }
+
+    if (this.totalDays < 1) {
+      alert('Iznajmljivanje mora trajati najmanje 1 dan!');
+      return;
+    }
+
+    const confirmRent = confirm(

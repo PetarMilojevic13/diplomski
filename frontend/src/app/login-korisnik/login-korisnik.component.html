@@ -1,0 +1,53 @@
+<div class="login-wrapper">
+	<div class="login-container">
+		<div class="brand">
+			<div class="logo">🎬</div>
+			<h1>Video Klub</h1>
+		</div>
+
+		<form (ngSubmit)="login()" #loginForm="ngForm" class="login-form">
+			<label for="username">Korisničko ime</label>
+			<input
+				id="username"
+				name="username"
+				type="text"
+				[(ngModel)]="username"
+				required
+				placeholder="Unesi korisničko ime"
+			/>
+
+			<label for="password">Lozinka</label>
+			<input
+				id="password"
+				name="password"
+				type="password"
+				[(ngModel)]="password"
+				required
+				placeholder="Unesi lozinku"
+			/>
+
+			@if (error) {
+				<div class="error-message">
+					⚠️ {{ error }}
+				</div>
+			}
+
+			@if (loading) {
+				<div class="loading-message">
+					⏳ Prijavljivanje...
+				</div>
+			}
+
+			<div class="actions">
+				<button class="primary" type="submit" (click)="login()" [disabled]="loading">Prijavi se</button>
+				<button class="outline" type="button" (click)="nastaviKaoGost()" [disabled]="loading">Uđi kao gost</button>
+			</div>
+
+			<div class="register-link">
+				<p>Nemaš nalog? <a routerLink="/register">Registruj se ovde</a></p>
+			</div>
+
+			<p class="hint">Ako si admin, koristi posebnu stranicu za adminsko logovanje.</p>
+		</form>
+	</div>
+</div>
